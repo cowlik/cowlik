@@ -3,8 +3,11 @@
 
 @import "styles/variables";
 @import "styles/normalize";
+
 @import "styles/containers";
+@import "styles/dash";
 @import "styles/headings";
+
 
 * {
     box-sizing: border-box;
@@ -41,4 +44,23 @@ body {
     @media print {
         font-size: 12pt;
     }
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: $color-gray;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
 }

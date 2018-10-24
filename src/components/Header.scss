@@ -4,6 +4,7 @@
 @import "../styles/variables";
 
 #header {
+    min-width: $screen-min;
     background: linear-gradient(to bottom, $color-pear 0%, $color-mint 70%);
     flex: none;
 
@@ -20,14 +21,18 @@
 
     button {
         padding: 5px $spacing-min;
+        line-height: 30px;
         background-color: transparent;
         border: 0;
-        line-height: 34px;
+        outline: none;      
         right: 0;
         bottom: 0;
         position: absolute;
+        cursor: pointer;
 
         svg {
+            width: 24px;
+            height: 28px;
             color: #fff;
         }
     }
@@ -39,7 +44,12 @@
 
         button {
             padding: 10px $spacing-max;
-            line-height: 46px;
+            line-height: 40px;
+
+            svg {
+                width: 30px;
+                height: 34px;
+            }
         }
     }
 

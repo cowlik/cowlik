@@ -1,0 +1,20 @@
+// dash
+// --------------------------------------------------
+
+.dash {
+    margin: ($spacing-min / 2) 0;
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+    display: block;
+
+    @media (min-width: $screen-med) {
+        margin: $spacing-min 0;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    @media print {
+        margin: 10px 0;
+    }
+}
