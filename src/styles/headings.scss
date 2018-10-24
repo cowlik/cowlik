@@ -1,0 +1,72 @@
+// headings
+// --------------------------------------------------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    color: $color-gray;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 800;
+
+    @media (min-width: $screen-med) {
+        font-size: 48px;
+    }
+
+    @media print {
+        font-size: 22pt;
+    }
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 700;
+
+    @media (min-width: $screen-med) {
+        font-size: 36px;
+    }
+
+    @media print {
+        font-size: 18pt;
+    }
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 700;
+
+    @media (min-width: $screen-med) {
+        font-size: 24px;
+    }
+
+    @media (min-width: $screen-lrg) {
+        font-size: 26px;
+    }
+
+    @media print {
+        font-size: 16pt;
+    }
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 600;
+
+    @media (min-width: $screen-med) {
+        font-size: 20px;
+    }
+
+    @media (min-width: $screen-lrg) {
+        font-size: 22px;
+    }
+
+    @media print {
+        font-size: 14pt;
+    }
+}

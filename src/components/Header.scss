@@ -1,0 +1,50 @@
+// Header
+// --------------------------------------------------
+
+@import "../styles/variables";
+
+#header {
+    background: linear-gradient(to bottom, $color-pear 0%, $color-mint 70%);
+    flex: none;
+
+    .container {
+        padding: $spacing-max $spacing-min 5px;
+        position: relative;
+    }
+
+    a {
+        color: #fff;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    button {
+        padding: 5px $spacing-min;
+        background-color: transparent;
+        border: 0;
+        line-height: 34px;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+
+        svg {
+            color: #fff;
+        }
+    }
+
+    @media (min-width: $screen-med) {
+        .container {
+            padding: ($spacing-max + $spacing-min) $spacing-max 10px;
+        }
+
+        button {
+            padding: 10px $spacing-max;
+            line-height: 46px;
+        }
+    }
+
+    @media print {
+        display: none;
+    }
+}
+
