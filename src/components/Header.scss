@@ -29,12 +29,12 @@
         bottom: 0;
         position: absolute;
         cursor: pointer;
+    }
 
-        svg {
-            width: 24px;
-            height: 28px;
-            color: #fff;
-        }
+    .fa-bars {
+        width: 24px;
+        height: 28px;
+        color: #fff;
     }
 
     @media (min-width: $screen-med) {
@@ -45,11 +45,11 @@
         button {
             padding: 10px $spacing-max;
             line-height: 40px;
+        }
 
-            svg {
-                width: 30px;
-                height: 34px;
-            }
+        .fa-bars {
+            width: 30px;
+            height: 34px;
         }
     }
 

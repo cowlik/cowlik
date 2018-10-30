@@ -1,0 +1,50 @@
+[
+    {
+        "slug": "andeavor",
+        "client": "Andeavor",
+        "title": "andeavor.com",
+        "date": "June 2017"
+    },
+    {
+        "slug": "tease",
+        "client": "Tease",
+        "title": "teaseballard.com",
+        "date": "April 2017"
+    },
+    {
+        "slug": "cole-weber",
+        "client": "Cole & Weber",
+        "title": "coleweber.com",
+        "date": "January 2017"
+    },
+    {
+        "slug": "washingtons-lottery",
+        "client": "Washington's Lottery",
+        "title": "walottery.com",
+        "date": "March 2016"
+    },
+    {
+        "slug": "columbia-crest",
+        "client": "Columbia Crest",
+        "title": "Crowdsourced Cabernet",
+        "date": "June 2015"
+    },
+    {
+        "slug": "nutshell-classics",
+        "client": "Cole & Weber",
+        "title": "Nutshell Classics",
+        "date": "December 2014"
+    },
+    {
+        "slug": "sightlife",
+        "client": "SightLife",
+        "title": "The World Through New Eyes",
+        "date": "May 2014"
+    },
+    {
+        "slug": "rdsoda",
+        "client": "RdSoda",
+        "title": "rdsoda.com",
+        "date": "August 2013"
+    }
+]
