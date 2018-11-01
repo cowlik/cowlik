@@ -1,0 +1,614 @@
+// Work
+// --------------------------------------------------
+
+@import "../styles/variables";
+
+#main {
+    padding-bottom: $spacing-max;
+
+    p {
+        margin-bottom: $spacing-min / 2;
+    }
+
+    h3 {
+        padding-top: 30px;
+        
+        &:after {
+            content: "\2014";
+            font-size: 18px;
+            font-weight: normal;
+            display: block;
+        }
+    }
+
+    ul {
+        margin-bottom: $spacing-min / 2;
+        margin-left: $spacing-min;
+        text-align: left;
+        display: inline-block;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .andeavor {
+        h1 {
+            a {
+                svg {
+                    color: $color-andeavor;
+                }
+            }
+        }
+
+        h3 {
+            &:after {
+                color: $color-andeavor;
+            }
+        }
+
+        .logo {
+            max-width: 50px;
+        }
+
+        #work-header {
+            &:after {
+                color: $color-andeavor;
+            }
+        }
+    }
+
+    .cole-weber {
+        h1 {
+            a {
+                svg {
+                    color: $color-cole-weber;
+                }
+            }
+        }
+
+        h3 {
+            &:after {
+                color: $color-cole-weber;
+            }
+        }
+
+        p {
+            a {
+                color: $color-cole-weber;
+            }
+        }
+
+        .logo {
+            max-width: 40px;
+        }
+
+        #work-header {
+            &:after {
+                color: $color-cole-weber;
+            }
+        }
+    }
+
+    .columbia-crest {
+        h1 {
+            a {
+                svg {
+                    color: $color-columbia-crest;
+                }
+            }
+        }
+
+        h3 {
+            &:after {
+                color: $color-columbia-crest;
+            }
+        }
+
+        #work-header {
+            &:after {
+                color: $color-columbia-crest;
+            }
+        }
+    }
+
+    .nutshell-classics {
+        h1 {
+            a {
+                svg {
+                    color: $color-nutshell-classics;
+                }
+            }
+        }
+
+        h3 {
+            &:after {
+                color: $color-nutshell-classics;
+            }
+        }
+
+        .logo {
+            max-width: 40px;
+        }
+
+        #work-header {
+            &:after {
+                color: $color-nutshell-classics;
+            }
+        }
+    }
+
+    .rdsoda {
+        h1 {
+            a {
+                svg {
+                    color: $color-rdsoda;
+                }
+            }
+        }
+
+        h3 {
+            &:after {
+                color: $color-rdsoda;
+            }
+        }
+
+        .logo {
+            max-width: 55px;
+        }
+
+        #work-header {
+            &:after {
+                color: $color-rdsoda;
+            }
+        }
+    }
+
+    .sightlife {
+        h1 {
+            a {
+                svg {
+                    color: $color-sightlife;
+                }
+            }
+        }
+
+        h3 {
+            &:after {
+                color: $color-sightlife;
+            }
+        }
+
+        .logo {
+            max-width: 55px;
+        }
+
+        #work-header {
+            &:after {
+                color: $color-sightlife;
+            }
+        }
+
+        #work-screens {
+            img {
+                max-width: 1080px;
+            }
+        }
+    }
+
+    .tease {
+        h1 {
+            a {
+                svg {
+                    color: $color-tease;
+                }
+            }
+        }
+
+        h3 {
+            &:after {
+                color: $color-tease;
+            }
+        }
+
+        .logo {
+            max-width: 100px;
+        }
+
+        #work-header {
+            &:after {
+                color: $color-tease;
+            }
+        }
+    }
+
+    .washingtons-lottery {
+        h1 {
+            a {
+                svg {
+                    color: $color-washingtons-lottery;
+                }
+            }
+        }
+
+        h3 {
+            &:after {
+                color: $color-washingtons-lottery;
+            }
+        }
+
+        .logo {
+            max-width: 65px;
+        }
+
+        #work-header {
+            &:after {
+                color: $color-washingtons-lottery;
+            }
+        }
+    }
+
+    @media (min-width: 375px) {
+        .columbia-crest {
+            #work-header {
+                > div {
+                    > div {
+                        &:first-child {
+                            width: 100%;
+                            padding-right: 0;
+                        }
+
+                        &:last-child {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: ($screen-med - 1px)) {
+        .tease {
+            #work-header {
+                > div {
+                    > div {
+                        &:first-child {
+                            width: 70%;
+                        }
+
+                        &:last-child {
+                            width: 30%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (min-width: $screen-med) {
+        h3 {
+            &:after {
+                font-size: 20px;
+                font-weight: 700;
+            }
+        }
+
+        .andeavor {
+            .logo {
+                max-width: 70px;
+            }
+        }
+
+        .cole-weber,
+        .nutshell-classics {
+            .logo {
+                max-width: 55px;
+            }
+        }
+
+        .sightlife {
+            .logo {
+                max-width: 70px;
+            }
+        }
+
+        .rdsoda {
+            .logo {
+                max-width: 70px;
+            }
+        }
+
+        .tease {
+            .logo {
+                max-width: 135px;
+            }
+        }
+
+        .washingtons-lottery {
+            .logo {
+                max-width: 80px;
+            }
+        }
+    }
+
+    @media (min-width: $screen-lrg) {
+        .andeavor {
+            .logo {
+                max-width: 75px;
+            }
+        }
+
+        .cole-weber,
+        .nutshell-classics {
+            .logo {
+                max-width: 60px;
+            }
+        }
+
+        .rdsoda {
+            .logo {
+                max-width: 75px;
+            }
+        }
+
+        .sightlife {
+            .logo {
+                max-width: 75px;
+            }
+        }
+
+        .tease {
+            .logo {
+                max-width: 150px;
+            }
+        }
+
+        .washingtons-lottery {
+            .logo {
+                max-width: 90px;
+            }
+        }
+    }
+}
+
+#work-header {
+    &:after {
+        margin: ($spacing-min / 2) 0;
+        content: "\2014";
+        font-size: 18px;
+        font-weight: normal;
+        display: block;
+    }
+
+    h1 {
+        a,
+        span {
+            line-height: 100%;
+            margin-top: 5px;
+            margin-left: 2px;
+            color: $color-gray-light;
+            font-size: 60%;
+            font-weight: 600;
+            display: block;
+        }
+
+        a {
+            svg {
+                padding-left: 7px;
+                font-size: 80%;
+                top: 1px;
+                position: relative;
+                transition: padding-left 0.15s ease-out;
+            }
+
+            &:hover {
+                svg {
+                    padding-left: 11px;
+                }
+            }
+        }
+    }
+
+    > div {
+        width: 100%;
+        display: table;
+
+        > div {
+            vertical-align: middle;
+            display: table-cell;
+
+            &:first-child {
+                width: 100%;
+            }
+
+            &:last-child {
+                width: 25%;
+                padding-left: $spacing-min / 2;
+                text-align: center;
+                display: none;
+            }
+        }
+    }
+
+    .logo {
+        display: none;
+    }
+
+    @media (min-width: 375px) {
+        .logo {
+            display: inline-block;
+        }
+
+        > div {
+            > div {
+                &:first-child {
+                    width: 75%;
+                    padding-right: $spacing-min / 2;
+                }
+
+                &:last-child {
+                    display: table-cell;
+                }
+            }
+        }
+    }
+
+    @media (min-width: $screen-med) {
+        &:after {
+            margin: $spacing-min 0;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        h1 {
+            a {
+                svg {
+                    padding-left: 9px;
+                }
+
+                &:hover {
+                    svg {
+                        padding-left: 13px;
+                    }
+                }
+            }
+        }
+
+        > div {
+            > div {
+                &:first-child {
+                    padding-right: $spacing-min;
+                }
+
+                &:last-child {
+                    padding-left: $spacing-min;
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+    @media (min-width: $screen-lrg) {
+        > div {
+            > div {
+                &:first-child {
+                    padding-right: $spacing-max;
+                }
+
+                &:last-child {
+                    padding-left: $spacing-max;
+                }
+            }
+        }
+    }
+}
+
+#work-content {
+    > aside {
+        display: none;
+
+        > div {
+            &:first-child {
+                > h3 {
+                    &:first-child {
+                        padding-top: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (min-width: 375px) {
+        > div {
+            > aside {
+                margin: 0 auto;
+                display: table;
+
+                > div {
+                    display: table-cell;
+
+                    &:first-child {
+                        padding-right: $spacing-max / 2;
+
+                        p {
+                            + h3 {
+                                padding-top: 14px;
+                            }
+                        }
+                    }
+
+                    &:last-child {
+                        padding-left: $spacing-max / 2;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (min-width: $screen-med) {
+        width: 100%;
+        display: table;
+
+        > div,
+        > aside {
+            vertical-align: top;
+            display: table-cell;
+        }
+
+        > div {
+            width: 75%;
+            padding-top: 0;
+            padding-right: $spacing-min;
+            border-top: none;
+
+            aside {
+                display: none;
+            }
+        }
+
+        aside {
+            width: 25%;
+            padding-left: $spacing-min;
+        }
+    }
+
+    @media (min-width: $screen-lrg) {
+        > div {
+            padding-right: $spacing-max;
+        }
+
+        aside {
+            padding-left: $spacing-max;
+        }
+    }
+}
+
+#work-screens {
+    margin-top: $spacing-max;
+    clear: both;
+    text-align: center;
+
+    > img {
+        max-width: 414px;
+        margin-bottom: $spacing-min;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &.work-screen-lrg {
+            max-width: 800px;
+        }
+    }
+
+    @media (min-width: $screen-med) {
+        > img {
+            margin-bottom: $spacing-max;
+
+            &:last-child {
+                margin-bottom: $spacing-max;
+            }
+        }
+    }
+}
