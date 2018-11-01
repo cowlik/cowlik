@@ -4,13 +4,52 @@
         "client": "Andeavor",
         "title": "andeavor.com",
         "url": "http://www.andeavor.com",
-        "date": "June 2017"
+        "date": "June 2017",
+        "logo": {
+            "path": "/imgs/work/andeavor/logo.svg",
+            "width": 124,
+            "height": 98
+        },
+        "description": "<p>Our client, Tesoro, wanted to announce their acquisition and merge with Western Refining, forming a new company called Andeavor. They requested the release of two microsites simultaneously on the day of their announcement, one public and one internal. Utilizing shared UI elements, I came up with a solution to quickly switch between these two versions and publish updated content under some very tight deadlines.</p>",
+        "responsibilities": [
+            "UI",
+            "Development"
+        ],
+        "technologies": [
+            "HTML",
+            "SASS",
+            "JavaScript",
+            "Harp",
+            "Jade",
+            "Gulp"
+        ]
     },
     {
         "slug": "tease",
         "client": "Tease",
         "title": "teaseballard.com",
-        "date": "April 2017"
+        "url": "http://www.teaseballard.com",
+        "date": "April 2017",
+        "logo": {
+            "path": "/imgs/work/tease/logo.svg",
+            "width": 232,
+            "height": 122
+        },
+        "description": "<p>This lovely salon located in the Ballard neighborhood of Seattle was in need of a website \"makeover.\" Being that it is jointly owned by my wife and sister-in-law, they gave me the complete freedom to design and develop the new site. Since launching the website, the salon has seen a steady rise in bookings thanks to UI &amp; SEO improvement, plus Facebook Open Graph integration.</p>",
+        "responsibilities": [
+            "Design",
+            "UI",
+            "Development"
+        ],
+        "technologies": [
+            "HTML",
+            "SASS",
+            "JavaScript",
+            "Harp",
+            "Jade",
+            "Gulp",
+            "Git"
+        ]
     },
     {
         "slug": "cole-weber",
