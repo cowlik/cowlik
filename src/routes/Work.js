@@ -6,6 +6,7 @@ import data from '../data/work.json';
 class Work extends Component {
     render() {
         const item = data.find(item => item.slug === this.props.match.params.slug);
+
         return (
             <section className={item.slug}>
                 <header id="work-header">
@@ -25,31 +26,41 @@ class Work extends Component {
                 <section id="work-content">
                     <div>
                         <div dangerouslySetInnerHTML={{ __html: item.description }} />
-                        <aside>
-                            <div>
-                                <h3>Launched:</h3>
-                                <p>{item.date}</p>
-                                <h3>Responsibilities:</h3>
-                                <ul>
-                                    {item.responsibilities.map((value, i) => (
-                                        <li key={i}>{value}</li>
-                                    ))}
-                                </ul>
-                            </div>
-                            <div>
-                                <h3>Technologies:</h3>
-                                <ul>
-                                    {item.technologies.map((value, i) => (
-                                        <li key={i}>{value}</li>
-                                    ))}
-                                </ul>
-                            </div>
-                        </aside>
+                        <Aside item={item} />
+                        <div id="work-screens">
+                            {item.screens.map((value, i) => (
+                                <img src={value.path} width={value.width} height={value.height} alt={value.title} key={i} className={(value.large) ? "work-screen-lrg" : null} />
+                            ))}
+                        </div>
                     </div>
+                    <Aside item={item} />
                 </section>
             </section>
         );
     };
 };
+
+const Aside = props => (
+    <aside>
+        <div>
+            <h3>Launched:</h3>
+            <p>{props.item.date}</p>
+            <h3>Responsibilities:</h3>
+            <ul>
+                {props.item.responsibilities.map((value, i) => (
+                    <li key={i}>{value}</li>
+                ))}
+            </ul>
+        </div>
+        <div>
+            <h3>Technologies:</h3>
+            <ul>
+                {props.item.technologies.map((value, i) => (
+                    <li key={i}>{value}</li>
+                ))}
+            </ul>
+        </div>
+    </aside>
+);
 
 export default Work;

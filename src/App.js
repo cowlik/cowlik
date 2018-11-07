@@ -11,11 +11,13 @@ import Footer from './components/Footer';
 
 library.add(faGithubSquare, faLinkedin, faBars, faCaretRight, faEnvelopeSquare, faExternalLinkAlt);
 
-const App = () => [
-    <Header key="0" />,
-    <Main key="1" />,
-    <Nav key="2" />,
-    <Footer key="3" />
-];
+const App = () => (
+    [
+        <Header key="0" />,
+        <Main key="1" />,
+        <Nav key="2" />,
+        <Footer key="3" />
+    ]
+);
 
 export default App;
