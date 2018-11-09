@@ -136,31 +136,304 @@
         "slug": "cole-weber",
         "client": "Cole & Weber",
         "title": "coleweber.com",
-        "date": "January 2017"
+        "url": "http://www.coleweber.com",
+        "date": "January 2017",
+        "logo": {
+            "path": "/imgs/work/cole-weber/logo.svg",
+            "width": 30,
+            "height": 34
+        },
+        "description": "<p>So, our agency needed a complete brand and website overhaul... This was my first chance at working with Harp, a static site server/generator, and I've been a huge fan ever since.</p>",
+        "responsibilities": [
+            "UI",
+            "Development"
+        ],
+        "technologies": [
+            "HTML",
+            "SASS",
+            "JavaScript",
+            "Harp",
+            "Jade",
+            "Markdown",
+            "Gulp"
+        ],
+        "screens": [
+            {
+                "title": "Home",
+                "path": "/imgs/work/cole-weber/screen-home-1.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            },
+            {
+                "title": "Home",
+                "path": "/imgs/work/cole-weber/screen-home-2.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            },
+            {
+                "title": "Work",
+                "path": "/imgs/work/cole-weber/screen-work.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            },
+            {
+                "title": "Hawksome",
+                "path": "/imgs/work/cole-weber/screen-hawksome.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            },
+            {
+                "title": "People",
+                "path": "/imgs/work/cole-weber/screen-people.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            },
+            {
+                "title": "Story",
+                "path": "/imgs/work/cole-weber/screen-story.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            }
+        ]
     },
     {
         "slug": "washingtons-lottery",
         "client": "Washington's Lottery",
         "title": "walottery.com",
-        "date": "March 2016"
+        "url": "https://www.walottery.com",
+        "date": "March 2016",
+        "logo": {
+            "path": "/imgs/work/washingtons-lottery/logo.svg",
+            "width": 90,
+            "height": 90
+        },
+        "description": "<p>After a good 10-year run, it was time to retire their former website and, in turn, build a fresher, responsive website with modern browser capabilities while delivering a plethora of content, old and new. Amongst the many achievements, the biggest one was being the sole front-end developer on this gigantic, 7-month effort. As a result, I was proud to say the new website was received with great fanfare by the employees and customers of Washington's Lottery.</p>",
+        "responsibilities": [
+            "UI",
+            "Development"
+        ],
+        "technologies": [
+            "HTML",
+            "LESS",
+            "JavaScript",
+            "C#",
+            "Grunt"
+        ],
+        "screens": [
+            {
+                "title": "Home",
+                "path": "/imgs/work/washingtons-lottery/screen-home.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            },
+            {
+                "title": "Scratch",
+                "path": "/imgs/work/washingtons-lottery/screen-scratch.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            },
+            {
+                "title": "Winning Numbers",
+                "path": "/imgs/work/washingtons-lottery/screen-winning-numbers.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            },
+            {
+                "title": "Check Your Ticket",
+                "path": "/imgs/work/washingtons-lottery/screen-check-your-ticket.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            },
+            {
+                "title": "Past Drawings",
+                "path": "/imgs/work/washingtons-lottery/screen-past-drawings.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            },
+            {
+                "title": "Media",
+                "path": "/imgs/work/washingtons-lottery/screen-media.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            }
+        ]
     },
     {
         "slug": "columbia-crest",
         "client": "Columbia Crest",
         "title": "Crowdsourced Cabernet",
-        "date": "June 2015"
+        "url": "",
+        "date": "June 2015",
+        "logo": {
+            "path": "",
+            "width": 0,
+            "height": 0
+        },
+        "description": "<p>\"This is your chance to take control of 5 acres of grapes and become a winemaker to help craft Columbia Crest's 2015 Crowdsourced Cabernet.\" Based on the award-winning 2014 website, the 2015 version was refactored from the ground up to include new features such as: a responsive UI, user profiles, enhanced voting &amp; voting history, and daily vineyard cameras.</p>",
+        "responsibilities": [
+            "UI",
+            "Development"
+        ],
+        "technologies": [
+            "HTML",
+            "LESS",
+            "JavaScript",
+            "Grunt"
+        ],
+        "screens": [
+            {
+                "title": "Cams - 2015",
+                "path": "/imgs/work/columbia-crest/screen-cams-2015.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            },
+            {
+                "title": "Dashboard",
+                "path": "/imgs/work/columbia-crest/screen-dashboard.jpg",
+                "width": 800,
+                "height": 825,
+                "large": true
+            },
+            {
+                "title": "Conditions",
+                "path": "/imgs/work/columbia-crest/screen-conditions.jpg",
+                "width": 800,
+                "height": 825,
+                "large": true
+            },
+            {
+                "title": "Cams - 2014",
+                "path": "/imgs/work/columbia-crest/screen-cams-2014.jpg",
+                "width": 800,
+                "height": 825,
+                "large": true
+            },
+            {
+                "title": "Home",
+                "path": "/imgs/work/columbia-crest/screen-home.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            }
+        ]
     },
     {
         "slug": "nutshell-classics",
         "client": "Cole & Weber",
         "title": "Nutshell Classics",
-        "date": "December 2014"
+        "url": "",
+        "date": "December 2014",
+        "logo": {
+            "path": "/imgs/work/cole-weber/logo.svg",
+            "width": 30,
+            "height": 34
+        },
+        "description": "<p>For our agency's 2014 holiday \"card\", we acted out and recreated 15 holiday, movie favorites and squished them into 6-second Vine videos. Along with the microsite, I created a carousel to house and autoplay each Vine video as it slides into focus for a seamless experience.</p>",
+        "responsibilities": [
+            "UI",
+            "Development"
+        ],
+        "technologies": [
+            "HTML",
+            "LESS",
+            "JavaScript",
+            "Grunt"
+        ],
+        "screens": [
+            {
+                "title": "Nutshell Classics",
+                "path": "/imgs/work/nutshell-classics/screen-1.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            },
+            {
+                "title": "Nutshell Classics",
+                "path": "/imgs/work/nutshell-classics/screen-2.jpg",
+                "width": 800,
+                "height": 825,
+                "large": true
+            },
+            {
+                "title": "Nutshell Classics",
+                "path": "/imgs/work/nutshell-classics/screen-3.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            }
+        ]
     },
     {
         "slug": "sightlife",
         "client": "SightLife",
         "title": "The World Through New Eyes",
-        "date": "May 2014"
+        "url": "https://www.sightlife.org/through-new-eyes-files/index.htm",
+        "date": "May 2014",
+        "logo": {
+            "path": "/imgs/work/sightlife/logo.svg",
+            "width": 36,
+            "height": 36
+        },
+        "description": "<p>\"We spent time with some of our recipient and donor families. On our travels, we heard their stories and even provided cameras so recipients could show us the world through their new eyes. The results are an inspiring reminder that every surgery can change a life.\" In an effort to showcase all the fantastic imagery captured by our in-house photographer and all the eye-donor recipients, our agency designed a full-screen slideshow/scrolling experience. The result was a fun and engaging microsite which allowed me to push my skills outside of my comfort zone.</p>",
+        "responsibilities": [
+            "UI",
+            "Development"
+        ],
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "screens": [
+            {
+                "title": "Home",
+                "path": "/imgs/work/sightlife/screen-home.jpg",
+                "width": 1080,
+                "height": 825,
+                "large": true
+            },
+            {
+                "title": "Recipients",
+                "path": "/imgs/work/sightlife/screen-recipients-1.jpg",
+                "width": 1080,
+                "height": 825,
+                "large": true
+            },
+            {
+                "title": "Recipients",
+                "path": "/imgs/work/sightlife/screen-recipients-2.jpg",
+                "width": 1080,
+                "height": 825,
+                "large": true
+            },
+            {
+                "title": "Recipients",
+                "path": "/imgs/work/sightlife/screen-recipients-3.jpg",
+                "width": 1080,
+                "height": 825,
+                "large": true
+            },
+            {
+                "title": "Donors",
+                "path": "/imgs/work/sightlife/screen-donors.jpg",
+                "width": 1080,
+                "height": 825,
+                "large": true
+            }
+        ]
     },
     {
         "slug": "rdsoda",

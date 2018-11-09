@@ -4,6 +4,10 @@ import './Work.scss';
 import data from '../data/work.json';
 
 class Work extends Component {
+    onImgLoaded(event) {
+        event.target.className += " img-loaded";
+    };
+
     render() {
         const item = data.find(item => item.slug === this.props.match.params.slug);
 
@@ -13,13 +17,11 @@ class Work extends Component {
                     <div>
                         <div>
                             <h1>{item.client}
-                                <a href={item.url} target="_blank" rel="noopener noreferrer">{item.title}
-                                    <FontAwesomeIcon icon="external-link-alt" />
-                                </a>
+                                {(item.url !== "") ? <a href={item.url} target="_blank" rel="noopener noreferrer">{item.title}<FontAwesomeIcon icon="external-link-alt" /></a> : <span>{item.title}</span>}
                             </h1>
                         </div>
                         <div>
-                            <img src={item.logo.path} width={item.logo.width} height={item.logo.height} className="logo" alt={item.client} />
+                            {(item.logo.path !== "") ? <img src={item.logo.path} width={item.logo.width} height={item.logo.height} className="logo" alt={item.client} /> : "&nbsp;"}
                         </div>
                     </div>
                 </header>
@@ -29,7 +31,7 @@ class Work extends Component {
                         <Aside item={item} />
                         <div id="work-screens">
                             {item.screens.map((value, i) => (
-                                <img src={value.path} width={value.width} height={value.height} alt={value.title} key={i} className={(value.large) ? "work-screen-lrg" : null} />
+                                <img src={value.path} width={value.width} height={value.height} alt={value.title} key={i} className={(value.large) ? "work-screen-lrg" : null} onLoad={(event) => this.onImgLoaded(event)} />
                             ))}
                         </div>
                     </div>

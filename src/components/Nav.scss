@@ -43,7 +43,7 @@
     transition: background-color 0.3s ease-out;
 
     &:hover,
-    &.selected {
+    &.nav-link-selected {
         background-color: $color-pear;
     }
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import 'typeface-podkova';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -11,13 +11,30 @@ import Footer from './components/Footer';
 
 library.add(faGithubSquare, faLinkedin, faBars, faCaretRight, faEnvelopeSquare, faExternalLinkAlt);
 
-const App = () => (
-    [
-        <Header key="0" />,
-        <Main key="1" />,
-        <Nav key="2" />,
-        <Footer key="3" />
-    ]
-);
+class App extends Component {
+    constructor(props) {
+        super(props);
+        this.nav = React.createRef();
+    };
+
+    scrollToTop() {
+        window.scrollTo(0, 0);
+    };
+
+    scrollToNav() {
+        this.nav.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+
+    render() {
+        return (
+            [
+                <Header goTo={() => this.scrollToNav()} key="0" />,
+                <Main key="1" />,
+                <Nav ref={this.nav} goTo={() => this.scrollToTop()} key="2" />,
+                <Footer key="3" />
+            ]
+        );
+    };
+};
 
 export default App;

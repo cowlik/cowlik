@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Nav.scss';
 import data from '../data/work.json';
 
-const Nav = () => (
-    <nav id="nav">
+const Nav = React.forwardRef((props, ref) => (
+    <nav id="nav" ref={ref}>
         <div id="nav-contact" className="container">
             <a href="https://www.linkedin.com/in/clintharrison/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={['fab', 'linkedin']} />
@@ -20,7 +20,7 @@ const Nav = () => (
         </div>
         <h2 className="container">Latest Work:</h2>
         {data.map((item, i) => (
-            <NavLink to={"/work/" + item.slug} className={(item.slug) + " nav-link"} activeClassName="selected" key={i}>
+            <NavLink to={"/work/" + item.slug} className={(item.slug) + " nav-link"} onClick={() => props.goTo()} activeClassName="nav-link-selected" key={i}>
                 <div className="container">{item.client}
                     <span>{item.title}
                         <FontAwesomeIcon icon="caret-right" />
@@ -29,6 +29,6 @@ const Nav = () => (
             </NavLink>
         ))}
     </nav>
-);
+));
 
 export default Nav;

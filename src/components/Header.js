@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Header.scss';
 
-const Header = () => (
+const Header = props => (
     <header id="header">
         <div className="container">
             <h1>
                 <Link to="/">cowlik</Link>
             </h1>
-            <button>
+            <button onClick={() => props.goTo()}>
                 <FontAwesomeIcon icon="bars" />
             </button>
         </div>

@@ -31,6 +31,11 @@
     img {
         width: 100%;
         height: auto;
+        transition: opacity 0.2s ease-out;
+
+        &.img-loaded {
+            opacity: 1;
+        }
     }
 
     .andeavor {
@@ -187,12 +192,6 @@
         #work-header {
             &:after {
                 color: $color-sightlife;
-            }
-        }
-
-        #work-screens {
-            img {
-                max-width: 1080px;
             }
         }
     }
@@ -592,6 +591,7 @@
     > img {
         max-width: 414px;
         margin-bottom: $spacing-min;
+        opacity: 0;
 
         &:last-child {
             margin-bottom: 0;
