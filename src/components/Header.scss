@@ -6,11 +6,13 @@
 #header {
     min-width: $screen-min;
     background: linear-gradient(to bottom, $color-pear 0%, $color-mint 70%);
+    position: relative;
     flex: none;
 
     .container {
         padding: $spacing-max $spacing-min 5px;
         position: relative;
+        z-index: 1;
     }
 
     a {
@@ -58,3 +60,26 @@
     }
 }
 
+.header-bg {
+    width: 100%;
+    height: 100%;
+    content: "";
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+.andeavor {
+    .header-bg-andeavor {
+        background: linear-gradient(to bottom, $color-andeavor 0%, lighten($color-andeavor, 15%) 70%);
+    }
+}
+
+.tease {
+    .header-bg-tease {
+        background: linear-gradient(to bottom, $color-tease 0%, lighten($color-tease, 10%) 70%);
+    }
+}

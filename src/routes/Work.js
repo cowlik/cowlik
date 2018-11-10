@@ -4,38 +4,65 @@ import './Work.scss';
 import data from '../data/work.json';
 
 class Work extends Component {
+    constructor(props) {
+        super(props);
+        this.item = {};
+    };
+
+    componentDidMount() {
+        this.setPageClass();
+        this.setTitle();
+    };
+
+    componentDidUpdate() {
+        this.setPageClass();
+        this.setTitle();
+    }
+
     onImgLoaded(event) {
         event.target.className += " img-loaded";
     };
 
+    setItem() {
+        this.item = data.find(item => item.slug === this.props.match.params.slug);
+    };
+
+    setPageClass() {
+        document.getElementsByTagName("html")[0].className = this.item.slug;
+    };
+
+    setTitle() {
+        document.title = this.item.client + " - " + this.item.title + " | cowlik";
+    };
+
     render() {
-        const item = data.find(item => item.slug === this.props.match.params.slug);
+        this.setItem();
 
         return (
-            <section className={item.slug}>
+            <section>
                 <header id="work-header">
                     <div>
                         <div>
-                            <h1>{item.client}
-                                {(item.url !== "") ? <a href={item.url} target="_blank" rel="noopener noreferrer">{item.title}<FontAwesomeIcon icon="external-link-alt" /></a> : <span>{item.title}</span>}
+                            <h1>{this.item.client}
+                                {(this.item.url !== "") ? <a href={this.item.url} target="_blank" rel="noopener noreferrer">{this.item.title}<FontAwesomeIcon icon="external-link-alt" /></a> : <span>{this.item.title}</span>}
                             </h1>
                         </div>
                         <div>
-                            {(item.logo.path !== "") ? <img src={item.logo.path} width={item.logo.width} height={item.logo.height} className="logo" alt={item.client} /> : "&nbsp;"}
+                            {(this.item.logo.path !== "") ? <img src={this.item.logo.path} width={this.item.logo.width} height={this.item.logo.height} className="logo" alt={this.item.client} /> : "&nbsp;"}
                         </div>
                     </div>
                 </header>
                 <section id="work-content">
                     <div>
-                        <div dangerouslySetInnerHTML={{ __html: item.description }} />
-                        <Aside item={item} />
+                        <div dangerouslySetInnerHTML={{ __html: this.item.description }} />
+                        <Aside item={this.item} />
                         <div id="work-screens">
-                            {item.screens.map((value, i) => (
+                            {this.item.screens.map((value, i) => (
                                 <img src={value.path} width={value.width} height={value.height} alt={value.title} key={i} className={(value.large) ? "work-screen-lrg" : null} onLoad={(event) => this.onImgLoaded(event)} />
                             ))}
                         </div>
                     </div>
-                    <Aside item={item} />
+                    <Aside item={this.item} />
                 </section>
             </section>
         );

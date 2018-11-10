@@ -439,6 +439,67 @@
         "slug": "rdsoda",
         "client": "RdSoda",
         "title": "rdsoda.com",
-        "date": "August 2013"
+        "url": "http://www.rdsoda.com",
+        "date": "August 2013",
+        "logo": {
+            "path": "/imgs/work/rdsoda/logo.svg",
+            "width": 72,
+            "height": 72
+        },
+        "description": "<p>\"Visually document and share your traveling experiences in real-time!\" For this personal endeavor, I fused Instagram with Google Maps to create a handy, web application which lets you chronologically share your traveling adventures via pictures and geolocation. Next time you hit the road, give it a try!</p>",
+        "responsibilities": [
+            "Design",
+            "UI",
+            "Development"
+        ],
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "screens": [
+            {
+                "title": "RdSoda",
+                "path": "/imgs/work/rdsoda/screen-1.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            },
+            {
+                "title": "RdSoda",
+                "path": "/imgs/work/rdsoda/screen-2.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            },
+            {
+                "title": "RdSoda",
+                "path": "/imgs/work/rdsoda/screen-3.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            },
+            {
+                "title": "RdSoda",
+                "path": "/imgs/work/rdsoda/screen-4.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            },
+            {
+                "title": "RdSoda",
+                "path": "/imgs/work/rdsoda/screen-5.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            },
+            {
+                "title": "RdSoda",
+                "path": "/imgs/work/rdsoda/screen-6.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            }
+        ]
     }
 ]

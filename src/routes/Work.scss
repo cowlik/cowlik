@@ -38,334 +38,11 @@
         }
     }
 
-    .andeavor {
-        h1 {
-            a {
-                svg {
-                    color: $color-andeavor;
-                }
-            }
-        }
-
-        h3 {
-            &:after {
-                color: $color-andeavor;
-            }
-        }
-
-        .logo {
-            max-width: 50px;
-        }
-
-        #work-header {
-            &:after {
-                color: $color-andeavor;
-            }
-        }
-    }
-
-    .cole-weber {
-        h1 {
-            a {
-                svg {
-                    color: $color-cole-weber;
-                }
-            }
-        }
-
-        h3 {
-            &:after {
-                color: $color-cole-weber;
-            }
-        }
-
-        p {
-            a {
-                color: $color-cole-weber;
-            }
-        }
-
-        .logo {
-            max-width: 40px;
-        }
-
-        #work-header {
-            &:after {
-                color: $color-cole-weber;
-            }
-        }
-    }
-
-    .columbia-crest {
-        h1 {
-            a {
-                svg {
-                    color: $color-columbia-crest;
-                }
-            }
-        }
-
-        h3 {
-            &:after {
-                color: $color-columbia-crest;
-            }
-        }
-
-        #work-header {
-            &:after {
-                color: $color-columbia-crest;
-            }
-        }
-    }
-
-    .nutshell-classics {
-        h1 {
-            a {
-                svg {
-                    color: $color-nutshell-classics;
-                }
-            }
-        }
-
-        h3 {
-            &:after {
-                color: $color-nutshell-classics;
-            }
-        }
-
-        .logo {
-            max-width: 40px;
-        }
-
-        #work-header {
-            &:after {
-                color: $color-nutshell-classics;
-            }
-        }
-    }
-
-    .rdsoda {
-        h1 {
-            a {
-                svg {
-                    color: $color-rdsoda;
-                }
-            }
-        }
-
-        h3 {
-            &:after {
-                color: $color-rdsoda;
-            }
-        }
-
-        .logo {
-            max-width: 55px;
-        }
-
-        #work-header {
-            &:after {
-                color: $color-rdsoda;
-            }
-        }
-    }
-
-    .sightlife {
-        h1 {
-            a {
-                svg {
-                    color: $color-sightlife;
-                }
-            }
-        }
-
-        h3 {
-            &:after {
-                color: $color-sightlife;
-            }
-        }
-
-        .logo {
-            max-width: 55px;
-        }
-
-        #work-header {
-            &:after {
-                color: $color-sightlife;
-            }
-        }
-    }
-
-    .tease {
-        h1 {
-            a {
-                svg {
-                    color: $color-tease;
-                }
-            }
-        }
-
-        h3 {
-            &:after {
-                color: $color-tease;
-            }
-        }
-
-        .logo {
-            max-width: 100px;
-        }
-
-        #work-header {
-            &:after {
-                color: $color-tease;
-            }
-        }
-    }
-
-    .washingtons-lottery {
-        h1 {
-            a {
-                svg {
-                    color: $color-washingtons-lottery;
-                }
-            }
-        }
-
-        h3 {
-            &:after {
-                color: $color-washingtons-lottery;
-            }
-        }
-
-        .logo {
-            max-width: 65px;
-        }
-
-        #work-header {
-            &:after {
-                color: $color-washingtons-lottery;
-            }
-        }
-    }
-
-    @media (min-width: 375px) {
-        .columbia-crest {
-            #work-header {
-                > div {
-                    > div {
-                        &:first-child {
-                            width: 100%;
-                            padding-right: 0;
-                        }
-
-                        &:last-child {
-                            display: none;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    @media (max-width: ($screen-med - 1px)) {
-        .tease {
-            #work-header {
-                > div {
-                    > div {
-                        &:first-child {
-                            width: 70%;
-                        }
-
-                        &:last-child {
-                            width: 30%;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
     @media (min-width: $screen-med) {
         h3 {
             &:after {
                 font-size: 20px;
                 font-weight: 700;
-            }
-        }
-
-        .andeavor {
-            .logo {
-                max-width: 70px;
-            }
-        }
-
-        .cole-weber,
-        .nutshell-classics {
-            .logo {
-                max-width: 55px;
-            }
-        }
-
-        .sightlife {
-            .logo {
-                max-width: 70px;
-            }
-        }
-
-        .rdsoda {
-            .logo {
-                max-width: 70px;
-            }
-        }
-
-        .tease {
-            .logo {
-                max-width: 135px;
-            }
-        }
-
-        .washingtons-lottery {
-            .logo {
-                max-width: 80px;
-            }
-        }
-    }
-
-    @media (min-width: $screen-lrg) {
-        .andeavor {
-            .logo {
-                max-width: 75px;
-            }
-        }
-
-        .cole-weber,
-        .nutshell-classics {
-            .logo {
-                max-width: 60px;
-            }
-        }
-
-        .rdsoda {
-            .logo {
-                max-width: 75px;
-            }
-        }
-
-        .sightlife {
-            .logo {
-                max-width: 75px;
-            }
-        }
-
-        .tease {
-            .logo {
-                max-width: 150px;
-            }
-        }
-
-        .washingtons-lottery {
-            .logo {
-                max-width: 90px;
             }
         }
     }
@@ -608,6 +285,377 @@
 
             &:last-child {
                 margin-bottom: $spacing-max;
+            }
+        }
+    }
+}
+
+.andeavor {
+    #main {
+        h1 {
+            a {
+                svg {
+                    color: $color-andeavor;
+                }
+            }
+        }
+    
+        h3 {
+            &:after {
+                color: $color-andeavor;
+            }
+        }
+    
+        .logo {
+            max-width: 50px;
+        }
+    }
+    
+    #work-header {
+        &:after {
+            color: $color-andeavor;
+        }
+    }
+
+    @media (min-width: $screen-med) {
+        #main {
+            .logo {
+                max-width: 70px;
+            }
+        }
+    }
+
+    @media (min-width: $screen-lrg) {
+        #main {
+            .logo {
+                max-width: 75px;
+            }
+        }
+    }
+}
+
+.cole-weber {
+    #main {
+        h1 {
+            a {
+                svg {
+                    color: $color-cole-weber;
+                }
+            }
+        }
+
+        h3 {
+            &:after {
+                color: $color-cole-weber;
+            }
+        }
+
+        p {
+            a {
+                color: $color-cole-weber;
+            }
+        }
+
+        .logo {
+            max-width: 40px;
+        }
+    }
+
+    #work-header {
+        &:after {
+            color: $color-cole-weber;
+        }
+    }
+
+    @media (min-width: $screen-med) {
+        #main {
+            .logo {
+                max-width: 55px;
+            }
+        }
+    }
+
+    @media (min-width: $screen-lrg) {
+        #main {
+            .logo {
+                max-width: 60px;
+            }
+        }
+    }
+}
+
+.columbia-crest {
+    #main {
+        h1 {
+            a {
+                svg {
+                    color: $color-columbia-crest;
+                }
+            }
+        }
+
+        h3 {
+            &:after {
+                color: $color-columbia-crest;
+            }
+        }
+    }
+
+    #work-header {
+        &:after {
+            color: $color-columbia-crest;
+        }
+    }
+
+    @media (min-width: 375px) {
+        #work-header {
+            > div {
+                > div {
+                    &:first-child {
+                        width: 100%;
+                        padding-right: 0;
+                    }
+
+                    &:last-child {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.nutshell-classics {
+    #main {
+        h1 {
+            a {
+                svg {
+                    color: $color-nutshell-classics;
+                }
+            }
+        }
+
+        h3 {
+            &:after {
+                color: $color-nutshell-classics;
+            }
+        }
+
+        .logo {
+            max-width: 40px;
+        }
+    }
+
+    #work-header {
+        &:after {
+            color: $color-nutshell-classics;
+        }
+    }
+
+    @media (min-width: $screen-med) {
+        #main {
+            .logo {
+                max-width: 55px;
+            }
+        }
+    }
+
+    @media (min-width: $screen-lrg) {
+        #main {
+            .logo {
+                max-width: 60px;
+            }
+        }
+    }
+}
+
+.rdsoda {
+    #main {
+        h1 {
+            a {
+                svg {
+                    color: $color-rdsoda;
+                }
+            }
+        }
+
+        h3 {
+            &:after {
+                color: $color-rdsoda;
+            }
+        }
+
+        .logo {
+            max-width: 55px;
+        }
+    }
+
+    #work-header {
+        &:after {
+            color: $color-rdsoda;
+        }
+    }
+
+    @media (min-width: $screen-med) {
+        #main {
+            .logo {
+                max-width: 70px;
+            }
+        }
+    }
+
+    @media (min-width: $screen-lrg) {
+        #main {
+            .logo {
+                max-width: 75px;
+            }
+        }
+    }
+}
+
+.sightlife {
+    #main {
+        h1 {
+            a {
+                svg {
+                    color: $color-sightlife;
+                }
+            }
+        }
+
+        h3 {
+            &:after {
+                color: $color-sightlife;
+            }
+        }
+
+        .logo {
+            max-width: 55px;
+        }
+    }
+
+    #work-header {
+        &:after {
+            color: $color-sightlife;
+        }
+    }
+
+    @media (min-width: $screen-med) {
+        #main {
+            .logo {
+                max-width: 70px;
+            }
+        }
+    }
+
+    @media (min-width: $screen-lrg) {
+        #main {
+            .logo {
+                max-width: 75px;
+            }
+        }
+    }
+}
+
+.tease {
+    #main {
+        h1 {
+            a {
+                svg {
+                    color: $color-tease;
+                }
+            }
+        }
+
+        h3 {
+            &:after {
+                color: $color-tease;
+            }
+        }
+
+        .logo {
+            max-width: 100px;
+        }
+    }
+
+    #work-header {
+        &:after {
+            color: $color-tease;
+        }
+    }
+
+    @media (max-width: ($screen-med - 1px)) {
+        #work-header {
+            > div {
+                > div {
+                    &:first-child {
+                        width: 70%;
+                    }
+
+                    &:last-child {
+                        width: 30%;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (min-width: $screen-med) {
+        #main {
+            .logo {
+                max-width: 135px;
+            }
+        }
+    }
+
+    @media (min-width: $screen-lrg) {
+        #main {
+            .logo {
+                max-width: 150px;
+            }
+        }
+    }
+}
+
+.washingtons-lottery {
+    #main {
+        h1 {
+            a {
+                svg {
+                    color: $color-washingtons-lottery;
+                }
+            }
+        }
+
+        h3 {
+            &:after {
+                color: $color-washingtons-lottery;
+            }
+        }
+
+        .logo {
+            max-width: 65px;
+        }
+    }
+
+    #work-header {
+        &:after {
+            color: $color-washingtons-lottery;
+        }
+    }
+
+    @media (min-width: $screen-med) {
+        #main {
+            .logo {
+                max-width: 80px;
+            }
+        }
+    }
+
+    @media (min-width: $screen-lrg) {
+        #main {
+            .logo {
+                max-width: 90px;
             }
         }
     }
