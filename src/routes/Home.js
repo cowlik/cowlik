@@ -1,27 +1,11 @@
 import React, { Component } from 'react';
+import Head from '../components/Head';
 
 class Home extends Component {
-    componentDidMount() {
-        this.setPageClass();
-        this.setTitle();
-    };
-
-    componentDidUpdate() {
-        this.setPageClass();
-        this.setTitle();
-    }
-
-    setPageClass() {
-        document.getElementsByTagName("html")[0].className = "";
-    };
-
-    setTitle() {
-        document.title = "Clint Harrison | cowlik";
-    };
-
     render() {
         return (
             <div className="container">
+                <Head page="home" />
                 <p>Howdy!</p>
                 <p className="dash">&mdash;</p>
             </div>

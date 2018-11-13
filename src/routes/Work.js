@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Work.scss';
-import data from '../data/work.json';
+import Head from '../components/Head';
+import work from '../data/work.json';
 
 class Work extends Component {
     constructor(props) {
@@ -11,28 +12,22 @@ class Work extends Component {
 
     componentDidMount() {
         this.setPageClass();
-        this.setTitle();
     };
 
     componentDidUpdate() {
         this.setPageClass();
-        this.setTitle();
-    }
+    };
 
     onImgLoaded(event) {
         event.target.className += " img-loaded";
     };
 
     setItem() {
-        this.item = data.find(item => item.slug === this.props.match.params.slug);
+        this.item = work.find(item => item.slug === this.props.match.params.slug);
     };
 
     setPageClass() {
         document.getElementsByTagName("html")[0].className = this.item.slug;
-    };
-
-    setTitle() {
-        document.title = this.item.client + " - " + this.item.title + " | cowlik";
     };
 
     render() {
@@ -40,6 +35,7 @@ class Work extends Component {
 
         return (
             <section>
+                <Head item={this.item} page="work" />
                 <header id="work-header">
                     <div>
                         <div>
