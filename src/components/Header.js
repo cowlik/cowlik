@@ -14,9 +14,11 @@ const Header = props => (
                 <FontAwesomeIcon icon="bars" />
             </button>
         </div>
-        {work.map((item, i) => (
-            <div className={"header-bg header-bg-" + (item.slug)} key={i}></div>
-        ))}
+        <div id="header-bgs">
+            {work.map((item, i) => (
+                <div className={"header-bg header-bg-" + (item.slug)} key={i}></div>
+            ))}
+        </div>
     </header>
 );
 

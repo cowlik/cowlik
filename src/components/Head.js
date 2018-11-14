@@ -3,11 +3,6 @@ import { Helmet } from 'react-helmet';
 import app from '../data/app.json';
 
 class Head extends Component {
-    constructor(props) {
-        super(props);
-        console.log(props);
-    };
-
     getTitle() {
         return (this.props.page === 'work') ? this.props.item.client + ' - ' + this.props.item.title + " | " + app.title : app.author + " | " + app.title;
     };
@@ -21,17 +16,17 @@ class Head extends Component {
         return (domain !== 'localhost') ? window.location.protocol + '//' + domain : '';
     };
 
+    setHtmlClass() {
+        return (this.props.page === 'work') ? <html class={this.props.item.slug} /> : null;
+    };
+
     render() {
         return (
             <Helmet>
+                {this.setHtmlClass()}
+
                 <title>{this.getTitle()}</title>
 
-                <meta charset="utf-8"></meta>
-                <meta name="description" content={app.description} />
-                <meta name="robots" content="index, nofollow" />
-                <meta name="theme-color" content={app.theme_color} />
-                <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
                 <meta property="fb:app_id" content={app.facebook.app_id} />
                 <meta property="og:description" content={app.description} />
                 <meta property="og:image" content={this.getDomain() + "/imgs/card-facebook.png"} />

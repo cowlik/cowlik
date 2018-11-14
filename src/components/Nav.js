@@ -21,7 +21,7 @@ const Nav = React.forwardRef((props, ref) => (
         </div>
         <h2 className="container">Latest Work:</h2>
         {work.map((item, i) => (
-            <NavLink to={"/work/" + item.slug} className={(item.slug) + " nav-link"} onClick={() => props.goTo()} activeClassName="nav-link-selected" key={i}>
+            <NavLink to={"/work/" + item.slug} className={"nav-link nav-link-" + (item.slug)} onClick={() => props.goTo()} activeClassName="nav-link-selected" key={i}>
                 <div className="container">{item.client}
                     <span>{item.title}
                         <FontAwesomeIcon icon="caret-right" />

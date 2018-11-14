@@ -31,6 +31,7 @@
     img {
         width: 100%;
         height: auto;
+        opacity: 0;
         transition: opacity 0.2s ease-out;
 
         &.img-loaded {
@@ -268,7 +269,6 @@
     > img {
         max-width: 414px;
         margin-bottom: $spacing-min;
-        opacity: 0;
 
         &:last-child {
             margin-bottom: 0;

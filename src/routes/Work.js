@@ -8,26 +8,42 @@ class Work extends Component {
     constructor(props) {
         super(props);
         this.item = {};
+        this.zIndex = 0;
+        this.prevHeaderBgElem = null;
     };
 
     componentDidMount() {
-        this.setPageClass();
-    };
+        this.changeColor();
+    }
 
-    componentDidUpdate() {
-        this.setPageClass();
-    };
+    componentDidUpdate(prevProps) {
+        if (this.item.slug !== prevProps.match.params.slug) {
+            this.changeColor();
+        }
+    }
 
     onImgLoaded(event) {
-        event.target.className += " img-loaded";
+        event.target.classList.add('img-loaded');
     };
 
     setItem() {
         this.item = work.find(item => item.slug === this.props.match.params.slug);
     };
 
-    setPageClass() {
-        document.getElementsByTagName("html")[0].className = this.item.slug;
+    changeColor() {
+        let headerBgElem = document.getElementsByClassName('header-bg-' + this.item.slug)[0];
+
+        headerBgElem.style.zIndex = this.zIndex;
+        headerBgElem.classList.add('header-bg-selected');
+
+        setTimeout(() => {
+            if (this.prevHeaderBgElem) {
+                this.prevHeaderBgElem.classList.remove('header-bg-selected');
+            }
+            this.prevHeaderBgElem = headerBgElem;
+        }, 300);
+
+        this.zIndex++;
     };
 
     render() {
@@ -44,7 +60,7 @@ class Work extends Component {
                             </h1>
                         </div>
                         <div>
-                            {(this.item.logo.path !== "") ? <img src={this.item.logo.path} width={this.item.logo.width} height={this.item.logo.height} className="logo" alt={this.item.client} /> : "&nbsp;"}
+                            {(this.item.logo.path !== "") ? <img src={this.item.logo.path} width={this.item.logo.width} height={this.item.logo.height} className="logo" alt={this.item.client} onLoad={(event) => this.onImgLoaded(event)} /> : "&nbsp;"}
                         </div>
                     </div>
                 </header>

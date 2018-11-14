@@ -3,6 +3,20 @@
 
 @import "../styles/variables";
 
+@mixin nav-link-bg($bg-color, $color) {
+    background-color: $bg-color;
+    color: $color;
+
+    &:hover,
+    &.nav-link-selected {
+        background-color: lighten($bg-color, 12%);
+    }
+
+    span {
+        color: $color;
+    }
+}
+
 #nav {
     margin-top: $spacing-min;
     background-color: #fff;
@@ -40,7 +54,7 @@
     position: relative;
     display: block;
     background-color: $color-mint;
-    transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out, color 0.3s ease-out;
 
     &:hover,
     &.nav-link-selected {
@@ -64,6 +78,7 @@
         font-size: 75%;
         font-weight: 500;
         display: block;
+        transition: color 0.3s ease-out;
     }
 
     .fa-caret-right {
@@ -74,49 +89,81 @@
         transition: padding-left 0.15s ease-out;
     }
 
-    &.andeavor {
+    .andeavor & {
+        @include nav-link-bg($color-andeavor, #fff);
+    }
+
+    .cole-weber & {
+        @include nav-link-bg($color-cole-weber, #fff);
+    }
+
+    .columbia-crest & {
+        @include nav-link-bg($color-columbia-crest, #fff);
+    }
+
+    .nutshell-classics & {
+        @include nav-link-bg($color-nutshell-classics, #fff);
+    }
+
+    .rdsoda & {
+        @include nav-link-bg($color-rdsoda, #fff);
+    }
+
+    .sightlife & {
+        @include nav-link-bg($color-sightlife, #fff);
+    }
+
+    .tease & {
+        @include nav-link-bg($color-tease, #fff);
+    }
+
+    .washingtons-lottery & {
+        @include nav-link-bg($color-washingtons-lottery, #fff);
+    }
+
+    &.nav-link-andeavor {
         .fa-caret-right {
             color: $color-andeavor;
         }
     }
 
-    &.cole-weber {
+    &.nav-link-cole-weber {
         .fa-caret-right {
             color: $color-cole-weber;
         }
     }
 
-    &.columbia-crest {
+    &.nav-link-columbia-crest {
         .fa-caret-right {
             color: $color-columbia-crest;
         }
     }
 
-    &.nutshell-classics {
+    &.nav-link-nutshell-classics {
         .fa-caret-right {
             color: $color-nutshell-classics;
         }
     }
 
-    &.rdsoda {
+    &.nav-link-rdsoda {
         .fa-caret-right {
             color: $color-rdsoda;
         }
     }
 
-    &.sightlife {
+    &.nav-link-sightlife {
         .fa-caret-right {
             color: $color-sightlife;
         }
     }
 
-    &.tease {
+    &.nav-link-tease {
         .fa-caret-right {
             color: $color-tease;
         }
     }
 
-    &.washingtons-lottery {
+    &.nav-link-washingtons-lottery {
         .fa-caret-right {
             color: $color-washingtons-lottery;
         }
