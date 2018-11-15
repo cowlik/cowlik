@@ -8,19 +8,7 @@ class Work extends Component {
     constructor(props) {
         super(props);
         this.item = {};
-        this.zIndex = 0;
-        this.prevHeaderBgElem = null;
     };
-
-    componentDidMount() {
-        this.changeColor();
-    }
-
-    componentDidUpdate(prevProps) {
-        if (this.item.slug !== prevProps.match.params.slug) {
-            this.changeColor();
-        }
-    }
 
     onImgLoaded(event) {
         event.target.classList.add('img-loaded');
@@ -28,22 +16,6 @@ class Work extends Component {
 
     setItem() {
         this.item = work.find(item => item.slug === this.props.match.params.slug);
-    };
-
-    changeColor() {
-        let headerBgElem = document.getElementsByClassName('header-bg-' + this.item.slug)[0];
-
-        headerBgElem.style.zIndex = this.zIndex;
-        headerBgElem.classList.add('header-bg-selected');
-
-        setTimeout(() => {
-            if (this.prevHeaderBgElem) {
-                this.prevHeaderBgElem.classList.remove('header-bg-selected');
-            }
-            this.prevHeaderBgElem = headerBgElem;
-        }, 300);
-
-        this.zIndex++;
     };
 
     render() {

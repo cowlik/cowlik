@@ -28,6 +28,11 @@
         padding: 0 $spacing-min $spacing-min;
     }
 
+    .dash {
+        color: $color-mint;
+        transition: color 0.5s ease-in-out;
+    }
+
     @media (max-width: ($screen-min - 1px)) {
         font-size: 28px;
     }
@@ -54,7 +59,7 @@
     position: relative;
     display: block;
     background-color: $color-mint;
-    transition: background-color 0.3s ease-out, color 0.3s ease-out;
+    transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
 
     &:hover,
     &.nav-link-selected {
@@ -87,38 +92,6 @@
         top: 2px;
         position: relative;
         transition: padding-left 0.15s ease-out;
-    }
-
-    .andeavor & {
-        @include nav-link-bg($color-andeavor, #fff);
-    }
-
-    .cole-weber & {
-        @include nav-link-bg($color-cole-weber, #fff);
-    }
-
-    .columbia-crest & {
-        @include nav-link-bg($color-columbia-crest, #fff);
-    }
-
-    .nutshell-classics & {
-        @include nav-link-bg($color-nutshell-classics, #fff);
-    }
-
-    .rdsoda & {
-        @include nav-link-bg($color-rdsoda, #fff);
-    }
-
-    .sightlife & {
-        @include nav-link-bg($color-sightlife, #fff);
-    }
-
-    .tease & {
-        @include nav-link-bg($color-tease, #fff);
-    }
-
-    .washingtons-lottery & {
-        @include nav-link-bg($color-washingtons-lottery, #fff);
     }
 
     &.nav-link-andeavor {
@@ -200,10 +173,6 @@
         }
     }
 
-    .dash {
-        color: $color-mint;
-    }
-
     @media (min-width: $screen-med) {
         padding: 30px $spacing-max 0;
 
@@ -211,5 +180,101 @@
             margin-right: 18px;
             font-size: 38px;
         }
+    }
+}
+
+.andeavor {
+    #nav {
+        .dash {
+            color: $color-andeavor;
+        }
+    }
+
+    .nav-link {
+        @include nav-link-bg($color-andeavor, #fff);
+    }
+}
+
+.cole-weber {
+    #nav {
+        .dash {
+            color: $color-cole-weber;
+        }
+    }
+
+    .nav-link {
+        @include nav-link-bg($color-cole-weber, #fff);
+    }
+}
+
+.columbia-crest {
+    #nav {
+        .dash {
+            color: $color-columbia-crest;
+        }
+    }
+
+    .nav-link {
+        @include nav-link-bg($color-columbia-crest, #fff);
+    }
+}
+
+.nutshell-classics {
+    #nav {
+        .dash {
+            color: $color-nutshell-classics;
+        }
+    }
+
+    .nav-link {
+        @include nav-link-bg($color-nutshell-classics, #fff);
+    }
+}
+
+.rdsoda {
+    #nav {
+        .dash {
+            color: $color-rdsoda;
+        }
+    }
+
+    .nav-link {
+        @include nav-link-bg($color-rdsoda, #fff);
+    }
+}
+
+.sightlife {
+    #nav {
+        .dash {
+            color: $color-sightlife;
+        }
+    }
+
+    .nav-link {
+        @include nav-link-bg($color-sightlife, #fff);
+    }
+}
+
+.tease {
+    #nav {
+        .dash {
+            color: $color-tease;
+        }
+    }
+
+    .nav-link {
+        @include nav-link-bg($color-tease, #fff);
+    }
+}
+
+.washingtons-lottery {
+    #nav {
+        .dash {
+            color: $color-washingtons-lottery;
+        }
+    }
+
+    .nav-link {
+        @include nav-link-bg($color-washingtons-lottery, #fff);
     }
 }

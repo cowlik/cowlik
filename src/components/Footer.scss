@@ -3,17 +3,28 @@
 
 @import "../styles/variables";
 
+@mixin footer-bg($color) {
+    background: linear-gradient(to bottom, $color 25%, lighten($color, 10%) 100%);
+}
+
 #footer {
     height: 40px;
     background: linear-gradient(to bottom, $color-mint  0%, $color-pear 100%);
     text-align: right;
+    position: relative;
     flex: none;
 
     p {
         line-height: 40px;
-        padding: 0 $spacing-min;
-        color: $color-gray-light;
         font-size: 70%;
+        color: $color-gray-light;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .container {
+        padding: 0 $spacing-min;
+        position: relative;
+        z-index: 1;
     }
 
     @media (min-width: $screen-med) {
@@ -21,11 +32,153 @@
 
         p {
             line-height: 90px;
+        }
+
+        .container {
             padding: 0 $spacing-max;
         }
     }
 
     @media print {
         display: none;
+    }
+}
+
+.footer-bg {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+.footer-bg-andeavor {
+    @include footer-bg($color-andeavor);
+}
+
+.footer-bg-cole-weber {
+    @include footer-bg($color-cole-weber);
+}
+
+.footer-bg-columbia-crest {
+    @include footer-bg($color-columbia-crest);
+}
+
+.footer-bg-nutshell-classics {
+    @include footer-bg($color-nutshell-classics);
+}
+
+.footer-bg-rdsoda {
+    @include footer-bg($color-rdsoda);
+}
+
+.footer-bg-sightlife {
+    @include footer-bg($color-sightlife);
+}
+
+.footer-bg-tease {
+    @include footer-bg($color-tease);
+}
+
+.footer-bg-washingtons-lottery {
+    @include footer-bg($color-washingtons-lottery);
+}
+
+.andeavor {
+    #footer {
+        p {
+            color: #fff;
+        }
+    }
+
+    .footer-bg-andeavor {
+        opacity: 1;
+    }
+}
+
+.cole-weber {
+    #footer {
+        p {
+            color: #fff;
+        }
+    }
+
+    .footer-bg-cole-weber {
+        opacity: 1;
+    }
+}
+
+.columbia-crest {
+    #footer {
+        p {
+            color: #fff;
+        }
+    }
+
+    .footer-bg-columbia-crest {
+        opacity: 1;
+    }
+}
+
+.nutshell-classics {
+    #footer {
+        p {
+            color: #fff;
+        }
+    }
+
+    .footer-bg-nutshell-classics {
+        opacity: 1;
+    }
+}
+
+.rdsoda {
+    #footer {
+        p {
+            color: #fff;
+        }
+    }
+
+    .footer-bg-rdsoda {
+        opacity: 1;
+    }
+}
+
+.sightlife {
+    #footer {
+        p {
+            color: #fff;
+        }
+    }
+
+    .footer-bg-sightlife {
+        opacity: 1;
+    }
+}
+
+.tease {
+    #footer {
+        p {
+            color: #fff;
+        }
+    }
+
+    .footer-bg-tease {
+        opacity: 1;
+    }
+}
+
+.washingtons-lottery {
+    #footer {
+        p {
+            color: #fff;
+        }
+    }
+
+    .footer-bg-washingtons-lottery {
+        opacity: 1;
     }
 }
