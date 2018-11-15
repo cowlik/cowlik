@@ -18,6 +18,10 @@ class Work extends Component {
         this.item = work.find(item => item.slug === this.props.match.params.slug);
     };
 
+    shouldComponentUpdate() {
+        return false;
+    };
+
     render() {
         this.setItem();
 

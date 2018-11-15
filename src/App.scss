@@ -2,6 +2,7 @@
 // --------------------------------------------------
 
 @import "styles/variables";
+@import "styles/webfontloader";
 @import "styles/normalize";
 
 @import "styles/containers";
@@ -27,11 +28,14 @@ html {
 body {
     height: 100%;
     color: $color-gray;
-    font-family: "Podkova", Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
     font-size: 20px;
     font-weight: normal;
     display: flex;
     flex-direction: column;
+
+    .wf-active & {
+        font-family: "Podkova", serif;
+    }
 
     @media (min-width: $screen-med) {
         font-size: 22px;

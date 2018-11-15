@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import 'typeface-podkova';
+import WebFont from 'webfontloader';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faBars, faCaretRight, faEnvelopeSquare, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
@@ -8,6 +8,12 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+
+WebFont.load({
+    google: {
+        families: ['Podkova:400,500,600,700,800']
+    }
+});
 
 library.add(faGithubSquare, faLinkedin, faBars, faCaretRight, faEnvelopeSquare, faExternalLinkAlt);
 

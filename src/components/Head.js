@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import app from '../data/app.json';
+import work from '../data/work.json';
 
 class Head extends Component {
     getTitle() {
@@ -17,7 +18,13 @@ class Head extends Component {
     };
 
     setHtmlClass() {
-        return (this.props.page === 'work') ? <html class={this.props.item.slug} /> : null;
+        const htmlElem = document.getElementsByTagName('html')[0];
+
+        work.map((item, i) => (
+            htmlElem.classList.remove(item.slug)
+        ));
+
+        return (this.props.page === 'work') ? htmlElem.classList.add(this.props.item.slug) : null;
     };
 
     render() {
