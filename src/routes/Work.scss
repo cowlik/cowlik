@@ -3,51 +3,6 @@
 
 @import "../styles/variables";
 
-#main {
-    padding-bottom: $spacing-max;
-
-    p {
-        margin-bottom: $spacing-min / 2;
-    }
-
-    h3 {
-        padding-top: 30px;
-        
-        &:after {
-            content: "\2014";
-            font-size: 18px;
-            font-weight: normal;
-            display: block;
-        }
-    }
-
-    ul {
-        margin-bottom: $spacing-min / 2;
-        margin-left: $spacing-min;
-        text-align: left;
-        display: inline-block;
-    }
-
-    img {
-        width: 100%;
-        height: auto;
-        transition: opacity 0.25s ease-in-out;
-
-        &.img-loaded {
-            opacity: 1;
-        }
-    }
-
-    @media (min-width: $screen-med) {
-        h3 {
-            &:after {
-                font-size: 20px;
-                font-weight: 700;
-            }
-        }
-    }
-}
-
 #work-header {
     &:after {
         margin: ($spacing-min / 2) 0;
@@ -109,6 +64,16 @@
 
     .logo {
         display: none;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        transition: opacity 0.25s ease-in-out;
+
+        &.img-loaded {
+            opacity: 1;
+        }
     }
 
     @media (min-width: 375px) {
@@ -181,6 +146,40 @@
 }
 
 #work-content {
+    padding-bottom: $spacing-min;
+
+    p {
+        margin-bottom: $spacing-min / 2;
+    }
+
+    h3 {
+        padding-top: 30px;
+        
+        &:after {
+            content: "\2014";
+            font-size: 18px;
+            font-weight: normal;
+            display: block;
+        }
+    }
+
+    ul {
+        margin-bottom: $spacing-min / 2;
+        margin-left: $spacing-min;
+        text-align: left;
+        display: inline-block;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        transition: opacity 0.25s ease-in-out;
+
+        &.img-loaded {
+            opacity: 1;
+        }
+    }
+
     > aside {
         display: none;
 
@@ -225,6 +224,14 @@
     @media (min-width: $screen-med) {
         width: 100%;
         display: table;
+        padding-bottom: 0;
+
+        h3 {
+            &:after {
+                font-size: 20px;
+                font-weight: 700;
+            }
+        }
 
         > div,
         > aside {

@@ -36,13 +36,13 @@ class Work extends Component {
                             </h1>
                         </div>
                         <div>
-                            {(this.item.logo.path !== "") ? <img src={this.item.logo.path} width={this.item.logo.width} height={this.item.logo.height} className="logo" alt={this.item.client} onLoad={(event) => this.onImgLoaded(event)} /> : "&nbsp;"}
+                            {(this.item.logo.path.color !== "") ? <img src={this.item.logo.path.color} width={this.item.logo.width} height={this.item.logo.height} className="logo" alt={this.item.client} onLoad={(event) => this.onImgLoaded(event)} /> : "&nbsp;"}
                         </div>
                     </div>
                 </header>
                 <section id="work-content">
                     <div>
-                        <div dangerouslySetInnerHTML={{ __html: this.item.description }} />
+                        <div dangerouslySetInnerHTML={{ __html: this.item.description.long }} />
                         <Aside item={this.item} />
                         <div id="work-screens">
                             {this.item.screens.map((value, i) => (
