@@ -14,7 +14,12 @@ const Main = () => (
                     <Switch location={location}>
                         <Route path="/" exact component={Home} />
                         <Route path="/work/:slug" exact component={Work} />
-                        <Redirect from="/work" to={"/work/" + work[0].slug} />
+                        <Route path="/work" exact render={({ location }) => {
+                            if (location.pathname === window.location.pathname) {
+                                return <Redirect to={"/work/" + work[0].slug} />;
+                            }
+                            return null;
+                        }} />
                     </Switch>
                 </CSSTransition>
             </TransitionGroup>

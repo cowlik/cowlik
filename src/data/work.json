@@ -5,17 +5,21 @@
         "title": "andeavor.com",
         "url": "http://www.andeavor.com",
         "date": "June 2017",
-        "feature": false,
+        "feature": true,
         "logo": {
-            "path": {
-                "color": "/imgs/work/andeavor/logo.svg",
-                "white": ""
+            "work": {
+                "path": "/imgs/work/andeavor/logo.svg",
+                "width": 124,
+                "height": 98
             },
-            "width": 124,
-            "height": 98
+            "feature": {
+                "path": "/imgs/work/andeavor/logo-white.svg",
+                "width": 124,
+                "height": 98
+            }
         },
         "description": {
-            "short": "",
+            "short": "<p>Our client, Tesoro, wanted to announce their acquisition and merge with Western Refining, forming a new company...</p>",
             "long": "<p>Our client, Tesoro, wanted to announce their acquisition and merge with Western Refining, forming a new company called Andeavor. They requested the release of two microsites simultaneously on the day of their announcement, one public and one internal. Utilizing shared UI elements, I came up with a solution to quickly switch between these two versions and publish updated content under some very tight deadlines.</p>"
         },
         "responsibilities": [
@@ -76,15 +80,19 @@
         "date": "April 2017",
         "feature": false,
         "logo": {
-            "path": {
-                "color": "/imgs/work/tease/logo.svg",
-                "white": ""
+            "work": {
+                "path": "/imgs/work/tease/logo.svg",
+                "width": 232,
+                "height": 122
             },
-            "width": 232,
-            "height": 122
+            "feature": {
+                "path": "/imgs/work/tease/logo.svg",
+                "width": 232,
+                "height": 122
+            }
         },
         "description": {
-            "short": "",
+            "short": "<p>This lovely salon located in the Ballard neighborhood of Seattle was in need of a website \"makeover.\"</p>",
             "long": "<p>This lovely salon located in the Ballard neighborhood of Seattle was in need of a website \"makeover.\" Being that it is jointly owned by my wife and sister-in-law, they gave me the complete freedom to design and develop the new site. Since launching the website, the salon has seen a steady rise in bookings thanks to UI &amp; SEO improvement, plus Facebook Open Graph integration.</p>"
         },
         "responsibilities": [
@@ -152,17 +160,21 @@
         "title": "coleweber.com",
         "url": "http://www.coleweber.com",
         "date": "January 2017",
-        "feature": true,
+        "feature": false,
         "logo": {
-            "path": {
-                "color": "/imgs/work/cole-weber/logo.svg",
-                "white": "/imgs/work/cole-weber/logo-white.svg"
+            "work": {
+                "path": "/imgs/work/cole-weber/logo.svg",
+                "width": 30,
+                "height": 34
             },
-            "width": 30,
-            "height": 34
+            "feature": {
+                "path": "/imgs/work/cole-weber/logo-white.svg",
+                "width": 506,
+                "height": 216
+            }
         },
         "description": {
-            "short": "<p>So, our agency needed a complete brand and website overhaul... This was my first chance at working with Harp</p>",
+            "short": "<p>So, our agency needed a complete brand and website overhaul... This was my first chance at working with Harp...</p>",
             "long": "<p>So, our agency needed a complete brand and website overhaul... This was my first chance at working with Harp, a static site server/generator, and I've been a huge fan ever since.</p>"
         },
         "responsibilities": [
@@ -231,15 +243,19 @@
         "date": "March 2016",
         "feature": true,
         "logo": {
-            "path": {
-                "color": "/imgs/work/washingtons-lottery/logo.svg",
-                "white": "/imgs/work/washingtons-lottery/logo-white.svg"
+            "work": {
+                "path": "/imgs/work/washingtons-lottery/logo.svg",
+                "width": 90,
+                "height": 90
             },
-            "width": 90,
-            "height": 90
+            "feature": {
+                "path": "/imgs/work/washingtons-lottery/logo-white.svg",
+                "width": 90,
+                "height": 90
+            }
         },
         "description": {
-            "short": "<p>After a good 10-year run, it was time to retire their former website and, in turn, build a fresher, responsive website</p>",
+            "short": "<p>After a good 10-year run, it was time to retire their former website and, in turn, build a fresher, responsive website...</p>",
             "long": "<p>After a good 10-year run, it was time to retire their former website and, in turn, build a fresher, responsive website with modern browser capabilities while delivering a plethora of content, old and new. Amongst the many achievements, the biggest one was being the sole front-end developer on this gigantic, 7-month effort. As a result, I was proud to say the new website was received with great fanfare by the employees and customers of Washington's Lottery.</p>"
         },
         "responsibilities": [
@@ -306,12 +322,16 @@
         "date": "June 2015",
         "feature": false,
         "logo": {
-            "path": {
-                "color": "",
-                "white": ""
+            "work": {
+                "path": "",
+                "width": 0,
+                "height": 0
             },
-            "width": 0,
-            "height": 0
+            "feature": {
+                "path": "",
+                "width": 0,
+                "height": 0
+            }
         },
         "description": {
             "short": "",
@@ -373,12 +393,16 @@
         "date": "December 2014",
         "feature": false,
         "logo": {
-            "path": {
-                "color": "/imgs/work/cole-weber/logo.svg",
-                "white": ""
+            "work": {
+                "path": "/imgs/work/cole-weber/logo.svg",
+                "width": 30,
+                "height": 34
             },
-            "width": 30,
-            "height": 34
+            "feature": {
+                "path": "/imgs/work/cole-weber/logo-white.svg",
+                "width": 506,
+                "height": 216
+            }
         },
         "description": {
             "short": "",
@@ -426,12 +450,16 @@
         "date": "May 2014",
         "feature": false,
         "logo": {
-            "path": {
-                "color": "/imgs/work/sightlife/logo.svg",
-                "white": ""
+            "work": {
+                "path": "/imgs/work/sightlife/logo.svg",
+                "width": 36,
+                "height": 36
             },
-            "width": 36,
-            "height": 36
+            "feature": {
+                "path": "",
+                "width": 0,
+                "height": 0
+            }
         },
         "description": {
             "short": "",
@@ -492,12 +520,16 @@
         "date": "August 2013",
         "feature": false,
         "logo": {
-            "path": {
-                "color": "/imgs/work/rdsoda/logo.svg",
-                "white": ""
+            "work": {
+                "path": "/imgs/work/rdsoda/logo.svg",
+                "width": 72,
+                "height": 72
             },
-            "width": 72,
-            "height": 72
+            "feature": {
+                "path": "",
+                "width": 0,
+                "height": 0
+            }
         },
         "description": {
             "short": "",

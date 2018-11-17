@@ -3,6 +3,19 @@
 
 @import "../styles/variables";
 
+#work {
+    img {
+        width: 100%;
+        height: auto;
+        opacity: 0;
+        transition: opacity 0.25s ease-in-out;
+
+        &.img-loaded {
+            opacity: 1;
+        }
+    }
+}
+
 #work-header {
     &:after {
         margin: ($spacing-min / 2) 0;
@@ -64,16 +77,6 @@
 
     .logo {
         display: none;
-    }
-
-    img {
-        width: 100%;
-        height: auto;
-        transition: opacity 0.25s ease-in-out;
-
-        &.img-loaded {
-            opacity: 1;
-        }
     }
 
     @media (min-width: 375px) {
@@ -168,16 +171,6 @@
         margin-left: $spacing-min;
         text-align: left;
         display: inline-block;
-    }
-
-    img {
-        width: 100%;
-        height: auto;
-        transition: opacity 0.25s ease-in-out;
-
-        &.img-loaded {
-            opacity: 1;
-        }
     }
 
     > aside {
@@ -275,7 +268,6 @@
     > img {
         max-width: 414px;
         margin-bottom: $spacing-min;
-        //opacity: 0;
 
         &:last-child {
             margin-bottom: 0;

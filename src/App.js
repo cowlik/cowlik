@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactGA from 'react-ga';
 import WebFont from 'webfontloader';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -8,6 +9,9 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+import app from './data/app.json';
+
+ReactGA.initialize(app.google.analytics.id, { debug: false });
 
 WebFont.load({
     google: {
@@ -21,6 +25,18 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.nav = React.createRef();
+    };
+
+    componentDidMount() {
+        this.trackPageview();
+    };
+
+    componentDidUpdate() {
+        this.trackPageview();
+    };
+
+    trackPageview() {
+        ReactGA.pageview(window.location.pathname + window.location.search);
     };
 
     scrollToTop() {

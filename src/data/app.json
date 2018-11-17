@@ -2,10 +2,15 @@
     "title": "cowlik",
     "author": "Clint Harrison",
     "url": "http://www.cowlik.com",
-    "description": "Front-End & UI Developer from Seattle, WA",
+    "description": "Front-End Developer | Seattle, WA",
     "keywords": "",
     "email": "clint@cowlik.com",
     "facebook": {
         "app_id": "1380206638726378"
+    },
+    "google": {
+        "analytics": {
+            "id": "UA-9284920-1"
+        }
     }
 }

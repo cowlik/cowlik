@@ -26,7 +26,7 @@ class Work extends Component {
         this.setItem();
 
         return (
-            <section>
+            <section id="work">
                 <Head item={this.item} page="work" />
                 <header id="work-header">
                     <div>
@@ -36,7 +36,7 @@ class Work extends Component {
                             </h1>
                         </div>
                         <div>
-                            {(this.item.logo.path.color !== "") ? <img src={this.item.logo.path.color} width={this.item.logo.width} height={this.item.logo.height} className="logo" alt={this.item.client} onLoad={(event) => this.onImgLoaded(event)} /> : "&nbsp;"}
+                            {(this.item.logo.work.path !== "") ? <img src={this.item.logo.work.path} width={this.item.logo.work.width} height={this.item.logo.work.height} className="logo" alt={this.item.client} onLoad={(event) => this.onImgLoaded(event)} /> : "&nbsp;"}
                         </div>
                     </div>
                 </header>

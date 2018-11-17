@@ -52,22 +52,14 @@
         }
     }
 
-    p {
-        span {
-            display: inline-block;
-
-            /*
-            &:after {
-                @include fa-icon();
-                content: $fa-var-caret-right;
-                padding-left: 7px;
-                color: $color-mint;
-                top: 2px;
-                position: relative;
-                transition: padding-left 0.15s ease-out;
-            }
-            */
-        }
+    .fa-caret-right {
+        width: auto;
+        padding-left: 7px;
+        color: $color-mint;
+        top: 2px;
+        position: relative;
+        transition: padding-left 0.15s ease-out;
+        display: inline-block;
     }
 
     &:first-child {
@@ -75,12 +67,8 @@
     }
 
     &:hover {
-        p {
-            span {
-                &:after {
-                    padding-left: 11px;
-                }
-            }
+        .fa-caret-right {
+            padding-left: 11px;
         }
     }
 
@@ -91,6 +79,7 @@
             height: 140px;
             line-height: 140px;
             text-align: center;
+            overflow: hidden;
         }
     }
 
@@ -118,12 +107,8 @@
             }
         }
 
-        p {
-            span {
-                &:after {
-                    padding-left: 10px;
-                }
-            }
+        .fa-caret-right {
+            padding-left: 10px;
         }
 
         &:first-child {
@@ -135,12 +120,8 @@
         }
 
         &:hover {
-            p {
-                span {
-                    &:after {
-                        padding-left: 14px;
-                    }
-                }
+            .fa-caret-right {
+                padding-left: 14px;
             }
         }
 
@@ -160,6 +141,45 @@
     }
 }
 
+.feature-more {
+    margin-top: 5px;
+    color: $color-gray-light;
+    font-size: 88%;
+    font-weight: 500;
+
+    @media (min-width: $screen-med) {
+        margin-top: $spacing-min / 2;
+    }
+}
+
+.feature-andeavor {
+    h3 {
+        &:after {
+            color: $color-andeavor;
+        }
+    }
+
+    .fa-caret-right {
+        color: $color-andeavor;
+    }
+
+    img {
+        max-width: 85px;
+    }
+
+    > div {
+        &:first-child {
+            background-color: $color-andeavor;
+        }
+    }
+
+    @media (min-width: $screen-med) {
+        img {
+            max-width: 95px;
+        }
+    }
+}
+
 .feature-cole-weber {
     h3 {
         &:after {
@@ -167,12 +187,8 @@
         }
     }
 
-    p {
-        span {
-            &:after {
-                color: $color-cole-weber;
-            }
-        }
+    .fa-caret-right {
+        color: $color-cole-weber;
     }
 
     img {
@@ -192,6 +208,34 @@
     }
 }
 
+.feature-tease {
+    h3 {
+        &:after {
+            color: $color-tease;
+        }
+    }
+
+    .fa-caret-right {
+        color: $color-tease;
+    }
+
+    img {
+        max-width: 150px;
+    }
+
+    > div {
+        &:first-child {
+            background-color: #ddd;
+        }
+    }
+
+    @media (min-width: $screen-med) {
+        img {
+            max-width: 170px;
+        }
+    }
+}
+
 .feature-washingtons-lottery {
     h3 {
         &:after {
@@ -199,12 +243,8 @@
         }
     }
 
-    p {
-        span {
-            &:after {
-                color: $color-washingtons-lottery;
-            }
-        }
+    .fa-caret-right {
+        color: $color-washingtons-lottery;
     }
 
     img {

@@ -2,13 +2,14 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Header.scss';
+import app from '../data/app.json';
 import work from '../data/work.json';
 
 const Header = props => (
     <header id="header">
         <div className="container">
             <h1>
-                <NavLink to="/">cowlik</NavLink>
+                <NavLink to="/">{app.title}</NavLink>
             </h1>
             <button onClick={() => props.goTo()}>
                 <FontAwesomeIcon icon="bars" />
