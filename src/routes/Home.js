@@ -12,7 +12,8 @@ class Home extends Component {
         return (
             <section id="home" className="container">
                 <Head page="home" />
-                <p><strong>{app.author}</strong>, {app.description}</p>
+                <p><strong>{app.author}</strong></p>
+                <p style={{ color: '#777' }}>{app.description}</p>
                 <p className="dash">&mdash;</p>
                 <Features />
             </section>

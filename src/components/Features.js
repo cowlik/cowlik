@@ -16,10 +16,11 @@ const Features = () => (
                         </div>
                         <div>
                             <h3>{item.client}
-                                <span>{item.title}</span>
+                                <span>{item.title}
+                                    <FontAwesomeIcon icon="caret-right" />
+                                </span>
                             </h3>
                             <div dangerouslySetInnerHTML={{ __html: item.description.short }} />
-                            <p className="feature-more">See more<FontAwesomeIcon icon="caret-right" /></p>
                         </div>
                     </NavLink>
                 ) : null
