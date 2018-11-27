@@ -3,6 +3,7 @@ import { Redirect, Route, Switch } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import './Main.scss';
 import Home from '../routes/Home';
+import NotFound from '../routes/NotFound';
 import Work from '../routes/Work';
 import work from '../data/work.json';
 
@@ -20,6 +21,7 @@ const Main = () => (
                             }
                             return null;
                         }} />
+                        <Route component={NotFound} />
                     </Switch>
                 </CSSTransition>
             </TransitionGroup>
