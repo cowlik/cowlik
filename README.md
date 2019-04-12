@@ -1,2 +1,2 @@
-# cowlik - v6
-## Built with React
+# cowlik
+## Built with [Create React App](https://github.com/facebook/create-react-app)
