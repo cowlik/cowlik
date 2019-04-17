@@ -59,6 +59,10 @@
     @include footer-bg($color-andeavor);
 }
 
+.footer-bg-benchmade {
+    @include footer-bg($color-benchmade);
+}
+
 .footer-bg-cole-weber {
     @include footer-bg($color-cole-weber);
 }
@@ -95,6 +99,18 @@
     }
 
     .footer-bg-andeavor {
+        opacity: 1;
+    }
+}
+
+.benchmade {
+    #footer {
+        p {
+            color: #fff;
+        }
+    }
+
+    .footer-bg-benchmade {
         opacity: 1;
     }
 }

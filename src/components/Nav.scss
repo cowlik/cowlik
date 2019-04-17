@@ -100,6 +100,12 @@
         }
     }
 
+    &.nav-link-benchmade {
+        .fa-caret-right {
+            color: $color-benchmade;
+        }
+    }
+
     &.nav-link-cole-weber {
         .fa-caret-right {
             color: $color-cole-weber;
@@ -192,6 +198,18 @@
 
     .nav-link {
         @include nav-link-bg($color-andeavor, #fff);
+    }
+}
+
+.benchmade {
+    #nav {
+        .dash {
+            color: $color-benchmade;
+        }
+    }
+
+    .nav-link {
+        @include nav-link-bg($color-benchmade, #fff);
     }
 }
 

@@ -333,6 +333,50 @@
     }
 }
 
+.benchmade {
+    #main {
+        h1 {
+            a {
+                svg {
+                    color: $color-benchmade;
+                }
+            }
+        }
+    
+        h3 {
+            &:after {
+                color: $color-benchmade;
+            }
+        }
+    
+        .logo {
+            max-width: 62px;
+        }
+    }
+    
+    #work-header {
+        &:after {
+            color: $color-benchmade;
+        }
+    }
+
+    @media (min-width: $screen-med) {
+        #main {
+            .logo {
+                max-width: 82px;
+            }
+        }
+    }
+
+    @media (min-width: $screen-lrg) {
+        #main {
+            .logo {
+                max-width: 92px;
+            }
+        }
+    }
+}
+
 .cole-weber {
     #main {
         h1 {

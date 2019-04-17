@@ -1,11 +1,60 @@
 [
     {
+        "slug": "benchmade",
+        "client": "Benchmade",
+        "title": "hunttheweb.com",
+        "url": "http://www.hunttheweb.com",
+        "date": "February 2019",
+        "feature": true,
+        "logo": {
+            "work": {
+                "path": "/imgs/work/benchmade/logo.svg",
+                "width": 137,
+                "height": 110
+            },
+            "feature": {
+                "path": "/imgs/work/benchmade/logo-white.svg",
+                "width": 137,
+                "height": 110
+            }
+        },
+        "description": {
+            "short": "<p>...</p>",
+            "long": "<p>...</p>"
+        },
+        "responsibilities": [
+            "UI",
+            "Development"
+        ],
+        "technologies": [
+            "SASS",
+            "JavaScript",
+            "Gulp"
+        ],
+        "screens": [
+            {
+                "title": "Home",
+                "path": "/imgs/work/andeavor/screen-home-1.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            },
+            {
+                "title": "Home",
+                "path": "/imgs/work/andeavor/screen-home-2.jpg",
+                "width": 414,
+                "height": 736,
+                "large": false
+            }
+        ]
+    },
+    {
         "slug": "andeavor",
         "client": "Andeavor",
         "title": "andeavor.com",
         "url": "http://www.andeavor.com",
         "date": "June 2017",
-        "feature": true,
+        "feature": false,
         "logo": {
             "work": {
                 "path": "/imgs/work/andeavor/logo.svg",
@@ -27,7 +76,6 @@
             "Development"
         ],
         "technologies": [
-            "HTML",
             "SASS",
             "JavaScript",
             "Harp",
@@ -101,13 +149,11 @@
             "Development"
         ],
         "technologies": [
-            "HTML",
             "SASS",
             "JavaScript",
             "Harp",
             "Jade",
-            "Gulp",
-            "Git"
+            "Gulp"
         ],
         "screens": [
             {
@@ -182,7 +228,6 @@
             "Development"
         ],
         "technologies": [
-            "HTML",
             "SASS",
             "JavaScript",
             "Harp",
@@ -263,7 +308,6 @@
             "Development"
         ],
         "technologies": [
-            "HTML",
             "LESS",
             "JavaScript",
             "C#",
@@ -342,7 +386,6 @@
             "Development"
         ],
         "technologies": [
-            "HTML",
             "LESS",
             "JavaScript",
             "Grunt"
@@ -413,7 +456,6 @@
             "Development"
         ],
         "technologies": [
-            "HTML",
             "LESS",
             "JavaScript",
             "Grunt"
@@ -470,7 +512,6 @@
             "Development"
         ],
         "technologies": [
-            "HTML",
             "CSS",
             "JavaScript"
         ],
@@ -541,7 +582,6 @@
             "Development"
         ],
         "technologies": [
-            "HTML",
             "CSS",
             "JavaScript"
         ],

@@ -79,6 +79,10 @@
     @include header-bg($color-andeavor);
 }
 
+.header-bg-benchmade {
+    @include header-bg($color-benchmade);
+}
+
 .header-bg-cole-weber {
     @include header-bg($color-cole-weber);
 }
@@ -109,6 +113,12 @@
 
 .andeavor {
     .header-bg-andeavor {
+        opacity: 1;
+    }
+}
+
+.benchmade {
+    .header-bg-benchmade {
         opacity: 1;
     }
 }

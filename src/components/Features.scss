@@ -180,6 +180,34 @@
     }
 }
 
+.feature-benchmade {
+    h3 {
+        &:after {
+            color: $color-benchmade;
+        }
+    }
+
+    .fa-caret-right {
+        color: $color-benchmade;
+    }
+
+    img {
+        max-width: 102px;
+    }
+
+    > div {
+        &:first-child {
+            background-color: $color-benchmade;
+        }
+    }
+
+    @media (min-width: $screen-med) {
+        img {
+            max-width: 112px;
+        }
+    }
+}
+
 .feature-cole-weber {
     h3 {
         &:after {
