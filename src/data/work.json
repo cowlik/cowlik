@@ -19,32 +19,91 @@
             }
         },
         "description": {
-            "short": "<p>...</p>",
-            "long": "<p>...</p>"
+            "short": "<p>Use your experience, wit, and hunting prowess to track a bull elk across the internet, following clues, twists and turns scattered across the web...</p>",
+            "long": "<p>Use your experience, wit, and hunting prowess to track a bull elk across the internet, following clues, twists and turns scattered across the web.</p>"
         },
         "responsibilities": [
             "UI",
             "Development"
         ],
         "technologies": [
-            "SASS",
             "JavaScript",
-            "Gulp"
+            "SASS",
+            "Gulp",
+            "Babel",
+            "Browserify",
+            ".NET"
         ],
         "screens": [
             {
                 "title": "Home",
-                "path": "/imgs/work/andeavor/screen-home-1.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "path": "/imgs/work/benchmade/screen-home.jpg",
+                "width": 800,
+                "height": 945,
+                "large": true
             },
             {
-                "title": "Home",
-                "path": "/imgs/work/andeavor/screen-home-2.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "title": "Stage 1: Early Riser",
+                "path": "/imgs/work/benchmade/screen-stage-1.jpg",
+                "width": 800,
+                "height": 1082,
+                "large": true
+            },
+            {
+                "title": "Stage 2: Test Your Skills",
+                "path": "/imgs/work/benchmade/screen-stage-2.jpg",
+                "width": 800,
+                "height": 1087,
+                "large": true
+            },
+            {
+                "title": "Stage 2: Test Your Skills - Make Your Choice",
+                "path": "/imgs/work/benchmade/screen-stage-2-make-your-choice.jpg",
+                "width": 800,
+                "height": 1075,
+                "large": true
+            },
+            {
+                "title": "Stage 3: Tracking The Herds",
+                "path": "/imgs/work/benchmade/screen-stage-3.jpg",
+                "width": 800,
+                "height": 970,
+                "large": true
+            },
+            {
+                "title": "Stage 4: Scout The Location",
+                "path": "/imgs/work/benchmade/screen-stage-4.jpg",
+                "width": 800,
+                "height": 1053,
+                "large": true
+            },
+            {
+                "title": "Stage 5: Weather Watcher",
+                "path": "/imgs/work/benchmade/screen-stage-5.jpg",
+                "width": 800,
+                "height": 1120,
+                "large": true
+            },
+            {
+                "title": "Stage 6: The Glassing Point",
+                "path": "/imgs/work/benchmade/screen-stage-6.jpg",
+                "width": 800,
+                "height": 730,
+                "large": true
+            },
+            {
+                "title": "Trophy Room",
+                "path": "/imgs/work/benchmade/screen-trophy-room.jpg",
+                "width": 800,
+                "height": 1000,
+                "large": true
+            },
+            {
+                "title": "The Field",
+                "path": "/imgs/work/benchmade/screen-the-field.jpg",
+                "width": 800,
+                "height": 1040,
+                "large": true
             }
         ]
     },
@@ -76,11 +135,12 @@
             "Development"
         ],
         "technologies": [
-            "SASS",
             "JavaScript",
+            "SASS",
             "Harp",
             "Jade",
-            "Gulp"
+            "Gulp",
+            "HTML"
         ],
         "screens": [
             {
@@ -149,11 +209,12 @@
             "Development"
         ],
         "technologies": [
-            "SASS",
             "JavaScript",
+            "SASS",
             "Harp",
             "Jade",
-            "Gulp"
+            "Gulp",
+            "HTML"
         ],
         "screens": [
             {
@@ -228,12 +289,13 @@
             "Development"
         ],
         "technologies": [
-            "SASS",
             "JavaScript",
+            "SASS",
             "Harp",
             "Jade",
             "Markdown",
-            "Gulp"
+            "Gulp",
+            "HTML"
         ],
         "screens": [
             {
@@ -308,10 +370,11 @@
             "Development"
         ],
         "technologies": [
-            "LESS",
             "JavaScript",
+            "LESS",
             "C#",
-            "Grunt"
+            "Grunt",
+            ".NET"
         ],
         "screens": [
             {
@@ -386,9 +449,10 @@
             "Development"
         ],
         "technologies": [
-            "LESS",
             "JavaScript",
-            "Grunt"
+            "LESS",
+            "Grunt",
+            ".NET"
         ],
         "screens": [
             {
@@ -456,9 +520,10 @@
             "Development"
         ],
         "technologies": [
-            "LESS",
             "JavaScript",
-            "Grunt"
+            "LESS",
+            "Grunt",
+            "HTML"
         ],
         "screens": [
             {
@@ -512,8 +577,10 @@
             "Development"
         ],
         "technologies": [
+            "JavaScript",
             "CSS",
-            "JavaScript"
+            "Orchard",
+            ".NET"
         ],
         "screens": [
             {
@@ -582,8 +649,9 @@
             "Development"
         ],
         "technologies": [
+            "JavaScript",
             "CSS",
-            "JavaScript"
+            "HTML"
         ],
         "screens": [
             {
