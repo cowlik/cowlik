@@ -20,7 +20,7 @@
         },
         "description": {
             "short": "<p>Use your experience, wit, and hunting prowess to track a bull elk across the internet, following clues, twists and turns scattered across the web...</p>",
-            "long": "<p>Use your experience, wit, and hunting prowess to track a bull elk across the internet, following clues, twists and turns scattered across the web.</p>"
+            "long": "<p><em>Use your experience, wit, and hunting prowess to track a bull elk across the internet, following clues, twists and turns scattered across the web.</em></p><p>With over 10,000 eager registrants, hunters would have to quickly and cleverly complete 6 stages in order to place in the top 100 and earn prizes.</p>"
         },
         "responsibilities": [
             "UI",
@@ -112,7 +112,7 @@
         "client": "Andeavor",
         "title": "andeavor.com",
         "url": "http://www.andeavor.com",
-        "date": "June 2017",
+        "date": "August 2017",
         "feature": false,
         "logo": {
             "work": {
@@ -127,8 +127,8 @@
             }
         },
         "description": {
-            "short": "<p>Our client, Tesoro, wanted to announce their acquisition and merge with Western Refining, forming a new company...</p>",
-            "long": "<p>Our client, Tesoro, wanted to announce their acquisition and merge with Western Refining, forming a new company called Andeavor. They requested the release of two microsites simultaneously on the day of their announcement, one public and one internal. Utilizing shared UI elements, I came up with a solution to quickly switch between these two versions and publish updated content under some very tight deadlines.</p>"
+            "short": "",
+            "long": "<p>The legacy site for Andeavor, a premier marketing, logistics, and refining company. Launched in tandem with <a href=\"http://andeavorlogistics.com/\" target=\"_blank\">Andeavor Logistics</a>, both of these sites were built with Umbraco, an open-source content management system.</p>"
         },
         "responsibilities": [
             "UI",
@@ -137,46 +137,46 @@
         "technologies": [
             "JavaScript",
             "SASS",
-            "Harp",
-            "Jade",
+            "Razor (C#)",
             "Gulp",
-            "HTML"
+            "Umbraco",
+            ".NET"
         ],
         "screens": [
             {
                 "title": "Home",
-                "path": "/imgs/work/andeavor/screen-home-1.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "path": "/imgs/work/andeavor/screen-home.jpg",
+                "width": 800,
+                "height": 960,
+                "large": true
             },
             {
-                "title": "Home",
-                "path": "/imgs/work/andeavor/screen-home-2.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "title": "Home - Who Is Andeavor?",
+                "path": "/imgs/work/andeavor/screen-home-who-is-andeavor.jpg",
+                "width": 800,
+                "height": 993,
+                "large": true
             },
             {
-                "title": "Home",
-                "path": "/imgs/work/andeavor/screen-home-3.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
-            },
-            {
-                "title": "Video",
-                "path": "/imgs/work/andeavor/screen-video.jpg",
+                "title": "Refining",
+                "path": "/imgs/work/andeavor/screen-refining.jpg",
                 "width": 800,
                 "height": 825,
                 "large": true
             },
             {
-                "title": "FAQ",
-                "path": "/imgs/work/andeavor/screen-faq.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "title": "News",
+                "path": "/imgs/work/andeavor/screen-news.jpg",
+                "width": 800,
+                "height": 926,
+                "large": true
+            },
+            {
+                "title": "News - Article",
+                "path": "/imgs/work/andeavor/screen-news-article.jpg",
+                "width": 800,
+                "height": 825,
+                "large": true
             }
         ]
     },
@@ -641,7 +641,7 @@
         },
         "description": {
             "short": "",
-            "long": "<p>\"Visually document and share your traveling experiences in real-time!\" For this personal endeavor, I fused Instagram with Google Maps to create a handy, web application which lets you chronologically share your traveling adventures via pictures and geolocation. Next time you hit the road, give it a try!</p>"
+            "long": "<p><em>Visually document and share your traveling experiences in real-time.</em></p><p>For this personal endeavor, I fused Instagram with Google Maps to create a handy, web application which lets you chronologically share your traveling adventures via pictures and geolocation.</p>"
         },
         "responsibilities": [
             "Design",
