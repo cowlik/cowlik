@@ -20,7 +20,7 @@
         },
         "description": {
             "short": "<p>Use your experience, wit, and hunting prowess to track a bull elk across the internet, following clues, twists and turns scattered across the web...</p>",
-            "long": "<p><em>Use your experience, wit, and hunting prowess to track a bull elk across the internet, following clues, twists and turns scattered across the web.</em></p><p>With over 10,000 eager registrants, hunters would have to quickly and cleverly complete 6 stages in order to place in the top 100 and earn prizes.</p>"
+            "long": "<p><em>Use your experience, wit, and hunting prowess to track a bull elk across the internet, following clues, twists and turns scattered across the web.</em></p><p>With over 10,000 eager registrants, hunters will have to quickly and cleverly complete 6 stages in order to place in the top 100 and earn prizes.</p>"
         },
         "responsibilities": [
             "UI",
@@ -362,8 +362,8 @@
             }
         },
         "description": {
-            "short": "<p>After a good 10-year run, it was time to retire their former website and, in turn, build a fresher, responsive website...</p>",
-            "long": "<p>After a good 10-year run, it was time to retire their former website and, in turn, build a fresher, responsive website with modern browser capabilities while delivering a plethora of content, old and new. Amongst the many achievements, the biggest one was being the sole front-end developer on this gigantic, 7-month effort. As a result, I was proud to say the new website was received with great fanfare by the employees and customers of Washington's Lottery.</p>"
+            "short": "<p>Check your ticket, discover new Scratch games, and stay up to date on the latest amounts and results of all your favorite Jackpot games...</p>",
+            "long": "<p><em>Check your ticket, discover new Scratch games, and stay up to date on the latest amounts and results of all your favorite Jackpot games.</em></p><p>The official website for the Washington State Lottery is fully responsive, ADA compliant, and is visited by thousands of consumers daily.</p>"
         },
         "responsibilities": [
             "UI",
@@ -380,44 +380,37 @@
             {
                 "title": "Home",
                 "path": "/imgs/work/washingtons-lottery/screen-home.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "width": 800,
+                "height": 1090,
+                "large": true
             },
             {
                 "title": "Scratch",
                 "path": "/imgs/work/washingtons-lottery/screen-scratch.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "width": 800,
+                "height": 1172,
+                "large": true
             },
             {
                 "title": "Winning Numbers",
                 "path": "/imgs/work/washingtons-lottery/screen-winning-numbers.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "width": 800,
+                "height": 1000,
+                "large": true
             },
             {
                 "title": "Check Your Ticket",
                 "path": "/imgs/work/washingtons-lottery/screen-check-your-ticket.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "width": 800,
+                "height": 890,
+                "large": true
             },
             {
                 "title": "Past Drawings",
                 "path": "/imgs/work/washingtons-lottery/screen-past-drawings.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
-            },
-            {
-                "title": "Media",
-                "path": "/imgs/work/washingtons-lottery/screen-media.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "width": 800,
+                "height": 1080,
+                "large": true
             }
         ]
     },
@@ -442,7 +435,7 @@
         },
         "description": {
             "short": "",
-            "long": "<p>\"This is your chance to take control of 5 acres of grapes and become a winemaker to help craft Columbia Crest's 2015 Crowdsourced Cabernet.\" Based on the award-winning 2014 website, the 2015 version was refactored from the ground up to include new features such as: a responsive UI, user profiles, enhanced voting &amp; voting history, and daily vineyard cameras.</p>"
+            "long": "<p><em>This is your chance to take control of 5 acres of grapes and become a winemaker to help craft Columbia Crest's 2015 Crowdsourced Cabernet.</em></p><p>Based on the award-winning 2014 website, the 2015 version was refactored from the ground up to include new features such as: responsive framework, registration, profile, voting history, and daily cameras.</p>"
         },
         "responsibilities": [
             "UI",
@@ -456,11 +449,25 @@
         ],
         "screens": [
             {
-                "title": "Cams - 2015",
-                "path": "/imgs/work/columbia-crest/screen-cams-2015.jpg",
+                "title": "2015",
+                "path": "/imgs/work/columbia-crest/screen-2015.jpg",
+                "width": 800,
+                "height": 825,
+                "large": true
+            },
+            {
+                "title": "2015 - Mobile",
+                "path": "/imgs/work/columbia-crest/screen-2015-mobile.jpg",
                 "width": 414,
                 "height": 736,
                 "large": false
+            },
+            {
+                "title": "2015 - Conditions",
+                "path": "/imgs/work/columbia-crest/screen-2015-conditions.jpg",
+                "width": 800,
+                "height": 825,
+                "large": true
             },
             {
                 "title": "Dashboard",
@@ -470,15 +477,8 @@
                 "large": true
             },
             {
-                "title": "Conditions",
-                "path": "/imgs/work/columbia-crest/screen-conditions.jpg",
-                "width": 800,
-                "height": 825,
-                "large": true
-            },
-            {
-                "title": "Cams - 2014",
-                "path": "/imgs/work/columbia-crest/screen-cams-2014.jpg",
+                "title": "2014",
+                "path": "/imgs/work/columbia-crest/screen-2014.jpg",
                 "width": 800,
                 "height": 825,
                 "large": true
@@ -486,9 +486,9 @@
             {
                 "title": "Home",
                 "path": "/imgs/work/columbia-crest/screen-home.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "width": 800,
+                "height": 825,
+                "large": true
             }
         ]
     },
