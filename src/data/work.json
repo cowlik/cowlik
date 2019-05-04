@@ -513,7 +513,7 @@
         },
         "description": {
             "short": "",
-            "long": "<p>For our agency's 2014 holiday \"card\", we acted out and recreated 15 holiday, movie favorites and squished them into 6-second Vine videos. Along with the microsite, I created a carousel to house and autoplay each Vine video as it slides into focus for a seamless experience.</p>"
+            "long": "<p><em>With all the shopping, cooking, and fake sincerity you have to muster during the holidays, you simply don't have time to watch all your favorite holiday movies. That's why we recreated 6-second Vine videos of every holiday classic. You know, holiday classics. In a nutshell.</em></p>"
         },
         "responsibilities": [
             "UI",
@@ -529,16 +529,16 @@
             {
                 "title": "Nutshell Classics",
                 "path": "/imgs/work/nutshell-classics/screen-1.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "width": 800,
+                "height": 825,
+                "large": true
             },
             {
                 "title": "Nutshell Classics",
                 "path": "/imgs/work/nutshell-classics/screen-2.jpg",
-                "width": 800,
-                "height": 825,
-                "large": true
+                "width": 414,
+                "height": 736,
+                "large": false
             },
             {
                 "title": "Nutshell Classics",
@@ -570,7 +570,7 @@
         },
         "description": {
             "short": "",
-            "long": "<p>\"We spent time with some of our recipient and donor families. On our travels, we heard their stories and even provided cameras so recipients could show us the world through their new eyes. The results are an inspiring reminder that every surgery can change a life.\" In an effort to showcase all the fantastic imagery captured by our in-house photographer and all the eye-donor recipients, our agency designed a full-screen slideshow/scrolling experience. The result was a fun and engaging microsite which allowed me to push my skills outside of my comfort zone.</p>"
+            "long": "<p><em>We spent time with some of our recipient and donor families. On our travels, we heard their stories and even provided cameras so recipients could show us the world through their new eyes. The results are an inspiring reminder that every surgery can change a life.</em></p>"
         },
         "responsibilities": [
             "UI",
@@ -650,51 +650,37 @@
         ],
         "technologies": [
             "JavaScript",
-            "CSS",
+            "Bootstrap",
             "HTML"
         ],
         "screens": [
             {
                 "title": "RdSoda",
                 "path": "/imgs/work/rdsoda/screen-1.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "width": 800,
+                "height": 860,
+                "large": true
             },
             {
                 "title": "RdSoda",
                 "path": "/imgs/work/rdsoda/screen-2.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "width": 800,
+                "height": 1031,
+                "large": true
             },
             {
                 "title": "RdSoda",
                 "path": "/imgs/work/rdsoda/screen-3.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "width": 800,
+                "height": 1891,
+                "large": true
             },
             {
                 "title": "RdSoda",
                 "path": "/imgs/work/rdsoda/screen-4.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
-            },
-            {
-                "title": "RdSoda",
-                "path": "/imgs/work/rdsoda/screen-5.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
-            },
-            {
-                "title": "RdSoda",
-                "path": "/imgs/work/rdsoda/screen-6.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "width": 800,
+                "height": 1070,
+                "large": true
             }
         ]
     }
