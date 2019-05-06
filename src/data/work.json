@@ -200,8 +200,8 @@
             }
         },
         "description": {
-            "short": "<p>This lovely salon located in the Ballard neighborhood of Seattle was in need of a website \"makeover.\"</p>",
-            "long": "<p>This lovely salon located in the Ballard neighborhood of Seattle was in need of a website \"makeover.\" Being that it is jointly owned by my wife and sister-in-law, they gave me the complete freedom to design and develop the new site. Since launching the website, the salon has seen a steady rise in bookings thanks to UI &amp; SEO improvement, plus Facebook Open Graph integration.</p>"
+            "short": "",
+            "long": "<p>Located in the Ballard neighborhood of Seattle, this salon's website was in need of a makeover. Being that it is jointly owned by my wife and sister-in-law, they gave me the freedom to completely overhaul their site.</p>"
         },
         "responsibilities": [
             "Design",
@@ -220,44 +220,37 @@
             {
                 "title": "Home",
                 "path": "/imgs/work/tease/screen-home-1.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "width": 800,
+                "height": 1025,
+                "large": true
             },
             {
                 "title": "Home",
                 "path": "/imgs/work/tease/screen-home-2.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
-            },
-            {
-                "title": "Home",
-                "path": "/imgs/work/tease/screen-home-3.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "width": 800,
+                "height": 1025,
+                "large": true
             },
             {
                 "title": "About",
                 "path": "/imgs/work/tease/screen-about.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "width": 800,
+                "height": 1025,
+                "large": true
             },
             {
                 "title": "Services",
                 "path": "/imgs/work/tease/screen-services.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "width": 800,
+                "height": 1025,
+                "large": true
             },
             {
                 "title": "Contact",
                 "path": "/imgs/work/tease/screen-contact.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "width": 800,
+                "height": 1025,
+                "large": true
             }
         ]
     },
@@ -281,8 +274,8 @@
             }
         },
         "description": {
-            "short": "<p>So, our agency needed a complete brand and website overhaul... This was my first chance at working with Harp...</p>",
-            "long": "<p>So, our agency needed a complete brand and website overhaul... This was my first chance at working with Harp, a static site server/generator, and I've been a huge fan ever since.</p>"
+            "short": "",
+            "long": "<p>Website for our creative agency, launched in part of a identity rebrand.</p>"
         },
         "responsibilities": [
             "UI",
@@ -301,44 +294,30 @@
             {
                 "title": "Home",
                 "path": "/imgs/work/cole-weber/screen-home-1.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "width": 800,
+                "height": 900,
+                "large": true
             },
             {
                 "title": "Home",
                 "path": "/imgs/work/cole-weber/screen-home-2.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "width": 800,
+                "height": 1113,
+                "large": true
             },
             {
                 "title": "Work",
                 "path": "/imgs/work/cole-weber/screen-work.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
-            },
-            {
-                "title": "Hawksome",
-                "path": "/imgs/work/cole-weber/screen-hawksome.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "width": 800,
+                "height": 1030,
+                "large": true
             },
             {
                 "title": "People",
                 "path": "/imgs/work/cole-weber/screen-people.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
-            },
-            {
-                "title": "Story",
-                "path": "/imgs/work/cole-weber/screen-story.jpg",
-                "width": 414,
-                "height": 736,
-                "large": false
+                "width": 800,
+                "height": 1130,
+                "large": true
             }
         ]
     },
