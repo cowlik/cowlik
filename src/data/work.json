@@ -39,71 +39,61 @@
                 "title": "Home",
                 "path": "/imgs/work/benchmade/screen-home.jpg",
                 "width": 800,
-                "height": 945,
-                "large": true
+                "height": 945
             },
             {
                 "title": "Stage 1: Early Riser",
                 "path": "/imgs/work/benchmade/screen-stage-1.jpg",
                 "width": 800,
-                "height": 1082,
-                "large": true
+                "height": 1082
             },
             {
                 "title": "Stage 2: Test Your Skills",
                 "path": "/imgs/work/benchmade/screen-stage-2.jpg",
                 "width": 800,
-                "height": 1087,
-                "large": true
+                "height": 1087
             },
             {
                 "title": "Stage 2: Test Your Skills - Make Your Choice",
                 "path": "/imgs/work/benchmade/screen-stage-2-make-your-choice.jpg",
                 "width": 800,
-                "height": 1075,
-                "large": true
+                "height": 1075
             },
             {
                 "title": "Stage 3: Tracking The Herds",
                 "path": "/imgs/work/benchmade/screen-stage-3.jpg",
                 "width": 800,
-                "height": 970,
-                "large": true
+                "height": 970
             },
             {
                 "title": "Stage 4: Scout The Location",
                 "path": "/imgs/work/benchmade/screen-stage-4.jpg",
                 "width": 800,
-                "height": 1053,
-                "large": true
+                "height": 1053
             },
             {
                 "title": "Stage 5: Weather Watcher",
                 "path": "/imgs/work/benchmade/screen-stage-5.jpg",
                 "width": 800,
-                "height": 1120,
-                "large": true
+                "height": 1120
             },
             {
                 "title": "Stage 6: The Glassing Point",
                 "path": "/imgs/work/benchmade/screen-stage-6.jpg",
                 "width": 800,
-                "height": 730,
-                "large": true
+                "height": 730
             },
             {
                 "title": "Trophy Room",
                 "path": "/imgs/work/benchmade/screen-trophy-room.jpg",
                 "width": 800,
-                "height": 1000,
-                "large": true
+                "height": 1000
             },
             {
                 "title": "The Field",
                 "path": "/imgs/work/benchmade/screen-the-field.jpg",
                 "width": 800,
-                "height": 1040,
-                "large": true
+                "height": 1040
             }
         ]
     },
@@ -147,36 +137,31 @@
                 "title": "Home",
                 "path": "/imgs/work/andeavor/screen-home.jpg",
                 "width": 800,
-                "height": 960,
-                "large": true
+                "height": 960
             },
             {
                 "title": "Home - Who Is Andeavor?",
                 "path": "/imgs/work/andeavor/screen-home-who-is-andeavor.jpg",
                 "width": 800,
-                "height": 993,
-                "large": true
+                "height": 993
             },
             {
                 "title": "Refining",
                 "path": "/imgs/work/andeavor/screen-refining.jpg",
                 "width": 800,
-                "height": 825,
-                "large": true
+                "height": 825
             },
             {
                 "title": "News",
                 "path": "/imgs/work/andeavor/screen-news.jpg",
                 "width": 800,
-                "height": 926,
-                "large": true
+                "height": 926
             },
             {
                 "title": "News - Article",
                 "path": "/imgs/work/andeavor/screen-news-article.jpg",
                 "width": 800,
-                "height": 825,
-                "large": true
+                "height": 825
             }
         ]
     },
@@ -221,36 +206,31 @@
                 "title": "Home",
                 "path": "/imgs/work/tease/screen-home-1.jpg",
                 "width": 800,
-                "height": 1025,
-                "large": true
+                "height": 1025
             },
             {
                 "title": "Home",
                 "path": "/imgs/work/tease/screen-home-2.jpg",
                 "width": 800,
-                "height": 1025,
-                "large": true
+                "height": 1025
             },
             {
                 "title": "About",
                 "path": "/imgs/work/tease/screen-about.jpg",
                 "width": 800,
-                "height": 1025,
-                "large": true
+                "height": 1025
             },
             {
                 "title": "Services",
                 "path": "/imgs/work/tease/screen-services.jpg",
                 "width": 800,
-                "height": 1025,
-                "large": true
+                "height": 1025
             },
             {
                 "title": "Contact",
                 "path": "/imgs/work/tease/screen-contact.jpg",
                 "width": 800,
-                "height": 1025,
-                "large": true
+                "height": 1025
             }
         ]
     },
@@ -295,29 +275,25 @@
                 "title": "Home",
                 "path": "/imgs/work/cole-weber/screen-home-1.jpg",
                 "width": 800,
-                "height": 900,
-                "large": true
+                "height": 900
             },
             {
                 "title": "Home",
                 "path": "/imgs/work/cole-weber/screen-home-2.jpg",
                 "width": 800,
-                "height": 1113,
-                "large": true
+                "height": 1113
             },
             {
                 "title": "Work",
                 "path": "/imgs/work/cole-weber/screen-work.jpg",
                 "width": 800,
-                "height": 1030,
-                "large": true
+                "height": 1030
             },
             {
                 "title": "People",
                 "path": "/imgs/work/cole-weber/screen-people.jpg",
                 "width": 800,
-                "height": 1130,
-                "large": true
+                "height": 1130
             }
         ]
     },
@@ -360,36 +336,31 @@
                 "title": "Home",
                 "path": "/imgs/work/washingtons-lottery/screen-home.jpg",
                 "width": 800,
-                "height": 1090,
-                "large": true
+                "height": 1090
             },
             {
                 "title": "Scratch",
                 "path": "/imgs/work/washingtons-lottery/screen-scratch.jpg",
                 "width": 800,
-                "height": 1172,
-                "large": true
+                "height": 1172
             },
             {
                 "title": "Winning Numbers",
                 "path": "/imgs/work/washingtons-lottery/screen-winning-numbers.jpg",
                 "width": 800,
-                "height": 1000,
-                "large": true
+                "height": 1000
             },
             {
                 "title": "Check Your Ticket",
                 "path": "/imgs/work/washingtons-lottery/screen-check-your-ticket.jpg",
                 "width": 800,
-                "height": 890,
-                "large": true
+                "height": 890
             },
             {
                 "title": "Past Drawings",
                 "path": "/imgs/work/washingtons-lottery/screen-past-drawings.jpg",
                 "width": 800,
-                "height": 1080,
-                "large": true
+                "height": 1080
             }
         ]
     },
@@ -431,43 +402,37 @@
                 "title": "2015",
                 "path": "/imgs/work/columbia-crest/screen-2015.jpg",
                 "width": 800,
-                "height": 825,
-                "large": true
+                "height": 825
             },
             {
                 "title": "2015 - Mobile",
                 "path": "/imgs/work/columbia-crest/screen-2015-mobile.jpg",
                 "width": 414,
-                "height": 736,
-                "large": false
+                "height": 736
             },
             {
                 "title": "2015 - Conditions",
                 "path": "/imgs/work/columbia-crest/screen-2015-conditions.jpg",
                 "width": 800,
-                "height": 825,
-                "large": true
+                "height": 825
             },
             {
                 "title": "Dashboard",
                 "path": "/imgs/work/columbia-crest/screen-dashboard.jpg",
                 "width": 800,
-                "height": 825,
-                "large": true
+                "height": 825
             },
             {
                 "title": "2014",
                 "path": "/imgs/work/columbia-crest/screen-2014.jpg",
                 "width": 800,
-                "height": 825,
-                "large": true
+                "height": 825
             },
             {
                 "title": "Home",
                 "path": "/imgs/work/columbia-crest/screen-home.jpg",
                 "width": 800,
-                "height": 825,
-                "large": true
+                "height": 825
             }
         ]
     },
@@ -509,22 +474,19 @@
                 "title": "Nutshell Classics",
                 "path": "/imgs/work/nutshell-classics/screen-1.jpg",
                 "width": 800,
-                "height": 825,
-                "large": true
+                "height": 825
             },
             {
                 "title": "Nutshell Classics",
                 "path": "/imgs/work/nutshell-classics/screen-2.jpg",
                 "width": 414,
-                "height": 736,
-                "large": false
+                "height": 736
             },
             {
                 "title": "Nutshell Classics",
                 "path": "/imgs/work/nutshell-classics/screen-3.jpg",
                 "width": 414,
-                "height": 736,
-                "large": false
+                "height": 736
             }
         ]
     },
@@ -566,36 +528,31 @@
                 "title": "Home",
                 "path": "/imgs/work/sightlife/screen-home.jpg",
                 "width": 1080,
-                "height": 825,
-                "large": true
+                "height": 825
             },
             {
                 "title": "Recipients",
                 "path": "/imgs/work/sightlife/screen-recipients-1.jpg",
                 "width": 1080,
-                "height": 825,
-                "large": true
+                "height": 825
             },
             {
                 "title": "Recipients",
                 "path": "/imgs/work/sightlife/screen-recipients-2.jpg",
                 "width": 1080,
-                "height": 825,
-                "large": true
+                "height": 825
             },
             {
                 "title": "Recipients",
                 "path": "/imgs/work/sightlife/screen-recipients-3.jpg",
                 "width": 1080,
-                "height": 825,
-                "large": true
+                "height": 825
             },
             {
                 "title": "Donors",
                 "path": "/imgs/work/sightlife/screen-donors.jpg",
                 "width": 1080,
-                "height": 825,
-                "large": true
+                "height": 825
             }
         ]
     },
@@ -637,29 +594,25 @@
                 "title": "RdSoda",
                 "path": "/imgs/work/rdsoda/screen-1.jpg",
                 "width": 800,
-                "height": 860,
-                "large": true
+                "height": 860
             },
             {
                 "title": "RdSoda",
                 "path": "/imgs/work/rdsoda/screen-2.jpg",
                 "width": 800,
-                "height": 1031,
-                "large": true
+                "height": 1031
             },
             {
                 "title": "RdSoda",
                 "path": "/imgs/work/rdsoda/screen-3.jpg",
                 "width": 800,
-                "height": 1891,
-                "large": true
+                "height": 1891
             },
             {
                 "title": "RdSoda",
                 "path": "/imgs/work/rdsoda/screen-4.jpg",
                 "width": 800,
-                "height": 1070,
-                "large": true
+                "height": 1070
             }
         ]
     }

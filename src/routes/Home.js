@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Home.scss';
 import Head from '../components/Head';
 import Features from '../components/Features';
 import app from '../data/app.json';
