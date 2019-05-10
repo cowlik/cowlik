@@ -13,8 +13,14 @@ class Work extends Component {
     };
 
     onImgLoaded(event) {
-        if (event.target.classList[0] !== 'logo')
-            ScrollReveal().reveal(event.target, {
+        const
+            imgElems = document.getElementById('work-screens').getElementsByTagName('img'),
+            imgsLength = imgElems.length;
+
+        let id = parseInt(event.target.getAttribute('data-id'));
+
+        if (id === imgsLength - 1)
+            ScrollReveal().reveal(imgElems, {
                 distance: '20px',
                 duration: 500,
                 easing: 'ease-out',
@@ -49,7 +55,7 @@ class Work extends Component {
                                 </h1>
                             </div>
                             <div>
-                                {(this.item.logo.work.path !== "") ? <img src={this.item.logo.work.path} width={this.item.logo.work.width} height={this.item.logo.work.height} className="logo" alt={this.item.client} onLoad={(event) => this.onImgLoaded(event)} /> : "&nbsp;"}
+                                {(this.item.logo.work.path !== "") ? <img src={this.item.logo.work.path} width={this.item.logo.work.width} height={this.item.logo.work.height} className="logo" alt={this.item.client} /> : "&nbsp;"}
                             </div>
                         </div>
                     </header>
@@ -59,7 +65,7 @@ class Work extends Component {
                             <Aside item={this.item} />
                             <div id="work-screens">
                                 {this.item.screens.map((value, i) => (
-                                    <img src={value.path} width={value.width} height={value.height} alt={value.title} key={i} className={(value.width >= 800) ? "work-screen-lrg" : null} onLoad={(event) => this.onImgLoaded(event)} />
+                                    <img src={value.path} width={value.width} height={value.height} alt={value.title} key={i} className={(value.width >= 800) ? "work-screen-lrg" : null} data-id={i} onLoad={(event) => this.onImgLoaded(event)} />
                                 ))}
                             </div>
                         </div>
