@@ -34,14 +34,8 @@ class Head extends Component {
 
                 <title>{this.getTitle()}</title>
 
-                <meta property="fb:app_id" content={app.facebook.app_id} />
-                <meta property="og:description" content={app.description} />
-                <meta property="og:image" content={this.getDomain() + "/imgs/card-facebook.png"} />
                 <meta property="og:title" content={this.getTitle()} />
                 <meta property="og:url" content={this.getUrl()} />
-                <meta name="twitter:card" content="summary" />
-                <meta name="twitter:description" content={app.description} />
-                <meta name="twitter:image" content={this.getDomain() + "/imgs/card-twitter.png"} />
                 <meta name="twitter:title" content={this.getTitle()} />
             </Helmet>
         );
