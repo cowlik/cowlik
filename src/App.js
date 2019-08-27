@@ -3,7 +3,7 @@ import ReactGA from 'react-ga';
 import WebFont from 'webfontloader';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faBars, faCaretRight, faEnvelopeSquare, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faCaretRight, faEnvelopeSquare, faExternalLinkAlt, faPrint } from '@fortawesome/free-solid-svg-icons';
 import './App.scss';
 import Header from './components/Header';
 import Main from './components/Main';
@@ -19,7 +19,7 @@ WebFont.load({
     }
 });
 
-library.add(faGithubSquare, faLinkedin, faBars, faCaretRight, faEnvelopeSquare, faExternalLinkAlt);
+library.add(faGithubSquare, faLinkedin, faBars, faCaretRight, faEnvelopeSquare, faExternalLinkAlt, faPrint);
 
 class App extends Component {
     constructor(props) {
