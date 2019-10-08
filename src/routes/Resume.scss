@@ -4,6 +4,8 @@
 @import "../styles/variables";
 
 #resume {
+    padding-bottom: $spacing-min;
+
     h1 {
         margin-bottom: 6px;
     }
@@ -49,6 +51,8 @@
     }
 
     @media (min-width: $screen-med) {
+        padding-bottom: $spacing-max;
+
         button {
             padding-top: 5px;
             padding-bottom: 5px;
@@ -63,6 +67,8 @@
     }
 
     @media print {
+        padding-bottom: 0;
+
         a {
             font-size: 12pt;
         }
@@ -143,6 +149,10 @@
         aside {
             width: 35%;
             margin-right: $spacing-min;
+
+            + .dash {
+                display: none;
+            }
         }
     }
 
@@ -164,6 +174,10 @@
 
         aside {
             width: 40%;
+
+            + .dash {
+                display: none;
+            }
         }
     }
 }

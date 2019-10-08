@@ -45,6 +45,7 @@ const Resume = () => (
                 <h4>AAA, Visual Communications</h4>
                 <p>1999 - 2001</p>
             </aside>
+            <p className="dash">&mdash;</p>
             <article>
                 <h2>Experience:</h2>
                 <h3>Senior Front-End Developer</h3>
