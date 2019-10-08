@@ -14,7 +14,7 @@
     }
 
     h3 {
-        margin-bottom: 3px;
+        margin-bottom: 5px;
         line-height: 100%;
         font-weight: 600;
     }
@@ -26,10 +26,7 @@
     }
 
     a {
-        font-size: 18px;
-        margin-left: 3px;
         transition: color 0.25s ease-out;
-        display: block;
 
         &:hover {
             color: $color-gray-light;
@@ -52,10 +49,6 @@
     }
 
     @media (min-width: $screen-med) {
-        a {
-            font-size: 20px;
-        }
-
         button {
             padding-top: 5px;
             padding-bottom: 5px;
@@ -82,6 +75,95 @@
             span {
                 display: block;
             }
+        }
+    }
+}
+
+#resume-header {
+    a {
+        display: block;
+        font-size: 18px;
+    }
+
+    @media (min-width: $screen-med) {
+        a {
+            font-size: 20px;
+        }
+    }
+}
+
+#resume-content {
+    a {
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    article {
+        ul {
+            margin-top: 5px;
+            margin-left: $spacing-min;
+            font-size: 18px;
+        }
+    }
+
+    aside {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        li {
+            margin: 0 $spacing-min;
+        }
+    }
+
+    @media (min-width: $screen-med) {
+        article {
+            ul {
+                font-size: 20px;
+            }
+        }
+    }
+
+    @media (min-width: $screen-lrg) {
+        display: flex;
+
+        article {
+            width: 65%;
+            margin-left: $spacing-min;
+
+            ul {
+                font-size: 22px;
+            }
+        }
+
+        aside {
+            width: 35%;
+            margin-right: $spacing-min;
+        }
+    }
+
+    @media print {
+        display: flex;
+
+        a {
+            text-decoration: none;
+        }
+
+        article {
+            width: 60%;
+            margin-left: 0.3in;
+
+            ul {
+                font-size: 12pt;
+            }
+        }
+
+        aside {
+            width: 40%;
         }
     }
 }
