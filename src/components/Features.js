@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
-import ScrollReveal from 'scrollreveal';
-import { NavLink } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import './Features.scss';
-import work from '../data/work.json';
+import React, { useEffect } from 'react'
+import ScrollReveal from 'scrollreveal'
+import { NavLink } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import './Features.scss'
+import work from '../data/work.json'
 
 const Features = () => (
     <section id="features">
@@ -16,21 +16,20 @@ const Features = () => (
             ))}
         </div>
     </section>
-);
+)
 
 const Feature = props => {
     useEffect(() => {
         ScrollReveal().reveal('.feature-' + props.item.slug, {
-            distance: '20px',
             duration: 500,
             easing: 'ease-out'
-        });
-    });
+        })
+    })
 
     return (
         <NavLink to={"/work/" + props.item.slug} className={"feature feature-" + props.item.slug}>
             <div>
-                <img src={props.item.logo.feature.path} width={props.item.logo.feature.width} height={props.item.logo.feature.height} alt={props.item.client} />
+                <img src={props.item.logo.feature.src} width={props.item.logo.feature.width} height={props.item.logo.feature.height} alt={props.item.client} />
             </div>
             <div>
                 <h3>{props.item.client}
@@ -41,7 +40,7 @@ const Feature = props => {
                 <div dangerouslySetInnerHTML={{ __html: props.item.description.short }} />
             </div>
         </NavLink>
-    );
-};
+    )
+}
 
-export default Features;
+export default Features

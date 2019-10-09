@@ -8,18 +8,18 @@
         "feature": true,
         "logo": {
             "work": {
-                "path": "/imgs/work/benchmade/logo.svg",
+                "src": "/imgs/work/benchmade/logo.svg",
                 "width": 137,
                 "height": 110
             },
             "feature": {
-                "path": "/imgs/work/benchmade/logo-white.svg",
+                "src": "/imgs/work/benchmade/logo-white.svg",
                 "width": 137,
                 "height": 110
             }
         },
         "description": {
-            "short": "<p>Use your experience, wit, and hunting prowess to track a bull elk across the internet, following clues, twists and turns scattered across the web...</p>",
+            "short": "<p><em>Use your experience, wit, and hunting prowess to track a bull elk across the internet, following clues, twists and turns scattered across the web...</em></p>",
             "long": "<p><em>Use your experience, wit, and hunting prowess to track a bull elk across the internet, following clues, twists and turns scattered across the web.</em></p><p>With over 10,000 eager registrants, hunters will have to quickly and cleverly complete 6 stages in order to place in the top 100 and earn prizes.</p>"
         },
         "responsibilities": [
@@ -34,64 +34,71 @@
             "Browserify",
             ".NET"
         ],
-        "screens": [
+        "assets": [
+            {
+                "title": "Case Study",
+                "src": "https://player.vimeo.com/video/333380555",
+                "width": 640,
+                "height": 360,
+                "type": "video"
+            },
             {
                 "title": "Home",
-                "path": "/imgs/work/benchmade/screen-home.jpg",
+                "src": "/imgs/work/benchmade/screen-home.jpg",
                 "width": 800,
                 "height": 945
             },
             {
                 "title": "Stage 1: Early Riser",
-                "path": "/imgs/work/benchmade/screen-stage-1.jpg",
+                "src": "/imgs/work/benchmade/screen-stage-1.jpg",
                 "width": 800,
                 "height": 1082
             },
             {
                 "title": "Stage 2: Test Your Skills",
-                "path": "/imgs/work/benchmade/screen-stage-2.jpg",
+                "src": "/imgs/work/benchmade/screen-stage-2.jpg",
                 "width": 800,
                 "height": 1087
             },
             {
                 "title": "Stage 2: Test Your Skills - Make Your Choice",
-                "path": "/imgs/work/benchmade/screen-stage-2-make-your-choice.jpg",
+                "src": "/imgs/work/benchmade/screen-stage-2-make-your-choice.jpg",
                 "width": 800,
                 "height": 1075
             },
             {
                 "title": "Stage 3: Tracking The Herds",
-                "path": "/imgs/work/benchmade/screen-stage-3.jpg",
+                "src": "/imgs/work/benchmade/screen-stage-3.jpg",
                 "width": 800,
                 "height": 970
             },
             {
                 "title": "Stage 4: Scout The Location",
-                "path": "/imgs/work/benchmade/screen-stage-4.jpg",
+                "src": "/imgs/work/benchmade/screen-stage-4.jpg",
                 "width": 800,
                 "height": 1053
             },
             {
                 "title": "Stage 5: Weather Watcher",
-                "path": "/imgs/work/benchmade/screen-stage-5.jpg",
+                "src": "/imgs/work/benchmade/screen-stage-5.jpg",
                 "width": 800,
                 "height": 1120
             },
             {
                 "title": "Stage 6: The Glassing Point",
-                "path": "/imgs/work/benchmade/screen-stage-6.jpg",
+                "src": "/imgs/work/benchmade/screen-stage-6.jpg",
                 "width": 800,
                 "height": 730
             },
             {
                 "title": "Trophy Room",
-                "path": "/imgs/work/benchmade/screen-trophy-room.jpg",
+                "src": "/imgs/work/benchmade/screen-trophy-room.jpg",
                 "width": 800,
                 "height": 1000
             },
             {
                 "title": "The Field",
-                "path": "/imgs/work/benchmade/screen-the-field.jpg",
+                "src": "/imgs/work/benchmade/screen-the-field.jpg",
                 "width": 800,
                 "height": 1040
             }
@@ -106,12 +113,12 @@
         "feature": false,
         "logo": {
             "work": {
-                "path": "/imgs/work/andeavor/logo.svg",
+                "src": "/imgs/work/andeavor/logo.svg",
                 "width": 124,
                 "height": 98
             },
             "feature": {
-                "path": "/imgs/work/andeavor/logo-white.svg",
+                "src": "/imgs/work/andeavor/logo-white.svg",
                 "width": 124,
                 "height": 98
             }
@@ -132,34 +139,34 @@
             "Umbraco",
             ".NET"
         ],
-        "screens": [
+        "assets": [
             {
                 "title": "Home",
-                "path": "/imgs/work/andeavor/screen-home.jpg",
+                "src": "/imgs/work/andeavor/screen-home.jpg",
                 "width": 800,
                 "height": 960
             },
             {
                 "title": "Home - Who Is Andeavor?",
-                "path": "/imgs/work/andeavor/screen-home-who-is-andeavor.jpg",
+                "src": "/imgs/work/andeavor/screen-home-who-is-andeavor.jpg",
                 "width": 800,
                 "height": 993
             },
             {
                 "title": "Refining",
-                "path": "/imgs/work/andeavor/screen-refining.jpg",
+                "src": "/imgs/work/andeavor/screen-refining.jpg",
                 "width": 800,
                 "height": 825
             },
             {
                 "title": "News",
-                "path": "/imgs/work/andeavor/screen-news.jpg",
+                "src": "/imgs/work/andeavor/screen-news.jpg",
                 "width": 800,
                 "height": 926
             },
             {
                 "title": "News - Article",
-                "path": "/imgs/work/andeavor/screen-news-article.jpg",
+                "src": "/imgs/work/andeavor/screen-news-article.jpg",
                 "width": 800,
                 "height": 825
             }
@@ -174,12 +181,12 @@
         "feature": false,
         "logo": {
             "work": {
-                "path": "/imgs/work/tease/logo.svg",
+                "src": "/imgs/work/tease/logo.svg",
                 "width": 232,
                 "height": 122
             },
             "feature": {
-                "path": "/imgs/work/tease/logo.svg",
+                "src": "/imgs/work/tease/logo.svg",
                 "width": 232,
                 "height": 122
             }
@@ -201,34 +208,34 @@
             "Gulp",
             "HTML"
         ],
-        "screens": [
+        "assets": [
             {
                 "title": "Home",
-                "path": "/imgs/work/tease/screen-home-1.jpg",
+                "src": "/imgs/work/tease/screen-home-1.jpg",
                 "width": 800,
                 "height": 1025
             },
             {
                 "title": "Home",
-                "path": "/imgs/work/tease/screen-home-2.jpg",
+                "src": "/imgs/work/tease/screen-home-2.jpg",
                 "width": 800,
                 "height": 1025
             },
             {
                 "title": "About",
-                "path": "/imgs/work/tease/screen-about.jpg",
+                "src": "/imgs/work/tease/screen-about.jpg",
                 "width": 800,
                 "height": 1025
             },
             {
                 "title": "Services",
-                "path": "/imgs/work/tease/screen-services.jpg",
+                "src": "/imgs/work/tease/screen-services.jpg",
                 "width": 800,
                 "height": 1025
             },
             {
                 "title": "Contact",
-                "path": "/imgs/work/tease/screen-contact.jpg",
+                "src": "/imgs/work/tease/screen-contact.jpg",
                 "width": 800,
                 "height": 1025
             }
@@ -243,12 +250,12 @@
         "feature": false,
         "logo": {
             "work": {
-                "path": "/imgs/work/cole-weber/logo.svg",
+                "src": "/imgs/work/cole-weber/logo.svg",
                 "width": 30,
                 "height": 34
             },
             "feature": {
-                "path": "/imgs/work/cole-weber/logo-white.svg",
+                "src": "/imgs/work/cole-weber/logo-white.svg",
                 "width": 506,
                 "height": 216
             }
@@ -270,28 +277,28 @@
             "Gulp",
             "HTML"
         ],
-        "screens": [
+        "assets": [
             {
                 "title": "Home",
-                "path": "/imgs/work/cole-weber/screen-home-1.jpg",
+                "src": "/imgs/work/cole-weber/screen-home-1.jpg",
                 "width": 800,
                 "height": 900
             },
             {
                 "title": "Home",
-                "path": "/imgs/work/cole-weber/screen-home-2.jpg",
+                "src": "/imgs/work/cole-weber/screen-home-2.jpg",
                 "width": 800,
                 "height": 1113
             },
             {
                 "title": "Work",
-                "path": "/imgs/work/cole-weber/screen-work.jpg",
+                "src": "/imgs/work/cole-weber/screen-work.jpg",
                 "width": 800,
                 "height": 1030
             },
             {
                 "title": "People",
-                "path": "/imgs/work/cole-weber/screen-people.jpg",
+                "src": "/imgs/work/cole-weber/screen-people.jpg",
                 "width": 800,
                 "height": 1130
             }
@@ -306,18 +313,18 @@
         "feature": true,
         "logo": {
             "work": {
-                "path": "/imgs/work/washingtons-lottery/logo.svg",
+                "src": "/imgs/work/washingtons-lottery/logo.svg",
                 "width": 90,
                 "height": 90
             },
             "feature": {
-                "path": "/imgs/work/washingtons-lottery/logo-white.svg",
+                "src": "/imgs/work/washingtons-lottery/logo-white.svg",
                 "width": 90,
                 "height": 90
             }
         },
         "description": {
-            "short": "<p>Check your ticket, discover new Scratch games, and stay up to date on the latest amounts and results of all your favorite Jackpot games...</p>",
+            "short": "<p><em>Check your ticket, discover new Scratch games, and stay up to date on the latest amounts and results of all your favorite Jackpot games...</em></p>",
             "long": "<p><em>Check your ticket, discover new Scratch games, and stay up to date on the latest amounts and results of all your favorite Jackpot games.</em></p><p>The official website for the Washington State Lottery is fully responsive, ADA compliant, and is visited by thousands of consumers daily.</p>"
         },
         "responsibilities": [
@@ -331,34 +338,34 @@
             "Grunt",
             ".NET"
         ],
-        "screens": [
+        "assets": [
             {
                 "title": "Home",
-                "path": "/imgs/work/washingtons-lottery/screen-home.jpg",
+                "src": "/imgs/work/washingtons-lottery/screen-home.jpg",
                 "width": 800,
                 "height": 1090
             },
             {
                 "title": "Scratch",
-                "path": "/imgs/work/washingtons-lottery/screen-scratch.jpg",
+                "src": "/imgs/work/washingtons-lottery/screen-scratch.jpg",
                 "width": 800,
                 "height": 1172
             },
             {
                 "title": "Winning Numbers",
-                "path": "/imgs/work/washingtons-lottery/screen-winning-numbers.jpg",
+                "src": "/imgs/work/washingtons-lottery/screen-winning-numbers.jpg",
                 "width": 800,
                 "height": 1000
             },
             {
                 "title": "Check Your Ticket",
-                "path": "/imgs/work/washingtons-lottery/screen-check-your-ticket.jpg",
+                "src": "/imgs/work/washingtons-lottery/screen-check-your-ticket.jpg",
                 "width": 800,
                 "height": 890
             },
             {
                 "title": "Past Drawings",
-                "path": "/imgs/work/washingtons-lottery/screen-past-drawings.jpg",
+                "src": "/imgs/work/washingtons-lottery/screen-past-drawings.jpg",
                 "width": 800,
                 "height": 1080
             }
@@ -373,12 +380,12 @@
         "feature": false,
         "logo": {
             "work": {
-                "path": "",
+                "src": "",
                 "width": 0,
                 "height": 0
             },
             "feature": {
-                "path": "",
+                "src": "",
                 "width": 0,
                 "height": 0
             }
@@ -397,40 +404,40 @@
             "Grunt",
             ".NET"
         ],
-        "screens": [
+        "assets": [
             {
                 "title": "2015",
-                "path": "/imgs/work/columbia-crest/screen-2015.jpg",
+                "src": "/imgs/work/columbia-crest/screen-2015.jpg",
                 "width": 800,
                 "height": 825
             },
             {
                 "title": "2015 - Mobile",
-                "path": "/imgs/work/columbia-crest/screen-2015-mobile.jpg",
+                "src": "/imgs/work/columbia-crest/screen-2015-mobile.jpg",
                 "width": 414,
                 "height": 736
             },
             {
                 "title": "2015 - Conditions",
-                "path": "/imgs/work/columbia-crest/screen-2015-conditions.jpg",
+                "src": "/imgs/work/columbia-crest/screen-2015-conditions.jpg",
                 "width": 800,
                 "height": 825
             },
             {
                 "title": "Dashboard",
-                "path": "/imgs/work/columbia-crest/screen-dashboard.jpg",
+                "src": "/imgs/work/columbia-crest/screen-dashboard.jpg",
                 "width": 800,
                 "height": 825
             },
             {
                 "title": "2014",
-                "path": "/imgs/work/columbia-crest/screen-2014.jpg",
+                "src": "/imgs/work/columbia-crest/screen-2014.jpg",
                 "width": 800,
                 "height": 825
             },
             {
                 "title": "Home",
-                "path": "/imgs/work/columbia-crest/screen-home.jpg",
+                "src": "/imgs/work/columbia-crest/screen-home.jpg",
                 "width": 800,
                 "height": 825
             }
@@ -445,12 +452,12 @@
         "feature": false,
         "logo": {
             "work": {
-                "path": "/imgs/work/cole-weber/logo.svg",
+                "src": "/imgs/work/cole-weber/logo.svg",
                 "width": 30,
                 "height": 34
             },
             "feature": {
-                "path": "/imgs/work/cole-weber/logo-white.svg",
+                "src": "/imgs/work/cole-weber/logo-white.svg",
                 "width": 506,
                 "height": 216
             }
@@ -469,22 +476,22 @@
             "Grunt",
             "HTML"
         ],
-        "screens": [
+        "assets": [
             {
                 "title": "Nutshell Classics",
-                "path": "/imgs/work/nutshell-classics/screen-1.jpg",
+                "src": "/imgs/work/nutshell-classics/screen-1.jpg",
                 "width": 800,
                 "height": 825
             },
             {
-                "title": "Nutshell Classics",
-                "path": "/imgs/work/nutshell-classics/screen-2.jpg",
+                "title": "Nutshell Classics - Mobile",
+                "src": "/imgs/work/nutshell-classics/screen-2.jpg",
                 "width": 414,
                 "height": 736
             },
             {
-                "title": "Nutshell Classics",
-                "path": "/imgs/work/nutshell-classics/screen-3.jpg",
+                "title": "Nutshell Classics - Mobile",
+                "src": "/imgs/work/nutshell-classics/screen-3.jpg",
                 "width": 414,
                 "height": 736
             }
@@ -499,12 +506,12 @@
         "feature": false,
         "logo": {
             "work": {
-                "path": "/imgs/work/sightlife/logo.svg",
+                "src": "/imgs/work/sightlife/logo.svg",
                 "width": 36,
                 "height": 36
             },
             "feature": {
-                "path": "",
+                "src": "",
                 "width": 0,
                 "height": 0
             }
@@ -523,34 +530,34 @@
             "Orchard",
             ".NET"
         ],
-        "screens": [
+        "assets": [
             {
                 "title": "Home",
-                "path": "/imgs/work/sightlife/screen-home.jpg",
+                "src": "/imgs/work/sightlife/screen-home.jpg",
                 "width": 1080,
                 "height": 825
             },
             {
                 "title": "Recipients",
-                "path": "/imgs/work/sightlife/screen-recipients-1.jpg",
+                "src": "/imgs/work/sightlife/screen-recipients-1.jpg",
                 "width": 1080,
                 "height": 825
             },
             {
                 "title": "Recipients",
-                "path": "/imgs/work/sightlife/screen-recipients-2.jpg",
+                "src": "/imgs/work/sightlife/screen-recipients-2.jpg",
                 "width": 1080,
                 "height": 825
             },
             {
                 "title": "Recipients",
-                "path": "/imgs/work/sightlife/screen-recipients-3.jpg",
+                "src": "/imgs/work/sightlife/screen-recipients-3.jpg",
                 "width": 1080,
                 "height": 825
             },
             {
                 "title": "Donors",
-                "path": "/imgs/work/sightlife/screen-donors.jpg",
+                "src": "/imgs/work/sightlife/screen-donors.jpg",
                 "width": 1080,
                 "height": 825
             }
@@ -565,12 +572,12 @@
         "feature": false,
         "logo": {
             "work": {
-                "path": "/imgs/work/rdsoda/logo.svg",
+                "src": "/imgs/work/rdsoda/logo.svg",
                 "width": 72,
                 "height": 72
             },
             "feature": {
-                "path": "",
+                "src": "",
                 "width": 0,
                 "height": 0
             }
@@ -589,28 +596,28 @@
             "Bootstrap",
             "HTML"
         ],
-        "screens": [
+        "assets": [
             {
-                "title": "RdSoda",
-                "path": "/imgs/work/rdsoda/screen-1.jpg",
+                "title": "Home",
+                "src": "/imgs/work/rdsoda/screen-1.jpg",
                 "width": 800,
                 "height": 860
             },
             {
-                "title": "RdSoda",
-                "path": "/imgs/work/rdsoda/screen-2.jpg",
+                "title": "Cabo San Lucas - Marker 1",
+                "src": "/imgs/work/rdsoda/screen-2.jpg",
                 "width": 800,
                 "height": 1031
             },
             {
-                "title": "RdSoda",
-                "path": "/imgs/work/rdsoda/screen-3.jpg",
+                "title": "Cabo San Lucas - Marker 4",
+                "src": "/imgs/work/rdsoda/screen-3.jpg",
                 "width": 800,
                 "height": 1891
             },
             {
-                "title": "RdSoda",
-                "path": "/imgs/work/rdsoda/screen-4.jpg",
+                "title": "Victoria B.C. - Marker 2",
+                "src": "/imgs/work/rdsoda/screen-4.jpg",
                 "width": 800,
                 "height": 1070
             }
