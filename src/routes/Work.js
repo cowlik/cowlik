@@ -1,48 +1,49 @@
-import React, { Component } from 'react'
-import ScrollReveal from 'scrollreveal'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import './Work.scss'
-import NotFound from './NotFound'
-import Head from '../components/Head'
-import work from '../data/work.json'
+import React, { Component } from 'react';
+import ScrollReveal from 'scrollreveal';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './Work.scss';
+import NotFound from './NotFound';
+import Head from '../components/Head';
+import work from '../data/work.json';
 
 class Work extends Component {
     constructor(props) {
-        super(props)
-        this.item = {}
-    }
+        super(props);
+        this.item = {};
+    };
 
     onImgLoaded(event) {
         const
             assetElems = document.getElementsByClassName('work-asset'),
             imgElems = document.getElementById('work-assets').getElementsByTagName('img'),
-            imgsLength = imgElems.length
+            imgsLength = imgElems.length;
 
-        let id = parseInt(event.target.getAttribute('data-id'))
+        let id = parseInt(event.target.getAttribute('data-id'));
 
-        if (id === imgsLength - 1)
+        if (id === imgsLength - 1) {
             ScrollReveal().reveal(assetElems, {
                 duration: 500,
                 easing: 'ease-out',
                 viewOffset: {
                     bottom: 100
                 }
-            })
-    }
+            });
+        }
+    };
 
     setItem() {
-        this.item = work.find(item => item.slug === this.props.match.params.slug)
-    }
+        this.item = work.find(item => item.slug === this.props.match.params.slug);
+    };
 
     shouldComponentUpdate() {
-        return false
-    }
+        return false;
+    };
 
     render() {
-        this.setItem()
+        this.setItem();
 
         if (!this.item) {
-            return <NotFound />
+            return <NotFound />;
         } else {
             return (
                 <section id="work">
@@ -65,7 +66,7 @@ class Work extends Component {
                             <Aside item={this.item} />
                             <div id="work-assets">
                                 {this.item.assets.map((value, i) => {
-                                    if (value.type && value.type === 'video')
+                                    if (value.type && value.type === 'video') {
                                         return (
                                             <div className="work-asset" key={i}>
                                                 <div className="container-video">
@@ -73,24 +74,25 @@ class Work extends Component {
                                                 </div>
                                                 <p><small><em>{value.title}</em></small></p>
                                             </div>
-                                        )
-                                    else
+                                        );
+                                    } else {
                                         return (
                                             <div className="work-asset" style={(value.width < 800) ? { maxWidth: value.width + 'px' } : null} key={i}>
                                                 <img src={value.src} width={value.width} height={value.height} alt={value.title} data-id={i} onLoad={(event) => this.onImgLoaded(event)} />
                                                 <p><small><em>{value.title}</em></small></p>
                                             </div>
-                                        )
+                                        );
+                                    }
                                 })}
                             </div>
                         </div>
                         <Aside item={this.item} />
                     </section>
                 </section>
-            )
+            );
         }
-    }
-}
+    };
+};
 
 const Aside = props => (
     <aside>
@@ -113,6 +115,6 @@ const Aside = props => (
             </ul>
         </div>
     </aside>
-)
+);
 
-export default Work
+export default Work;
