@@ -27,7 +27,7 @@
             "Development"
         ],
         "technologies": [
-            "JavaScript",
+            "JavaScript (ES6)",
             "SASS",
             "Gulp",
             "Babel",
@@ -108,7 +108,7 @@
         "slug": "andeavor",
         "client": "Andeavor",
         "title": "andeavor.com",
-        "url": "http://www.andeavor.com",
+        "url": "",
         "date": "August 2017",
         "feature": false,
         "logo": {
@@ -368,6 +368,12 @@
                 "src": "/imgs/work/washingtons-lottery/screen-past-drawings.jpg",
                 "width": 800,
                 "height": 1080
+            },
+            {
+                "title": "Where To Play",
+                "src": "/imgs/work/washingtons-lottery/screen-where-to-play.jpg",
+                "width": 800,
+                "height": 843
             }
         ]
     },
@@ -498,72 +504,6 @@
         ]
     },
     {
-        "slug": "sightlife",
-        "client": "SightLife",
-        "title": "The World Through New Eyes",
-        "url": "https://www.sightlife.org/through-new-eyes-files/index.htm",
-        "date": "May 2014",
-        "feature": false,
-        "logo": {
-            "work": {
-                "src": "/imgs/work/sightlife/logo.svg",
-                "width": 36,
-                "height": 36
-            },
-            "feature": {
-                "src": "",
-                "width": 0,
-                "height": 0
-            }
-        },
-        "description": {
-            "short": "",
-            "long": "<p><em>We spent time with some of our recipient and donor families. On our travels, we heard their stories and even provided cameras so recipients could show us the world through their new eyes. The results are an inspiring reminder that every surgery can change a life.</em></p>"
-        },
-        "responsibilities": [
-            "UI",
-            "Development"
-        ],
-        "technologies": [
-            "JavaScript",
-            "CSS",
-            "Orchard",
-            ".NET"
-        ],
-        "assets": [
-            {
-                "title": "Home",
-                "src": "/imgs/work/sightlife/screen-home.jpg",
-                "width": 1080,
-                "height": 825
-            },
-            {
-                "title": "Recipients",
-                "src": "/imgs/work/sightlife/screen-recipients-1.jpg",
-                "width": 1080,
-                "height": 825
-            },
-            {
-                "title": "Recipients",
-                "src": "/imgs/work/sightlife/screen-recipients-2.jpg",
-                "width": 1080,
-                "height": 825
-            },
-            {
-                "title": "Recipients",
-                "src": "/imgs/work/sightlife/screen-recipients-3.jpg",
-                "width": 1080,
-                "height": 825
-            },
-            {
-                "title": "Donors",
-                "src": "/imgs/work/sightlife/screen-donors.jpg",
-                "width": 1080,
-                "height": 825
-            }
-        ]
-    },
-    {
         "slug": "rdsoda",
         "client": "RdSoda",
         "title": "rdsoda.com",
@@ -620,6 +560,73 @@
                 "src": "/imgs/work/rdsoda/screen-4.jpg",
                 "width": 800,
                 "height": 1070
+            }
+        ]
+    },
+    {
+        "slug": "sightlife",
+        "client": "SightLife",
+        "title": "The World Through New Eyes",
+        "url": "https://www.sightlife.org/through-new-eyes-files/index.htm",
+        "date": "November 2012",
+        "feature": false,
+        "logo": {
+            "work": {
+                "src": "/imgs/work/sightlife/logo.svg",
+                "width": 36,
+                "height": 36
+            },
+            "feature": {
+                "src": "",
+                "width": 0,
+                "height": 0
+            }
+        },
+        "description": {
+            "short": "",
+            "long": "<p><em>We spent time with some of our recipient and donor families. On our travels, we heard their stories and even provided cameras so recipients could show us the world through their new eyes. The results are an inspiring reminder that every surgery can change a life.</em></p>"
+        },
+        "responsibilities": [
+            "UI",
+            "Development"
+        ],
+        "technologies": [
+            "JavaScript",
+            "jQuery",
+            "CSS",
+            "Orchard",
+            ".NET"
+        ],
+        "assets": [
+            {
+                "title": "Home",
+                "src": "/imgs/work/sightlife/screen-home.jpg",
+                "width": 1080,
+                "height": 825
+            },
+            {
+                "title": "Recipients",
+                "src": "/imgs/work/sightlife/screen-recipients-1.jpg",
+                "width": 1080,
+                "height": 825
+            },
+            {
+                "title": "Recipients",
+                "src": "/imgs/work/sightlife/screen-recipients-2.jpg",
+                "width": 1080,
+                "height": 825
+            },
+            {
+                "title": "Recipients",
+                "src": "/imgs/work/sightlife/screen-recipients-3.jpg",
+                "width": 1080,
+                "height": 825
+            },
+            {
+                "title": "Donors",
+                "src": "/imgs/work/sightlife/screen-donors.jpg",
+                "width": 1080,
+                "height": 825
             }
         ]
     }

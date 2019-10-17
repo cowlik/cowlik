@@ -11,15 +11,15 @@ const Resume = () => (
                     <FontAwesomeIcon icon="print" />
                 </button>
             </h1>
-            <h4>{app.description}</h4>
+            <h5>{app.description}</h5>
             <a href={'mailto:' + app.email}>{app.email}</a>
             <a href="/" target="_blank">{app.url.replace('http://', '')}</a>
             <p className="dash">&mdash;</p>
         </header>
         <section id="resume-content">
             <aside>
-                <h2>Objective:</h2>
-                <p>Creative developer with 10+ years of experience building engaging websites in both advertising and software industries. Seeking a role in a collaborative team environment, writing exceptional code, and delivering a seamless user experience.</p>
+                <h2>Summary:</h2>
+                <p>Creative developer, with 10+ years of experience, building engaging websites in both advertising and software industries. Specializes in web design, translating design to exceptional code, critical thinking, and team communication.</p>
                 <p className="dash">&mdash;</p>
                 <h2>Skills:</h2>
                 <ul>
@@ -29,7 +29,7 @@ const Resume = () => (
                     <li>ReactJS</li>
                     <li>Gulp</li>
                     <li>Grunt</li>
-                    <li>GIT</li>
+                    <li>Git</li>
                     <li>NPM</li>
                     <li>Photoshop</li>
                     <li>Illustrator</li>
@@ -50,40 +50,46 @@ const Resume = () => (
                 <h2>Experience:</h2>
                 <h3>Senior Front-End Developer</h3>
                 <h4>Cole &amp; Weber</h4>
-                <p>January 2014 - March 2019</p>
+                <h5>January 2014 - March 2019</h5>
+                <p>Solely responsible for all front-end web deliverables from conception to deployment. Successfully researched, proposed, and integrated new technologies into client work. Bridged the gap between designers, project managers, and back-end developers.</p>
                 <ul>
-                    <li>Built responsive websites for clients, such as <a href="/work/andeavor" target="_blank">Andeavor</a>, <a href="/work/benchmade" target="_blank">Benchmade</a>, <a href="/work/columbia-crest" target="_blank">Columbia Crest</a>, and <a href="/work/washingtons-lottery" target="_blank">Washington's Lottery</a></li>
-                    <li>Proposed and successfully implemented new technologies for internal and client work</li>
-                    <li>Wrote clean, reusable user interface components</li>
+                    <li>Built the layout and functionality to <a href="/work/benchmade" target="_blank">hunttheweb.com</a> using JavaScript (ES6) and SASS for an audience that ultimately exceeded 10K registrants</li>
+                    <li>Developed the entire front end for the ADA compliant and responsive <a href="/work/washingtons-lottery" target="_blank">walottery.com</a>, as well as introducing new features and performing regular maintainence</li>
+                    <li>Recommended and spearheaded testing for Umbraco, an open source .NET CMS, which would became the foundation for <a href="/work/andeavor" target="_blank">andeavor.com</a></li>
+                    <li>Discovered and utilized Harp, a static site generator, for producing our agency site <a href="/work/cole-weber" target="_blank">coleweber.com</a>, along with other websites requiring quick turnarounds</li>
                 </ul>
                 <br />
                 <h3>Front-End Developer</h3>
                 <h4>Cole &amp; Weber</h4>
-                <p>July 2011 - August 2013</p>
+                <h5>July 2011 - August 2013</h5>
                 <ul>
-                    <li>Worked on a wide range of microsites, banner campaigns, and Facebook web applications</li>
+                    <li>Incorporated JavaScript (ES5) and jQuery to develop the microsite <a href="/work/sightlife" target="_blank">The World Through New Eyes</a>, which also consumed a JSON file to manage the plethora of images</li>
+                    <li>Assisted and developed landing pages for the Washington's Lottery mobile website and their Facebook &quot;Group Play&quot; web application</li>
+                    <li>Created a variety of Flash banner campaigns</li>
                 </ul>
                 <br />
-                <h3>Prototyper, MSN</h3>
+                <h3>Prototyper, MSN.com</h3>
                 <h4>Microsoft | Allovus</h4>
-                <p>December 2010 - July 2011</p>
+                <h5>December 2010 - July 2011</h5>
                 <ul>
-                    <li>Rapidly prototyped forward-thinking website solutions for the MSN website, using Flash & HTML5</li>
+                    <li>Rapidly prototyped forward-thinking, website solutions for MSN.com, using a mixture Flash and jQuery</li>
                 </ul>
                 <br />
-                <h3>Flash Developer</h3>
+                <h3>Flash Developer, KIN.com</h3>
                 <h4>Razorfish | Filter</h4>
-                <p>April 2010 - December 2010</p>
+                <h5>April 2010 - December 2010</h5>
                 <ul>
-                    <li>Helped build and launch the Microsoft KIN website</li>
+                    <li>Worked with back-end developers, designers, and other Flash developers to produce landing pages and components for the launch of Microsoft's KIN.com</li>
                 </ul>
                 <br />
                 <h3>Web Designer &amp; Flash Developer, Xbox.com</h3>
                 <h4>Microsoft | Filter</h4>
-                <p>March 2006 - January 2010</p>
+                <h5>March 2006 - January 2010</h5>
                 <ul>
-                    <li>Built interactive components and experiences to promote video games and console accessories</li>
-                    <li>Helped redesign Xbox.com</li>
+                    <li>Animated video game banners that were displayed with the highest visibility on the homepage of Xbox.com</li>
+                    <li>Built rich, immersive Flash components and experiences to promote hardware and accessories</li>
+                    <li>Created marketing assets for AAA game titles</li>
+                    <li>Assisted and provided feedback for the 2008 redesign</li>
                 </ul>
             </article>
         </section>

@@ -18,13 +18,15 @@
     h3 {
         margin-bottom: 5px;
         line-height: 100%;
-        font-weight: 600;
     }
 
     h4 {
-        margin-bottom: 3px;
+        margin-bottom: 4px;
         color: $color-gray-light;
-        font-weight: 500;
+    }
+
+    h5 {
+        margin-bottom: 7.5px;
     }
 
     a {
@@ -108,6 +110,11 @@
     }
 
     article {
+        p {
+            padding-bottom: 5px;
+            font-size: 18px;
+        }
+        
         ul {
             margin-top: 5px;
             margin-left: $spacing-min;
@@ -128,6 +135,7 @@
 
     @media (min-width: $screen-med) {
         article {
+            p,
             ul {
                 font-size: 20px;
             }
@@ -141,6 +149,7 @@
             width: 65%;
             margin-left: $spacing-min;
 
+            p,
             ul {
                 font-size: 22px;
             }
@@ -160,20 +169,22 @@
         display: flex;
 
         a {
+            font-style: italic;
             text-decoration: none;
         }
 
         article {
-            width: 60%;
+            width: 59%;
             margin-left: 0.3in;
 
+            p,
             ul {
                 font-size: 12pt;
             }
         }
 
         aside {
-            width: 40%;
+            width: 41%;
 
             + .dash {
                 display: none;
