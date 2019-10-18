@@ -55,7 +55,7 @@ const Resume = () => (
                 <ul>
                     <li>Built the layout and functionality to <a href="/work/benchmade" target="_blank">hunttheweb.com</a> using JavaScript (ES6) and SASS for an audience that ultimately exceeded 10K registrants</li>
                     <li>Developed the entire front end for the ADA compliant and responsive <a href="/work/washingtons-lottery" target="_blank">walottery.com</a>, as well as introducing new features and performing regular maintainence</li>
-                    <li>Recommended and spearheaded testing for Umbraco, an open source .NET CMS, which would became the foundation for <a href="/work/andeavor" target="_blank">andeavor.com</a></li>
+                    <li>Recommended and spearheaded testing for Umbraco, an open source .NET CMS, which became the foundation for <a href="/work/andeavor" target="_blank">andeavor.com</a></li>
                     <li>Discovered and utilized Harp, a static site generator, for producing our agency site <a href="/work/cole-weber" target="_blank">coleweber.com</a>, along with other websites requiring quick turnarounds</li>
                 </ul>
                 <br />
@@ -65,25 +65,25 @@ const Resume = () => (
                 <ul>
                     <li>Incorporated JavaScript (ES5) and jQuery to develop the microsite <a href="/work/sightlife" target="_blank">The World Through New Eyes</a>, which also consumed a JSON file to manage the plethora of images</li>
                     <li>Assisted and developed landing pages for the Washington's Lottery mobile website and their Facebook &quot;Group Play&quot; web application</li>
-                    <li>Created a variety of Flash banner campaigns</li>
+                    <li>Created a variety of rich media banner campaigns</li>
                 </ul>
                 <br />
                 <h3>Prototyper, MSN.com</h3>
-                <h4>Microsoft | Allovus</h4>
+                <h4>Microsoft <small>(Contract)</small></h4>
                 <h5>December 2010 - July 2011</h5>
                 <ul>
                     <li>Rapidly prototyped forward-thinking, website solutions for MSN.com, using a mixture Flash and jQuery</li>
                 </ul>
                 <br />
                 <h3>Flash Developer, KIN.com</h3>
-                <h4>Razorfish | Filter</h4>
+                <h4>Razorfish <small>(Contract)</small></h4>
                 <h5>April 2010 - December 2010</h5>
                 <ul>
                     <li>Worked with back-end developers, designers, and other Flash developers to produce landing pages and components for the launch of Microsoft's KIN.com</li>
                 </ul>
                 <br />
-                <h3>Web Designer &amp; Flash Developer, Xbox.com</h3>
-                <h4>Microsoft | Filter</h4>
+                <h3>Web Designer | Flash Developer, Xbox.com</h3>
+                <h4>Microsoft <small>(Contract)</small></h4>
                 <h5>March 2006 - January 2010</h5>
                 <ul>
                     <li>Animated video game banners that were displayed with the highest visibility on the homepage of Xbox.com</li>

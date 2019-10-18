@@ -71,10 +71,6 @@
     @media print {
         padding-bottom: 0;
 
-        a {
-            font-size: 12pt;
-        }
-
         button {
             display: none;
         }
@@ -112,13 +108,11 @@
     article {
         p {
             padding-bottom: 5px;
-            font-size: 18px;
         }
         
         ul {
             margin-top: 5px;
             margin-left: $spacing-min;
-            font-size: 18px;
         }
     }
 
@@ -133,26 +127,12 @@
         }
     }
 
-    @media (min-width: $screen-med) {
-        article {
-            p,
-            ul {
-                font-size: 20px;
-            }
-        }
-    }
-
     @media (min-width: $screen-lrg) {
         display: flex;
 
         article {
             width: 65%;
             margin-left: $spacing-min;
-
-            p,
-            ul {
-                font-size: 22px;
-            }
         }
 
         aside {
@@ -168,19 +148,9 @@
     @media print {
         display: flex;
 
-        a {
-            font-style: italic;
-            text-decoration: none;
-        }
-
         article {
             width: 59%;
             margin-left: 0.3in;
-
-            p,
-            ul {
-                font-size: 12pt;
-            }
         }
 
         aside {
