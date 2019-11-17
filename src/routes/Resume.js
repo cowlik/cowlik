@@ -54,7 +54,7 @@ const Resume = () => (
                 <p>Solely responsible for all front-end web deliverables from conception to deployment. Successfully researched, proposed, and integrated new technologies into client work. Bridged the gap between designers, project managers, and back-end developers.</p>
                 <ul>
                     <li>Built the layout and functionality to <a href="/work/benchmade" target="_blank">hunttheweb.com</a> using JavaScript (ES6) and SASS for an audience that ultimately exceeded 10K registrants</li>
-                    <li>Developed the entire front end for the ADA compliant and responsive <a href="/work/washingtons-lottery" target="_blank">walottery.com</a>, as well as introducing new features and performing regular maintainence</li>
+                    <li>Developed the entire front end for the ADA compliant and responsive <a href="/work/washingtons-lottery" target="_blank">walottery.com</a>, as well as introducing new features and performing regular maintenance</li>
                     <li>Recommended and spearheaded testing for Umbraco, an open source .NET CMS, which became the foundation for <a href="/work/andeavor" target="_blank">andeavor.com</a></li>
                     <li>Discovered and utilized Harp, a static site generator, for producing our agency site <a href="/work/cole-weber" target="_blank">coleweber.com</a>, along with other websites requiring quick turnarounds</li>
                 </ul>
