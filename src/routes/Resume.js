@@ -13,7 +13,7 @@ const Resume = () => (
             </h1>
             <h5>{app.description}</h5>
             <a href={'mailto:' + app.email}>{app.email}</a>
-            <a href="/" target="_blank">{app.url.replace('http://', '')}</a>
+            <a href={app.url} target="_blank" rel="noopener noreferrer">{app.url.replace('http://', '')}</a>
             <p className="dash">&mdash;</p>
         </header>
         <section id="resume-content">
@@ -53,17 +53,17 @@ const Resume = () => (
                 <h5>January 2014 - March 2019</h5>
                 <p>Solely responsible for all front-end web deliverables from conception to deployment. Successfully researched, proposed, and integrated new technologies into client work. Bridged the gap between designers, project managers, and back-end developers.</p>
                 <ul>
-                    <li>Built the layout and functionality to <a href="/work/benchmade" target="_blank">hunttheweb.com</a> using JavaScript (ES6) and SASS for an audience that ultimately exceeded 10K registrants</li>
-                    <li>Developed the entire front end for the ADA compliant and responsive <a href="/work/washingtons-lottery" target="_blank">walottery.com</a>, as well as introducing new features and performing regular maintenance</li>
-                    <li>Recommended and spearheaded testing for Umbraco, an open source .NET CMS, which became the foundation for <a href="/work/andeavor" target="_blank">andeavor.com</a></li>
-                    <li>Discovered and utilized Harp, a static site generator, for producing our agency site <a href="/work/cole-weber" target="_blank">coleweber.com</a>, along with other websites requiring quick turnarounds</li>
+                    <li>Built the layout and functionality to <a href={app.url + '/work/benchmade'} target="_blank" rel="noopener noreferrer">hunttheweb.com</a> using JavaScript (ES6) and SASS for an audience that ultimately exceeded 10K registrants</li>
+                    <li>Developed the entire front end for the ADA compliant and responsive <a href={app.url + '/work/washingtons-lottery'} target="_blank" rel="noopener noreferrer">walottery.com</a>, as well as introducing new features and performing regular maintenance</li>
+                    <li>Recommended and spearheaded testing for Umbraco, an open source .NET CMS, which became the foundation for <a href={app.url + '/work/andeavor'} target="_blank" rel="noopener noreferrer">andeavor.com</a></li>
+                    <li>Discovered and utilized Harp, a static site generator, for producing our agency site <a href={app.url + '/work/cole-weber'} target="_blank" rel="noopener noreferrer">coleweber.com</a>, along with other websites requiring quick turnarounds</li>
                 </ul>
                 <br />
                 <h3>Front-End Developer</h3>
                 <h4>Cole &amp; Weber</h4>
                 <h5>July 2011 - August 2013</h5>
                 <ul>
-                    <li>Incorporated JavaScript (ES5) and jQuery to develop the microsite <a href="/work/sightlife" target="_blank">The World Through New Eyes</a>, which also consumed a JSON file to manage the plethora of images</li>
+                    <li>Incorporated JavaScript (ES5) and jQuery to develop the microsite <a href={app.url + '/work/sightlife'} target="_blank" rel="noopener noreferrer">The World Through New Eyes</a>, which also consumed a JSON file to manage the plethora of images</li>
                     <li>Assisted and developed landing pages for the Washington's Lottery mobile website and their Facebook &quot;Group Play&quot; web application</li>
                     <li>Created a variety of rich media banner campaigns</li>
                 </ul>
