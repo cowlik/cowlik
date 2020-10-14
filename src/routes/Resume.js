@@ -24,9 +24,12 @@ const Resume = () => (
                 <h2>Skills:</h2>
                 <ul>
                     <li>JavaScript</li>
+                    <li>HTML</li>
                     <li>CSS</li>
+                    <li>LESS</li>
                     <li>SASS</li>
                     <li>ReactJS</li>
+                    <li>jQuery</li>
                     <li>Gulp</li>
                     <li>Grunt</li>
                     <li>Git</li>
