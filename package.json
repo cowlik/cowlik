@@ -1,7 +1,22 @@
 {
     "name": "cowlik",
-    "version": "1.6.0",
-    "private": true,
+    "version": "1.6.1",
+    "description": "My portfolio website built with React.",
+    "author": "Clint Harrison <clint@cowlik.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cowlik/cowlik.git"
+    },
+    "bugs": {
+        "url": "https://github.com/cowlik/cowlik/issues"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.32",
         "@fortawesome/free-brands-svg-icons": "^5.15.1",
@@ -18,12 +33,6 @@
         "scrollreveal": "^4.0.7",
         "webfontloader": "^1.6.28"
     },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
     "eslintConfig": {
         "extends": "react-app"
     },
@@ -32,9 +41,5 @@
         "not dead",
         "not ie <= 11",
         "not op_mini all"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/cowlik/cowlik.git"
-    }
+    ]
 }

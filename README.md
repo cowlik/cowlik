@@ -1,2 +1,7 @@
 # cowlik
-## Built with [Create React App](https://github.com/facebook/create-react-app)
+
+_My portfolio website built with React._
+
+[www.cowlik.com](http://www.cowlik.com)
+
+---
