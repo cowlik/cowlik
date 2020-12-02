@@ -1,164 +1,168 @@
 // Resume
 // --------------------------------------------------
 
-@import "../styles/variables";
+@import '../styles/variables';
 
 #resume {
-    padding-bottom: $spacing-min;
+	padding-bottom: $spacing-min;
 
-    h1 {
-        margin-bottom: 6px;
-    }
+	h1 {
+		margin-bottom: 6px;
+	}
 
-    h2 {
-        margin-bottom: 10px;
-        line-height: 100%;
-    }
+	h2 {
+		margin-bottom: 10px;
+		line-height: 100%;
+	}
 
-    h3 {
-        margin-bottom: 5px;
-        line-height: 100%;
-    }
+	h3 {
+		margin-bottom: 5px;
+		line-height: 100%;
+	}
 
-    h4 {
-        margin-bottom: 4px;
-        color: $color-gray-light;
-    }
+	h4 {
+		margin-bottom: 4px;
+		color: $color-gray-light;
+	}
 
-    h5 {
-        margin-bottom: 7.5px;
-    }
+	h5 {
+		margin-bottom: 7.5px;
+	}
 
-    a {
-        transition: color 0.25s ease-out;
+	a {
+		transition: color 0.25s ease-out;
 
-        &:hover {
-            color: $color-gray-light;
-        }
-    }
+		&:hover {
+			color: $color-gray-light;
+		}
+	}
 
-    button {
-        padding: 3px 0 3px 5px;
-        font-size: 24px;
-        transition: color 0.25s ease-out;
-        float: right;
+	button {
+		padding: 3px 0 3px 5px;
+		font-size: 24px;
+		transition: color 0.25s ease-out;
+		float: right;
 
-        &:hover {
-            color: $color-gray-light;
-        }
-    }
+		&:hover {
+			color: $color-gray-light;
+		}
+	}
 
-    .dash {
-        color: $color-mint;
-    }
+	.dash {
+		color: $color-mint;
+	}
 
-    @media (min-width: $screen-med) {
-        padding-bottom: $spacing-max;
+	@media (min-width: $screen-med) {
+		padding-bottom: $spacing-max;
 
-        button {
-            padding-top: 5px;
-            padding-bottom: 5px;
-            font-size: 30px;
-        }
+		button {
+			padding-top: 5px;
+			padding-bottom: 5px;
+			font-size: 30px;
+		}
 
-        p {
-            span {
-                display: block;
-            }
-        }
-    }
+		p {
+			span {
+				display: block;
+			}
+		}
+	}
 
-    @media print {
-        padding-bottom: 0;
+	@media print {
+		padding-bottom: 0;
 
-        button {
-            display: none;
-        }
+		button {
+			display: none;
+		}
 
-        p {
-            span {
-                display: block;
-            }
-        }
-    }
+		p {
+			span {
+				display: block;
+			}
+		}
+	}
 }
 
 #resume-header {
-    a {
-        display: block;
-        font-size: 18px;
-    }
+	a {
+		display: block;
+		font-size: 18px;
 
-    @media (min-width: $screen-med) {
-        a {
-            font-size: 20px;
-        }
-    }
+		svg {
+			font-size: 12px;
+		}
+	}
+
+	@media (min-width: $screen-med) {
+		a {
+			font-size: 20px;
+		}
+	}
 }
 
 #resume-content {
-    a {
-        text-decoration: underline;
+	a {
+		text-decoration: underline;
 
-        &:hover {
-            text-decoration: none;
-        }
-    }
+		&:hover {
+			text-decoration: none;
+		}
+	}
 
-    article {
-        p {
-            padding-bottom: 5px;
-        }
-        
-        ul {
-            margin-top: 5px;
-            margin-left: $spacing-min;
-        }
-    }
+	article {
+		p {
+			padding-bottom: 5px;
+		}
 
-    aside {
-        ul {
-            display: flex;
-            flex-wrap: wrap;
-        }
+		ul {
+			margin-top: 5px;
+			margin-left: $spacing-min;
+		}
+	}
 
-        li {
-            margin: 0 $spacing-min;
-        }
-    }
+	aside {
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+		}
 
-    @media (min-width: $screen-lrg) {
-        display: flex;
+		li {
+			margin: 0 $spacing-min;
+		}
+	}
 
-        article {
-            width: 65%;
-            margin-left: $spacing-min;
-        }
+	@media (min-width: $screen-lrg) {
+		display: flex;
 
-        aside {
-            width: 35%;
-            margin-right: $spacing-min;
+		article {
+			width: 65%;
+			margin-left: $spacing-min;
+		}
 
-            + .dash {
-                display: none;
-            }
-        }
-    }
+		aside {
+			width: 35%;
+			margin-right: $spacing-min;
 
-    @media print {
-        display: flex;
+			+ .dash {
+				display: none;
+			}
+		}
+	}
 
-        article {
-            width: 59%;
-            margin-left: 0.3in;
-        }
+	@media print {
+		display: flex;
 
-        aside {
-            width: 41%;
+		article {
+			width: 57%;
+			margin-left: 0.3in;
+		}
 
-            + .dash {
-                display: none;
-            }
-        }
-    }
+		aside {
+			width: 43%;
+
+			+ .dash {
+				display: none;
+			}
+		}
+	}
 }

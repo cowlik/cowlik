@@ -1,45 +1,49 @@
 {
-    "name": "cowlik",
-    "version": "1.6.2",
-    "description": "My portfolio website built with React.",
-    "author": "Clint Harrison <clint@cowlik.com>",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/cowlik/cowlik.git"
-    },
-    "bugs": {
-        "url": "https://github.com/cowlik/cowlik/issues"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
-    "dependencies": {
-        "@fortawesome/fontawesome-svg-core": "^1.2.32",
-        "@fortawesome/free-brands-svg-icons": "^5.15.1",
-        "@fortawesome/free-solid-svg-icons": "^5.15.1",
-        "@fortawesome/react-fontawesome": "^0.1.11",
-        "node-sass": "^4.14.1",
-        "react": "^16.13.1",
-        "react-dom": "^16.13.1",
-        "react-ga": "^2.7.0",
-        "react-helmet": "^5.2.1",
-        "react-router-dom": "^5.2.0",
-        "react-scripts": "^3.4.3",
-        "react-transition-group": "^4.4.1",
-        "scrollreveal": "^4.0.7",
-        "webfontloader": "^1.6.28"
-    },
-    "eslintConfig": {
-        "extends": "react-app"
-    },
-    "browserslist": [
-        ">0.2%",
-        "not dead",
-        "not ie <= 11",
-        "not op_mini all"
-    ]
+	"name": "cowlik",
+	"version": "1.6.3",
+	"description": "My portfolio website built with React.",
+	"author": "Clint Harrison <clint@cowlik.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cowlik/cowlik.git"
+	},
+	"bugs": {
+		"url": "https://github.com/cowlik/cowlik/issues"
+	},
+	"private": true,
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"dependencies": {
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "^3.4.3"
+	},
+	"devDependencies": {
+		"@fortawesome/fontawesome-svg-core": "^1.2.32",
+		"@fortawesome/free-brands-svg-icons": "^5.15.1",
+		"@fortawesome/free-regular-svg-icons": "^5.15.1",
+		"@fortawesome/free-solid-svg-icons": "^5.15.1",
+		"@fortawesome/react-fontawesome": "^0.1.11",
+		"node-sass": "^4.14.1",
+		"react-ga": "^2.7.0",
+		"react-helmet": "^5.2.1",
+		"react-transition-group": "^4.4.1",
+		"scrollreveal": "^4.0.7",
+		"webfontloader": "^1.6.28"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 11",
+		"not op_mini all"
+	]
 }
