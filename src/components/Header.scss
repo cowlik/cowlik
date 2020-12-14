@@ -111,6 +111,10 @@
     @include header-bg($color-washingtons-lottery);
 }
 
+.header-bg-xbox {
+    @include header-bg($color-xbox);
+}
+
 .andeavor {
     .header-bg-andeavor {
         opacity: 1;
@@ -161,6 +165,12 @@
 
 .washingtons-lottery {
     .header-bg-washingtons-lottery {
+        opacity: 1;
+    }
+}
+
+.xbox {
+    .header-bg-xbox {
         opacity: 1;
     }
 }

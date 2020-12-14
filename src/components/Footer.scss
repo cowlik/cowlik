@@ -91,6 +91,10 @@
     @include footer-bg($color-washingtons-lottery);
 }
 
+.footer-bg-xbox {
+    @include footer-bg($color-xbox);
+}
+
 .andeavor {
     #footer {
         p {
@@ -195,6 +199,18 @@
     }
 
     .footer-bg-washingtons-lottery {
+        opacity: 1;
+    }
+}
+
+.xbox {
+    #footer {
+        p {
+            color: #fff;
+        }
+    }
+
+    .footer-bg-xbox {
         opacity: 1;
     }
 }

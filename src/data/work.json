@@ -629,5 +629,106 @@
                 "height": 825
             }
         ]
+    },
+    {
+        "slug": "xbox",
+        "client": "Xbox",
+        "title": "xbox.com",
+        "url": "",
+        "date": "2006 - 2010",
+        "feature": false,
+        "logo": {
+            "work": {
+                "src": "/imgs/work/xbox/logo.svg",
+                "width": 88,
+                "height": 88
+            },
+            "feature": {
+                "src": "/imgs/work/benchmade/logo-white.svg",
+                "width": 88,
+                "height": 88
+            }
+        },
+        "description": {
+            "short": "",
+            "long": "<p>Animated Flash banners and landing pages created for various console games, promoted on Xbox.com.</p>"
+        },
+        "responsibilities": [
+            "Animation",
+            "Design",
+            "Storyboarding"
+        ],
+        "technologies": [
+            "Flash",
+            "Photoshop"
+        ],
+        "assets": [
+            {
+                "title": "NCAA 07 Football",
+                "src": "https://player.vimeo.com/video/490251042",
+                "width": 473,
+                "height": 180,
+                "type": "video"
+            },
+            {
+                "title": "Dead Rising",
+                "src": "https://player.vimeo.com/video/490553091",
+                "width": 473,
+                "height": 180,
+                "type": "video"
+            },
+            {
+                "title": "Tony Hawk's Project 8",
+                "src": "https://player.vimeo.com/video/490586991",
+                "width": 473,
+                "height": 180,
+                "type": "video"
+            },
+            {
+                "title": "Monster Madness: Battle For Suburbia",
+                "src": "https://player.vimeo.com/video/490571719",
+                "width": 588,
+                "height": 271,
+                "type": "video"
+            },
+            {
+                "title": "Condemned 2: Bloodshot",
+                "src": "https://player.vimeo.com/video/490579425",
+                "width": 845,
+                "height": 295,
+                "type": "video"
+            },
+            {
+                "title": "Rock Band",
+                "src": "https://player.vimeo.com/video/490589673",
+                "width": 845,
+                "height": 295,
+                "type": "video"
+            },
+            {
+                "title": "Guitar Hero: World Tour",
+                "src": "/imgs/work/xbox/screen-guitarhero.jpg",
+                "width": 950,
+                "height": 600
+            },
+            {
+                "title": "Madden 10",
+                "src": "/imgs/work/xbox/screen-madden10.jpg",
+                "width": 950,
+                "height": 600
+            },
+            {
+                "title": "Skate 2",
+                "src": "/imgs/work/xbox/screen-skate2.jpg",
+                "width": 950,
+                "height": 600
+            },
+            {
+                "title": "Bioshock",
+                "src": "/imgs/work/xbox/screen-bioshock.jpg",
+                "width": 950,
+                "height": 600
+            }
+        ]
     }
 ]

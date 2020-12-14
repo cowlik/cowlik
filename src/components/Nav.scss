@@ -148,6 +148,12 @@
         }
     }
 
+    &.nav-link-xbox {
+        .fa-caret-right {
+            color: $color-xbox;
+        }
+    }
+
     @media (min-width: $screen-med) {
         &:hover {
             .fa-caret-right {
@@ -294,5 +300,17 @@
 
     .nav-link {
         @include nav-link-bg($color-washingtons-lottery, #fff);
+    }
+}
+
+.xbox {
+    #nav {
+        .dash {
+            color: $color-xbox;
+        }
+    }
+
+    .nav-link {
+        @include nav-link-bg($color-xbox, #fff);
     }
 }

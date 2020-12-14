@@ -20,7 +20,7 @@ class Work extends Component {
 
         let id = parseInt(event.target.getAttribute('data-id'));
 
-        if (id === imgsLength - 1) {
+        if (id === imgsLength - 1 || this.item.slug === 'xbox') {
             ScrollReveal().reveal(assetElems, {
                 duration: 500,
                 easing: 'ease-out',
@@ -69,7 +69,7 @@ class Work extends Component {
                                     if (value.type && value.type === 'video') {
                                         return (
                                             <div className="work-asset" key={i}>
-                                                <div className="container-video">
+                                                <div className="container-video" data-width={value.width} data-height={value.height}>
                                                     <iframe src={value.src} width={value.width} height={value.height} title={value.title} frameBorder="0" allowFullScreen></iframe>
                                                 </div>
                                                 <p><small><em>{value.title}</em></small></p>
