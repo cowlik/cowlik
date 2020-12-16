@@ -34,7 +34,7 @@ const Resume = () => (
 			<aside>
 				<h2>Summary:</h2>
 				<p>
-					Creative developer, with 10+ years of experience, building
+					Front-end developer, with an eye for design, building
 					engaging websites in both advertising and software
 					industries. Specializes in web design, translating design to
 					exceptional code, critical thinking, and team communication.
@@ -103,7 +103,7 @@ const Resume = () => (
 						ultimately exceeded 10K registrants
 					</li>
 					<li>
-						Developed the entire front end for the ADA compliant and
+						Developed the entire front-end for the ADA compliant and
 						responsive{' '}
 						<a
 							href={app.url + '/work/washingtons-lottery'}
@@ -173,7 +173,7 @@ const Resume = () => (
 					</li>
 				</ul>
 				<br />
-				<h3>Flash Developer, KIN.com</h3>
+				<h3>Flash Developer, Kin.com</h3>
 				<h4>
 					Razorfish <small>(Contract)</small>
 				</h4>
@@ -182,7 +182,7 @@ const Resume = () => (
 					<li>
 						Worked with back-end developers, designers, and other
 						Flash developers to produce landing pages and components
-						for the launch of Microsoft's KIN.com
+						for the launch of Microsoft's Kin.com
 					</li>
 				</ul>
 				<br />
@@ -193,8 +193,15 @@ const Resume = () => (
 				<h5>March 2006 - January 2010</h5>
 				<ul>
 					<li>
-						Animated video game banners that were displayed with the
-						highest visibility on the homepage of Xbox.com
+						Animated{' '}
+						<a
+							href={app.url + '/work/xbox'}
+							target='_blank'
+							rel='noopener noreferrer'>
+							video game banners
+						</a>{' '}
+						that were displayed with the highest visibility on the
+						homepage of Xbox.com
 					</li>
 					<li>
 						Built rich, immersive Flash components and experiences

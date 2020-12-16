@@ -1,734 +1,673 @@
 [
-    {
-        "slug": "benchmade",
-        "client": "Benchmade",
-        "title": "hunttheweb.com",
-        "url": "http://www.hunttheweb.com",
-        "date": "February 2019",
-        "feature": true,
-        "logo": {
-            "work": {
-                "src": "/imgs/work/benchmade/logo.svg",
-                "width": 137,
-                "height": 110
-            },
-            "feature": {
-                "src": "/imgs/work/benchmade/logo-white.svg",
-                "width": 137,
-                "height": 110
-            }
-        },
-        "description": {
-            "short": "<p><em>Use your experience, wit, and hunting prowess to track a bull elk across the internet, following clues, twists and turns scattered across the web...</em></p>",
-            "long": "<p><em>Use your experience, wit, and hunting prowess to track a bull elk across the internet, following clues, twists and turns scattered across the web.</em></p><p>With over 10,000 eager registrants, hunters will have to quickly and cleverly complete 6 stages in order to place in the top 100 and earn prizes.</p>"
-        },
-        "responsibilities": [
-            "UI",
-            "Development"
-        ],
-        "technologies": [
-            "JavaScript (ES6)",
-            "SASS",
-            "Gulp",
-            "Babel",
-            "Browserify",
-            ".NET"
-        ],
-        "assets": [
-            {
-                "title": "Case Study",
-                "src": "https://player.vimeo.com/video/333380555",
-                "width": 640,
-                "height": 360,
-                "type": "video"
-            },
-            {
-                "title": "Home",
-                "src": "/imgs/work/benchmade/screen-home.jpg",
-                "width": 800,
-                "height": 945
-            },
-            {
-                "title": "Stage 1: Early Riser",
-                "src": "/imgs/work/benchmade/screen-stage-1.jpg",
-                "width": 800,
-                "height": 1082
-            },
-            {
-                "title": "Stage 2: Test Your Skills",
-                "src": "/imgs/work/benchmade/screen-stage-2.jpg",
-                "width": 800,
-                "height": 1087
-            },
-            {
-                "title": "Stage 2: Test Your Skills - Make Your Choice",
-                "src": "/imgs/work/benchmade/screen-stage-2-make-your-choice.jpg",
-                "width": 800,
-                "height": 1075
-            },
-            {
-                "title": "Stage 3: Tracking The Herds",
-                "src": "/imgs/work/benchmade/screen-stage-3.jpg",
-                "width": 800,
-                "height": 970
-            },
-            {
-                "title": "Stage 4: Scout The Location",
-                "src": "/imgs/work/benchmade/screen-stage-4.jpg",
-                "width": 800,
-                "height": 1053
-            },
-            {
-                "title": "Stage 5: Weather Watcher",
-                "src": "/imgs/work/benchmade/screen-stage-5.jpg",
-                "width": 800,
-                "height": 1120
-            },
-            {
-                "title": "Stage 6: The Glassing Point",
-                "src": "/imgs/work/benchmade/screen-stage-6.jpg",
-                "width": 800,
-                "height": 730
-            },
-            {
-                "title": "Trophy Room",
-                "src": "/imgs/work/benchmade/screen-trophy-room.jpg",
-                "width": 800,
-                "height": 1000
-            },
-            {
-                "title": "The Field",
-                "src": "/imgs/work/benchmade/screen-the-field.jpg",
-                "width": 800,
-                "height": 1040
-            }
-        ]
-    },
-    {
-        "slug": "andeavor",
-        "client": "Andeavor",
-        "title": "andeavor.com",
-        "url": "",
-        "date": "August 2017",
-        "feature": false,
-        "logo": {
-            "work": {
-                "src": "/imgs/work/andeavor/logo.svg",
-                "width": 124,
-                "height": 98
-            },
-            "feature": {
-                "src": "/imgs/work/andeavor/logo-white.svg",
-                "width": 124,
-                "height": 98
-            }
-        },
-        "description": {
-            "short": "",
-            "long": "<p>The legacy site for Andeavor, a premier marketing, logistics, and refining company. Launched in tandem with <a href=\"http://andeavorlogistics.com/\" target=\"_blank\">Andeavor Logistics</a>, both of these sites were built with Umbraco, an open-source content management system.</p>"
-        },
-        "responsibilities": [
-            "UI",
-            "Development"
-        ],
-        "technologies": [
-            "JavaScript",
-            "SASS",
-            "Razor (C#)",
-            "Gulp",
-            "Umbraco",
-            ".NET"
-        ],
-        "assets": [
-            {
-                "title": "Home",
-                "src": "/imgs/work/andeavor/screen-home.jpg",
-                "width": 800,
-                "height": 960
-            },
-            {
-                "title": "Home - Who Is Andeavor?",
-                "src": "/imgs/work/andeavor/screen-home-who-is-andeavor.jpg",
-                "width": 800,
-                "height": 993
-            },
-            {
-                "title": "Refining",
-                "src": "/imgs/work/andeavor/screen-refining.jpg",
-                "width": 800,
-                "height": 825
-            },
-            {
-                "title": "News",
-                "src": "/imgs/work/andeavor/screen-news.jpg",
-                "width": 800,
-                "height": 926
-            },
-            {
-                "title": "News - Article",
-                "src": "/imgs/work/andeavor/screen-news-article.jpg",
-                "width": 800,
-                "height": 825
-            }
-        ]
-    },
-    {
-        "slug": "tease",
-        "client": "Tease",
-        "title": "teaseballard.com",
-        "url": "https://www.teaseballard.com",
-        "date": "April 2017",
-        "feature": false,
-        "logo": {
-            "work": {
-                "src": "/imgs/work/tease/logo.svg",
-                "width": 232,
-                "height": 122
-            },
-            "feature": {
-                "src": "/imgs/work/tease/logo.svg",
-                "width": 232,
-                "height": 122
-            }
-        },
-        "description": {
-            "short": "",
-            "long": "<p>Located in the Ballard neighborhood of Seattle, this salon's website was in need of a makeover. Being that it is jointly owned by my wife and sister-in-law, they gave me the freedom to completely overhaul their site.</p>"
-        },
-        "responsibilities": [
-            "Design",
-            "UI",
-            "Development"
-        ],
-        "technologies": [
-            "JavaScript",
-            "SASS",
-            "Harp",
-            "Jade",
-            "Gulp",
-            "HTML"
-        ],
-        "assets": [
-            {
-                "title": "Home",
-                "src": "/imgs/work/tease/screen-home-1.jpg",
-                "width": 800,
-                "height": 1025
-            },
-            {
-                "title": "Home",
-                "src": "/imgs/work/tease/screen-home-2.jpg",
-                "width": 800,
-                "height": 1025
-            },
-            {
-                "title": "About",
-                "src": "/imgs/work/tease/screen-about.jpg",
-                "width": 800,
-                "height": 1025
-            },
-            {
-                "title": "Services",
-                "src": "/imgs/work/tease/screen-services.jpg",
-                "width": 800,
-                "height": 1025
-            },
-            {
-                "title": "Contact",
-                "src": "/imgs/work/tease/screen-contact.jpg",
-                "width": 800,
-                "height": 1025
-            }
-        ]
-    },
-    {
-        "slug": "cole-weber",
-        "client": "Cole & Weber",
-        "title": "coleweber.com",
-        "url": "http://www.coleweber.com",
-        "date": "January 2017",
-        "feature": false,
-        "logo": {
-            "work": {
-                "src": "/imgs/work/cole-weber/logo.svg",
-                "width": 30,
-                "height": 34
-            },
-            "feature": {
-                "src": "/imgs/work/cole-weber/logo-white.svg",
-                "width": 506,
-                "height": 216
-            }
-        },
-        "description": {
-            "short": "",
-            "long": "<p>Website for our agency, launched in conjunction with an identity rebrand.</p>"
-        },
-        "responsibilities": [
-            "UI",
-            "Development"
-        ],
-        "technologies": [
-            "JavaScript",
-            "SASS",
-            "Harp",
-            "Jade",
-            "Markdown",
-            "Gulp",
-            "HTML"
-        ],
-        "assets": [
-            {
-                "title": "Home",
-                "src": "/imgs/work/cole-weber/screen-home-1.jpg",
-                "width": 800,
-                "height": 900
-            },
-            {
-                "title": "Home",
-                "src": "/imgs/work/cole-weber/screen-home-2.jpg",
-                "width": 800,
-                "height": 1113
-            },
-            {
-                "title": "Work",
-                "src": "/imgs/work/cole-weber/screen-work.jpg",
-                "width": 800,
-                "height": 1030
-            },
-            {
-                "title": "People",
-                "src": "/imgs/work/cole-weber/screen-people.jpg",
-                "width": 800,
-                "height": 1130
-            }
-        ]
-    },
-    {
-        "slug": "washingtons-lottery",
-        "client": "Washington's Lottery",
-        "title": "walottery.com",
-        "url": "https://www.walottery.com",
-        "date": "March 2016",
-        "feature": true,
-        "logo": {
-            "work": {
-                "src": "/imgs/work/washingtons-lottery/logo.svg",
-                "width": 90,
-                "height": 90
-            },
-            "feature": {
-                "src": "/imgs/work/washingtons-lottery/logo-white.svg",
-                "width": 90,
-                "height": 90
-            }
-        },
-        "description": {
-            "short": "<p><em>Check your ticket, discover new Scratch games, and stay up to date on the latest amounts and results of all your favorite Jackpot games...</em></p>",
-            "long": "<p><em>Check your ticket, discover new Scratch games, and stay up to date on the latest amounts and results of all your favorite Jackpot games.</em></p><p>The official website for the Washington State Lottery is fully responsive, ADA compliant, and is visited by thousands of consumers daily.</p>"
-        },
-        "responsibilities": [
-            "UI",
-            "Development"
-        ],
-        "technologies": [
-            "JavaScript",
-            "LESS",
-            "C#",
-            "Grunt",
-            ".NET"
-        ],
-        "assets": [
-            {
-                "title": "Home",
-                "src": "/imgs/work/washingtons-lottery/screen-home.jpg",
-                "width": 800,
-                "height": 1090
-            },
-            {
-                "title": "Scratch",
-                "src": "/imgs/work/washingtons-lottery/screen-scratch.jpg",
-                "width": 800,
-                "height": 1172
-            },
-            {
-                "title": "Winning Numbers",
-                "src": "/imgs/work/washingtons-lottery/screen-winning-numbers.jpg",
-                "width": 800,
-                "height": 1000
-            },
-            {
-                "title": "Check Your Ticket",
-                "src": "/imgs/work/washingtons-lottery/screen-check-your-ticket.jpg",
-                "width": 800,
-                "height": 890
-            },
-            {
-                "title": "Past Drawings",
-                "src": "/imgs/work/washingtons-lottery/screen-past-drawings.jpg",
-                "width": 800,
-                "height": 1080
-            },
-            {
-                "title": "Where To Play",
-                "src": "/imgs/work/washingtons-lottery/screen-where-to-play.jpg",
-                "width": 800,
-                "height": 841
-            }
-        ]
-    },
-    {
-        "slug": "columbia-crest",
-        "client": "Columbia Crest",
-        "title": "Crowdsourced Cabernet",
-        "url": "",
-        "date": "June 2015",
-        "feature": false,
-        "logo": {
-            "work": {
-                "src": "",
-                "width": 0,
-                "height": 0
-            },
-            "feature": {
-                "src": "",
-                "width": 0,
-                "height": 0
-            }
-        },
-        "description": {
-            "short": "",
-            "long": "<p><em>This is your chance to take control of 5 acres of grapes and become a winemaker to help craft Columbia Crest's 2015 Crowdsourced Cabernet.</em></p><p>Based on the award-winning 2014 website, the 2015 version was refactored from the ground up to include new features such as: responsive framework, registration, profile, voting history, and daily cameras.</p>"
-        },
-        "responsibilities": [
-            "UI",
-            "Development"
-        ],
-        "technologies": [
-            "JavaScript",
-            "LESS",
-            "Grunt",
-            ".NET"
-        ],
-        "assets": [
-            {
-                "title": "2015",
-                "src": "/imgs/work/columbia-crest/screen-2015.jpg",
-                "width": 800,
-                "height": 825
-            },
-            {
-                "title": "2015 - Mobile",
-                "src": "/imgs/work/columbia-crest/screen-2015-mobile.jpg",
-                "width": 414,
-                "height": 736
-            },
-            {
-                "title": "2015 - Conditions",
-                "src": "/imgs/work/columbia-crest/screen-2015-conditions.jpg",
-                "width": 800,
-                "height": 825
-            },
-            {
-                "title": "Dashboard",
-                "src": "/imgs/work/columbia-crest/screen-dashboard.jpg",
-                "width": 800,
-                "height": 825
-            },
-            {
-                "title": "2014",
-                "src": "/imgs/work/columbia-crest/screen-2014.jpg",
-                "width": 800,
-                "height": 825
-            },
-            {
-                "title": "Home",
-                "src": "/imgs/work/columbia-crest/screen-home.jpg",
-                "width": 800,
-                "height": 825
-            }
-        ]
-    },
-    {
-        "slug": "nutshell-classics",
-        "client": "Cole & Weber",
-        "title": "Nutshell Classics",
-        "url": "",
-        "date": "December 2014",
-        "feature": false,
-        "logo": {
-            "work": {
-                "src": "/imgs/work/cole-weber/logo.svg",
-                "width": 30,
-                "height": 34
-            },
-            "feature": {
-                "src": "/imgs/work/cole-weber/logo-white.svg",
-                "width": 506,
-                "height": 216
-            }
-        },
-        "description": {
-            "short": "",
-            "long": "<p><em>With all the shopping, cooking, and fake sincerity you have to muster during the holidays, you simply don't have time to watch all your favorite holiday movies. That's why we recreated 6-second Vine videos of every holiday classic. You know, holiday classics. In a nutshell.</em></p>"
-        },
-        "responsibilities": [
-            "UI",
-            "Development"
-        ],
-        "technologies": [
-            "JavaScript",
-            "LESS",
-            "Grunt",
-            "HTML"
-        ],
-        "assets": [
-            {
-                "title": "Nutshell Classics",
-                "src": "/imgs/work/nutshell-classics/screen-1.jpg",
-                "width": 800,
-                "height": 825
-            },
-            {
-                "title": "Nutshell Classics - Mobile",
-                "src": "/imgs/work/nutshell-classics/screen-2.jpg",
-                "width": 414,
-                "height": 736
-            },
-            {
-                "title": "Nutshell Classics - Mobile",
-                "src": "/imgs/work/nutshell-classics/screen-3.jpg",
-                "width": 414,
-                "height": 736
-            }
-        ]
-    },
-    {
-        "slug": "rdsoda",
-        "client": "RdSoda",
-        "title": "rdsoda.com",
-        "url": "http://www.rdsoda.com",
-        "date": "August 2013",
-        "feature": false,
-        "logo": {
-            "work": {
-                "src": "/imgs/work/rdsoda/logo.svg",
-                "width": 72,
-                "height": 72
-            },
-            "feature": {
-                "src": "",
-                "width": 0,
-                "height": 0
-            }
-        },
-        "description": {
-            "short": "",
-            "long": "<p><em>Visually document and share your traveling experiences in real-time.</em></p><p>For this personal endeavor, I fused Instagram with Google Maps to create a handy, web application which lets you chronologically share your traveling adventures via pictures and geolocation.</p>"
-        },
-        "responsibilities": [
-            "Design",
-            "UI",
-            "Development"
-        ],
-        "technologies": [
-            "JavaScript",
-            "Bootstrap",
-            "HTML"
-        ],
-        "assets": [
-            {
-                "title": "Home",
-                "src": "/imgs/work/rdsoda/screen-1.jpg",
-                "width": 800,
-                "height": 860
-            },
-            {
-                "title": "Cabo San Lucas - Marker 1",
-                "src": "/imgs/work/rdsoda/screen-2.jpg",
-                "width": 800,
-                "height": 1031
-            },
-            {
-                "title": "Cabo San Lucas - Marker 4",
-                "src": "/imgs/work/rdsoda/screen-3.jpg",
-                "width": 800,
-                "height": 1891
-            },
-            {
-                "title": "Victoria B.C. - Marker 2",
-                "src": "/imgs/work/rdsoda/screen-4.jpg",
-                "width": 800,
-                "height": 1070
-            }
-        ]
-    },
-    {
-        "slug": "sightlife",
-        "client": "SightLife",
-        "title": "The World Through New Eyes",
-        "url": "http://archive.cowlik.com/sightlife",
-        "date": "November 2012",
-        "feature": false,
-        "logo": {
-            "work": {
-                "src": "/imgs/work/sightlife/logo.svg",
-                "width": 36,
-                "height": 36
-            },
-            "feature": {
-                "src": "",
-                "width": 0,
-                "height": 0
-            }
-        },
-        "description": {
-            "short": "",
-            "long": "<p><em>We spent time with some of our recipient and donor families. On our travels, we heard their stories and even provided cameras so recipients could show us the world through their new eyes. The results are an inspiring reminder that every surgery can change a life.</em></p>"
-        },
-        "responsibilities": [
-            "UI",
-            "Development"
-        ],
-        "technologies": [
-            "JavaScript",
-            "jQuery",
-            "CSS",
-            "Orchard",
-            ".NET"
-        ],
-        "assets": [
-            {
-                "title": "Home",
-                "src": "/imgs/work/sightlife/screen-home.jpg",
-                "width": 1080,
-                "height": 825
-            },
-            {
-                "title": "Recipients",
-                "src": "/imgs/work/sightlife/screen-recipients-1.jpg",
-                "width": 1080,
-                "height": 825
-            },
-            {
-                "title": "Recipients",
-                "src": "/imgs/work/sightlife/screen-recipients-2.jpg",
-                "width": 1080,
-                "height": 825
-            },
-            {
-                "title": "Recipients",
-                "src": "/imgs/work/sightlife/screen-recipients-3.jpg",
-                "width": 1080,
-                "height": 825
-            },
-            {
-                "title": "Donors",
-                "src": "/imgs/work/sightlife/screen-donors.jpg",
-                "width": 1080,
-                "height": 825
-            }
-        ]
-    },
-    {
-        "slug": "xbox",
-        "client": "Xbox",
-        "title": "xbox.com",
-        "url": "",
-        "date": "2006 - 2010",
-        "feature": false,
-        "logo": {
-            "work": {
-                "src": "/imgs/work/xbox/logo.svg",
-                "width": 88,
-                "height": 88
-            },
-            "feature": {
-                "src": "/imgs/work/benchmade/logo-white.svg",
-                "width": 88,
-                "height": 88
-            }
-        },
-        "description": {
-            "short": "",
-            "long": "<p>Animated Flash banners and landing pages created for various console games, promoted on Xbox.com.</p>"
-        },
-        "responsibilities": [
-            "Animation",
-            "Design",
-            "Storyboarding"
-        ],
-        "technologies": [
-            "Flash",
-            "Photoshop"
-        ],
-        "assets": [
-            {
-                "title": "NCAA 07 Football",
-                "src": "https://player.vimeo.com/video/490251042",
-                "width": 473,
-                "height": 180,
-                "type": "video"
-            },
-            {
-                "title": "Dead Rising",
-                "src": "https://player.vimeo.com/video/490553091",
-                "width": 473,
-                "height": 180,
-                "type": "video"
-            },
-            {
-                "title": "Tony Hawk's Project 8",
-                "src": "https://player.vimeo.com/video/490586991",
-                "width": 473,
-                "height": 180,
-                "type": "video"
-            },
-            {
-                "title": "Monster Madness: Battle For Suburbia",
-                "src": "https://player.vimeo.com/video/490571719",
-                "width": 588,
-                "height": 271,
-                "type": "video"
-            },
-            {
-                "title": "Condemned 2: Bloodshot",
-                "src": "https://player.vimeo.com/video/490579425",
-                "width": 845,
-                "height": 295,
-                "type": "video"
-            },
-            {
-                "title": "Rock Band",
-                "src": "https://player.vimeo.com/video/490589673",
-                "width": 845,
-                "height": 295,
-                "type": "video"
-            },
-            {
-                "title": "Guitar Hero: World Tour",
-                "src": "/imgs/work/xbox/screen-guitarhero.jpg",
-                "width": 950,
-                "height": 600
-            },
-            {
-                "title": "Madden 10",
-                "src": "/imgs/work/xbox/screen-madden10.jpg",
-                "width": 950,
-                "height": 600
-            },
-            {
-                "title": "Skate 2",
-                "src": "/imgs/work/xbox/screen-skate2.jpg",
-                "width": 950,
-                "height": 600
-            },
-            {
-                "title": "Bioshock",
-                "src": "/imgs/work/xbox/screen-bioshock.jpg",
-                "width": 950,
-                "height": 600
-            }
-        ]
-    }
+	{
+		"slug": "benchmade",
+		"client": "Benchmade",
+		"title": "hunttheweb.com",
+		"url": "http://www.hunttheweb.com",
+		"date": "February 2019",
+		"feature": true,
+		"logo": {
+			"work": {
+				"src": "/imgs/work/benchmade/logo.svg",
+				"width": 137,
+				"height": 110
+			},
+			"feature": {
+				"src": "/imgs/work/benchmade/logo-white.svg",
+				"width": 137,
+				"height": 110
+			}
+		},
+		"description": {
+			"short": "<p><em>Use your experience, wit, and hunting prowess to track a bull elk across the internet, following clues, twists and turns scattered across the web...</em></p>",
+			"long": "<p><em>Use your experience, wit, and hunting prowess to track a bull elk across the internet, following clues, twists and turns scattered across the web.</em></p><p>With over 10,000 eager registrants, hunters will have to quickly and cleverly complete 6 stages in order to place in the top 100 and earn prizes.</p>"
+		},
+		"responsibilities": ["UI", "Development"],
+		"technologies": [
+			"JavaScript (ES6)",
+			"SASS",
+			"Gulp",
+			"Babel",
+			"Browserify",
+			".NET"
+		],
+		"assets": [
+			{
+				"title": "Case Study",
+				"src": "https://player.vimeo.com/video/333380555",
+				"width": 640,
+				"height": 360,
+				"type": "video"
+			},
+			{
+				"title": "Home",
+				"src": "/imgs/work/benchmade/screen-home.jpg",
+				"width": 800,
+				"height": 945
+			},
+			{
+				"title": "Stage 1: Early Riser",
+				"src": "/imgs/work/benchmade/screen-stage-1.jpg",
+				"width": 800,
+				"height": 1082
+			},
+			{
+				"title": "Stage 2: Test Your Skills",
+				"src": "/imgs/work/benchmade/screen-stage-2.jpg",
+				"width": 800,
+				"height": 1087
+			},
+			{
+				"title": "Stage 2: Test Your Skills - Make Your Choice",
+				"src": "/imgs/work/benchmade/screen-stage-2-make-your-choice.jpg",
+				"width": 800,
+				"height": 1075
+			},
+			{
+				"title": "Stage 3: Tracking The Herds",
+				"src": "/imgs/work/benchmade/screen-stage-3.jpg",
+				"width": 800,
+				"height": 970
+			},
+			{
+				"title": "Stage 4: Scout The Location",
+				"src": "/imgs/work/benchmade/screen-stage-4.jpg",
+				"width": 800,
+				"height": 1053
+			},
+			{
+				"title": "Stage 5: Weather Watcher",
+				"src": "/imgs/work/benchmade/screen-stage-5.jpg",
+				"width": 800,
+				"height": 1120
+			},
+			{
+				"title": "Stage 6: The Glassing Point",
+				"src": "/imgs/work/benchmade/screen-stage-6.jpg",
+				"width": 800,
+				"height": 730
+			},
+			{
+				"title": "Trophy Room",
+				"src": "/imgs/work/benchmade/screen-trophy-room.jpg",
+				"width": 800,
+				"height": 1000
+			},
+			{
+				"title": "The Field",
+				"src": "/imgs/work/benchmade/screen-the-field.jpg",
+				"width": 800,
+				"height": 1040
+			}
+		]
+	},
+	{
+		"slug": "andeavor",
+		"client": "Andeavor",
+		"title": "andeavor.com",
+		"url": "",
+		"date": "August 2017",
+		"feature": false,
+		"logo": {
+			"work": {
+				"src": "/imgs/work/andeavor/logo.svg",
+				"width": 124,
+				"height": 98
+			},
+			"feature": {
+				"src": "/imgs/work/andeavor/logo-white.svg",
+				"width": 124,
+				"height": 98
+			}
+		},
+		"description": {
+			"short": "",
+			"long": "<p>The legacy site for Andeavor, a premier marketing, logistics, and refining company. Launched in tandem with <a href=\"http://andeavorlogistics.com/\" target=\"_blank\">Andeavor Logistics</a>, both of these sites were built with Umbraco, an open-source content management system.</p>"
+		},
+		"responsibilities": ["UI", "Development"],
+		"technologies": [
+			"JavaScript",
+			"SASS",
+			"Razor (C#)",
+			"Gulp",
+			"Umbraco",
+			".NET"
+		],
+		"assets": [
+			{
+				"title": "Home",
+				"src": "/imgs/work/andeavor/screen-home.jpg",
+				"width": 800,
+				"height": 960
+			},
+			{
+				"title": "Home - Who Is Andeavor?",
+				"src": "/imgs/work/andeavor/screen-home-who-is-andeavor.jpg",
+				"width": 800,
+				"height": 993
+			},
+			{
+				"title": "Refining",
+				"src": "/imgs/work/andeavor/screen-refining.jpg",
+				"width": 800,
+				"height": 825
+			},
+			{
+				"title": "News",
+				"src": "/imgs/work/andeavor/screen-news.jpg",
+				"width": 800,
+				"height": 926
+			},
+			{
+				"title": "News - Article",
+				"src": "/imgs/work/andeavor/screen-news-article.jpg",
+				"width": 800,
+				"height": 825
+			}
+		]
+	},
+	{
+		"slug": "tease",
+		"client": "Tease",
+		"title": "teaseballard.com",
+		"url": "https://www.teaseballard.com",
+		"date": "April 2017",
+		"feature": false,
+		"logo": {
+			"work": {
+				"src": "/imgs/work/tease/logo.svg",
+				"width": 232,
+				"height": 122
+			},
+			"feature": {
+				"src": "/imgs/work/tease/logo.svg",
+				"width": 232,
+				"height": 122
+			}
+		},
+		"description": {
+			"short": "",
+			"long": "<p>Located in the Ballard neighborhood of Seattle, this salon's website was in need of a makeover. With the exception of their logo, I was given the freedom to completely overhaul their website design and development.</p>"
+		},
+		"responsibilities": ["Design", "UI", "Development"],
+		"technologies": [
+			"JavaScript",
+			"SASS",
+			"Harp",
+			"Jade",
+			"Gulp",
+			"HTML",
+			"Illustrator"
+		],
+		"assets": [
+			{
+				"title": "Home",
+				"src": "/imgs/work/tease/screen-home-1.jpg",
+				"width": 800,
+				"height": 1025
+			},
+			{
+				"title": "Home",
+				"src": "/imgs/work/tease/screen-home-2.jpg",
+				"width": 800,
+				"height": 1025
+			},
+			{
+				"title": "About",
+				"src": "/imgs/work/tease/screen-about.jpg",
+				"width": 800,
+				"height": 1025
+			},
+			{
+				"title": "Services",
+				"src": "/imgs/work/tease/screen-services.jpg",
+				"width": 800,
+				"height": 1025
+			},
+			{
+				"title": "Contact",
+				"src": "/imgs/work/tease/screen-contact.jpg",
+				"width": 800,
+				"height": 1025
+			}
+		]
+	},
+	{
+		"slug": "cole-weber",
+		"client": "Cole & Weber",
+		"title": "coleweber.com",
+		"url": "http://www.coleweber.com",
+		"date": "January 2017",
+		"feature": false,
+		"logo": {
+			"work": {
+				"src": "/imgs/work/cole-weber/logo.svg",
+				"width": 30,
+				"height": 34
+			},
+			"feature": {
+				"src": "/imgs/work/cole-weber/logo-white.svg",
+				"width": 506,
+				"height": 216
+			}
+		},
+		"description": {
+			"short": "",
+			"long": "<p>Website for our agency, launched in conjunction with an identity rebrand.</p>"
+		},
+		"responsibilities": ["UI", "Development"],
+		"technologies": [
+			"JavaScript",
+			"SASS",
+			"Harp",
+			"Jade",
+			"Markdown",
+			"Gulp",
+			"HTML"
+		],
+		"assets": [
+			{
+				"title": "Home",
+				"src": "/imgs/work/cole-weber/screen-home-1.jpg",
+				"width": 800,
+				"height": 900
+			},
+			{
+				"title": "Home",
+				"src": "/imgs/work/cole-weber/screen-home-2.jpg",
+				"width": 800,
+				"height": 1113
+			},
+			{
+				"title": "Work",
+				"src": "/imgs/work/cole-weber/screen-work.jpg",
+				"width": 800,
+				"height": 1030
+			},
+			{
+				"title": "People",
+				"src": "/imgs/work/cole-weber/screen-people.jpg",
+				"width": 800,
+				"height": 1130
+			}
+		]
+	},
+	{
+		"slug": "washingtons-lottery",
+		"client": "Washington's Lottery",
+		"title": "walottery.com",
+		"url": "https://www.walottery.com",
+		"date": "March 2016",
+		"feature": true,
+		"logo": {
+			"work": {
+				"src": "/imgs/work/washingtons-lottery/logo.svg",
+				"width": 90,
+				"height": 90
+			},
+			"feature": {
+				"src": "/imgs/work/washingtons-lottery/logo-white.svg",
+				"width": 90,
+				"height": 90
+			}
+		},
+		"description": {
+			"short": "<p><em>Check your ticket, discover new Scratch games, and stay up to date on the latest amounts and results of all your favorite Jackpot games...</em></p>",
+			"long": "<p><em>Check your ticket, discover new Scratch games, and stay up to date on the latest amounts and results of all your favorite Jackpot games.</em></p><p>The official website for the Washington State Lottery is fully responsive, ADA compliant, and is visited by thousands of consumers daily.</p>"
+		},
+		"responsibilities": ["UI", "Development"],
+		"technologies": ["JavaScript", "LESS", "C#", "Grunt", ".NET"],
+		"assets": [
+			{
+				"title": "Home",
+				"src": "/imgs/work/washingtons-lottery/screen-home.jpg",
+				"width": 800,
+				"height": 1090
+			},
+			{
+				"title": "Scratch",
+				"src": "/imgs/work/washingtons-lottery/screen-scratch.jpg",
+				"width": 800,
+				"height": 1172
+			},
+			{
+				"title": "Winning Numbers",
+				"src": "/imgs/work/washingtons-lottery/screen-winning-numbers.jpg",
+				"width": 800,
+				"height": 1000
+			},
+			{
+				"title": "Check Your Ticket",
+				"src": "/imgs/work/washingtons-lottery/screen-check-your-ticket.jpg",
+				"width": 800,
+				"height": 890
+			},
+			{
+				"title": "Past Drawings",
+				"src": "/imgs/work/washingtons-lottery/screen-past-drawings.jpg",
+				"width": 800,
+				"height": 1080
+			},
+			{
+				"title": "Where To Play",
+				"src": "/imgs/work/washingtons-lottery/screen-where-to-play.jpg",
+				"width": 800,
+				"height": 841
+			}
+		]
+	},
+	{
+		"slug": "columbia-crest",
+		"client": "Columbia Crest",
+		"title": "Crowdsourced Cabernet",
+		"url": "",
+		"date": "June 2015",
+		"feature": false,
+		"logo": {
+			"work": {
+				"src": "",
+				"width": 0,
+				"height": 0
+			},
+			"feature": {
+				"src": "",
+				"width": 0,
+				"height": 0
+			}
+		},
+		"description": {
+			"short": "",
+			"long": "<p><em>This is your chance to take control of 5 acres of grapes and become a winemaker to help craft Columbia Crest's 2015 Crowdsourced Cabernet.</em></p><p>Based on the award-winning 2014 website, the 2015 version was refactored from the ground up to include new features such as: responsive framework, registration, profile, voting history, and daily cameras.</p>"
+		},
+		"responsibilities": ["UI", "Development"],
+		"technologies": ["JavaScript", "LESS", "Grunt", ".NET"],
+		"assets": [
+			{
+				"title": "2015",
+				"src": "/imgs/work/columbia-crest/screen-2015.jpg",
+				"width": 800,
+				"height": 825
+			},
+			{
+				"title": "2015 - Mobile",
+				"src": "/imgs/work/columbia-crest/screen-2015-mobile.jpg",
+				"width": 414,
+				"height": 736
+			},
+			{
+				"title": "2015 - Conditions",
+				"src": "/imgs/work/columbia-crest/screen-2015-conditions.jpg",
+				"width": 800,
+				"height": 825
+			},
+			{
+				"title": "Dashboard",
+				"src": "/imgs/work/columbia-crest/screen-dashboard.jpg",
+				"width": 800,
+				"height": 825
+			},
+			{
+				"title": "2014",
+				"src": "/imgs/work/columbia-crest/screen-2014.jpg",
+				"width": 800,
+				"height": 825
+			},
+			{
+				"title": "Home",
+				"src": "/imgs/work/columbia-crest/screen-home.jpg",
+				"width": 800,
+				"height": 825
+			}
+		]
+	},
+	{
+		"slug": "nutshell-classics",
+		"client": "Cole & Weber",
+		"title": "Nutshell Classics",
+		"url": "",
+		"date": "December 2014",
+		"feature": false,
+		"logo": {
+			"work": {
+				"src": "/imgs/work/cole-weber/logo.svg",
+				"width": 30,
+				"height": 34
+			},
+			"feature": {
+				"src": "/imgs/work/cole-weber/logo-white.svg",
+				"width": 506,
+				"height": 216
+			}
+		},
+		"description": {
+			"short": "",
+			"long": "<p><em>With all the shopping, cooking, and fake sincerity you have to muster during the holidays, you simply don't have time to watch all your favorite holiday movies. That's why we recreated 6-second Vine videos of every holiday classic. You know, holiday classics. In a nutshell.</em></p>"
+		},
+		"responsibilities": ["UI", "Development"],
+		"technologies": ["JavaScript", "LESS", "Grunt", "HTML"],
+		"assets": [
+			{
+				"title": "Nutshell Classics",
+				"src": "/imgs/work/nutshell-classics/screen-1.jpg",
+				"width": 800,
+				"height": 825
+			},
+			{
+				"title": "Nutshell Classics - Mobile",
+				"src": "/imgs/work/nutshell-classics/screen-2.jpg",
+				"width": 414,
+				"height": 736
+			},
+			{
+				"title": "Nutshell Classics - Mobile",
+				"src": "/imgs/work/nutshell-classics/screen-3.jpg",
+				"width": 414,
+				"height": 736
+			}
+		]
+	},
+	{
+		"slug": "rdsoda",
+		"client": "RdSoda",
+		"title": "rdsoda.com",
+		"url": "http://www.rdsoda.com",
+		"date": "August 2013",
+		"feature": false,
+		"logo": {
+			"work": {
+				"src": "/imgs/work/rdsoda/logo.svg",
+				"width": 72,
+				"height": 72
+			},
+			"feature": {
+				"src": "",
+				"width": 0,
+				"height": 0
+			}
+		},
+		"description": {
+			"short": "",
+			"long": "<p><em>Visually document and share your traveling experiences in real-time.</em></p><p>For this personal endeavor, I fused Instagram with Google Maps to create a handy, web application which lets you chronologically share your traveling adventures via pictures and geolocation.</p>"
+		},
+		"responsibilities": ["Design", "UI", "Development"],
+		"technologies": ["JavaScript", "Bootstrap", "HTML"],
+		"assets": [
+			{
+				"title": "Home",
+				"src": "/imgs/work/rdsoda/screen-1.jpg",
+				"width": 800,
+				"height": 860
+			},
+			{
+				"title": "Cabo San Lucas - Marker 1",
+				"src": "/imgs/work/rdsoda/screen-2.jpg",
+				"width": 800,
+				"height": 1031
+			},
+			{
+				"title": "Cabo San Lucas - Marker 4",
+				"src": "/imgs/work/rdsoda/screen-3.jpg",
+				"width": 800,
+				"height": 1891
+			},
+			{
+				"title": "Victoria B.C. - Marker 2",
+				"src": "/imgs/work/rdsoda/screen-4.jpg",
+				"width": 800,
+				"height": 1070
+			}
+		]
+	},
+	{
+		"slug": "sightlife",
+		"client": "SightLife",
+		"title": "The World Through New Eyes",
+		"url": "http://archive.cowlik.com/sightlife",
+		"date": "November 2012",
+		"feature": false,
+		"logo": {
+			"work": {
+				"src": "/imgs/work/sightlife/logo.svg",
+				"width": 36,
+				"height": 36
+			},
+			"feature": {
+				"src": "",
+				"width": 0,
+				"height": 0
+			}
+		},
+		"description": {
+			"short": "",
+			"long": "<p><em>We spent time with some of our recipient and donor families. On our travels, we heard their stories and even provided cameras so recipients could show us the world through their new eyes. The results are an inspiring reminder that every surgery can change a life.</em></p>"
+		},
+		"responsibilities": ["UI", "Development"],
+		"technologies": ["JavaScript", "jQuery", "CSS", "Orchard", ".NET"],
+		"assets": [
+			{
+				"title": "Home",
+				"src": "/imgs/work/sightlife/screen-home.jpg",
+				"width": 1080,
+				"height": 825
+			},
+			{
+				"title": "Recipients",
+				"src": "/imgs/work/sightlife/screen-recipients-1.jpg",
+				"width": 1080,
+				"height": 825
+			},
+			{
+				"title": "Recipients",
+				"src": "/imgs/work/sightlife/screen-recipients-2.jpg",
+				"width": 1080,
+				"height": 825
+			},
+			{
+				"title": "Recipients",
+				"src": "/imgs/work/sightlife/screen-recipients-3.jpg",
+				"width": 1080,
+				"height": 825
+			},
+			{
+				"title": "Donors",
+				"src": "/imgs/work/sightlife/screen-donors.jpg",
+				"width": 1080,
+				"height": 825
+			}
+		]
+	},
+	{
+		"slug": "xbox",
+		"client": "Xbox",
+		"title": "xbox.com",
+		"url": "",
+		"date": "2006 - 2010",
+		"feature": false,
+		"logo": {
+			"work": {
+				"src": "/imgs/work/xbox/logo.svg",
+				"width": 88,
+				"height": 88
+			},
+			"feature": {
+				"src": "/imgs/work/benchmade/logo-white.svg",
+				"width": 88,
+				"height": 88
+			}
+		},
+		"description": {
+			"short": "",
+			"long": "<p>Animated Flash banners and landing pages created for various console games, promoted on Xbox.com.</p>"
+		},
+		"responsibilities": ["Animation", "Design", "Storyboarding"],
+		"technologies": ["Flash", "Photoshop", "ActionScript"],
+		"assets": [
+			{
+				"title": "NCAA 07 Football",
+				"src": "https://player.vimeo.com/video/490251042",
+				"width": 473,
+				"height": 180,
+				"type": "video"
+			},
+			{
+				"title": "Dead Rising",
+				"src": "https://player.vimeo.com/video/490553091",
+				"width": 473,
+				"height": 180,
+				"type": "video"
+			},
+			{
+				"title": "Tony Hawk's Project 8",
+				"src": "https://player.vimeo.com/video/490586991",
+				"width": 473,
+				"height": 180,
+				"type": "video"
+			},
+			{
+				"title": "Monster Madness: Battle For Suburbia",
+				"src": "https://player.vimeo.com/video/490571719",
+				"width": 588,
+				"height": 271,
+				"type": "video"
+			},
+			{
+				"title": "Condemned 2: Bloodshot",
+				"src": "https://player.vimeo.com/video/490579425",
+				"width": 845,
+				"height": 295,
+				"type": "video"
+			},
+			{
+				"title": "Rock Band",
+				"src": "https://player.vimeo.com/video/490589673",
+				"width": 845,
+				"height": 295,
+				"type": "video"
+			},
+			{
+				"title": "Guitar Hero: World Tour",
+				"src": "/imgs/work/xbox/screen-guitarhero.jpg",
+				"width": 950,
+				"height": 600
+			},
+			{
+				"title": "Madden 10",
+				"src": "/imgs/work/xbox/screen-madden10.jpg",
+				"width": 950,
+				"height": 600
+			},
+			{
+				"title": "Skate 2",
+				"src": "/imgs/work/xbox/screen-skate2.jpg",
+				"width": 950,
+				"height": 600
+			},
+			{
+				"title": "Bioshock",
+				"src": "/imgs/work/xbox/screen-bioshock.jpg",
+				"width": 950,
+				"height": 600
+			}
+		]
+	}
 ]
